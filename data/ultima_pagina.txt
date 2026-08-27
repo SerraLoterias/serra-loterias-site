@@ -4,17 +4,17 @@
   "respostas_rede": [
     {
       "status": 302,
-      "url": "https://loteriasonline.caixa.gov.br/silce-web/",
+      "url": "https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002",
       "erro": "Response.text: Response body is unavailable for redirect responses"
     },
     {
       "status": 302,
-      "url": "https://www.loteriasonline.caixa.gov.br/",
+      "url": "https://www.loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002",
       "erro": "Response.text: Response body is unavailable for redirect responses"
     },
     {
       "status": 302,
-      "url": "https://www.loteriasonline.caixa.gov.br/silce-web/",
+      "url": "https://www.loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002",
       "erro": "Response.text: Response body is unavailable for redirect responses"
     },
     {
