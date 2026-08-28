@@ -80,7 +80,7 @@ def carregar_detalhe(id_bolao):
     if isinstance(resposta, dict) and isinstance(resposta.get("data"), dict):
         return resposta["data"]
 
-return resposta
+    return resposta
 
 
 def normalizar(item_lista):
