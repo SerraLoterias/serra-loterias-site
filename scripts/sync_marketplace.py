@@ -1,162 +1,172 @@
 #!/usr/bin/env python3
 
-import asyncio
 import json
+import os
+import urllib.parse
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from playwright.async_api import async_playwright
-
-URL = "https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002"
-
 BASE = Path(__file__).resolve().parents[1]
 OUT = BASE / "data" / "boloes.json"
-DIAG = BASE / "data" / "ultima_pagina.txt"
+
+API_URL = "https://conectalot.com.br/api/boloes"
+TOKEN = os.environ.get("CONECTALOG_TOKEN")
 
 
-async def main():
-    respostas = []
+def carregar_boloes():
+    if not TOKEN:
+        raise RuntimeError("Secret CONECTALOG_TOKEN não encontrado.")
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+    params = {
+        "jogo": "all",
+        "t": "future",
+        "sort": "1",
+    }
 
-        context = await browser.new_context(
-            locale="pt-BR",
-            timezone_id="America/Sao_Paulo",
-            viewport={"width": 1440, "height": 1400},
-        )
+    url = API_URL + "?" + urllib.parse.urlencode(params)
 
-        page = await context.new_page()
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Accept": "application/json",
+            "User-Agent": "SerraLoteriasSite/1.0",
+        },
+    )
 
-        async def capturar(response):
-            url = response.url
-
-            palavras = [
-                "bolao",
-                "bolão",
-                "cota",
-                "loter",
-                "silce",
-                "20002",
-            ]
-
-            if not any(palavra in url.lower() for palavra in palavras):
-                return
-
-            try:
-                tipo = response.headers.get("content-type", "")
-
-                if "json" in tipo.lower():
-                    conteudo = await response.json()
-                else:
-                    texto = await response.text()
-                    conteudo = texto[:15000]
-
-                respostas.append({
-                    "status": response.status,
-                    "url": url,
-                    "content_type": tipo,
-                    "conteudo": conteudo,
-                })
-
-            except Exception as erro:
-                respostas.append({
-                    "status": response.status,
-                    "url": url,
-                    "erro": str(erro),
-                })
-
-        page.on("response", capturar)
-
-        await page.goto(
-            URL,
-            wait_until="domcontentloaded",
-            timeout=90000,
-        )
-
-        await page.wait_for_timeout(3000)
-
-        # Confirmação de maioridade
-        for seletor in [
-            'button:has-text("Sim")',
-            'a:has-text("Sim")',
-            'text="Sim"',
-        ]:
-            try:
-                botao = page.locator(seletor).first
-
-                if await botao.is_visible(timeout=1000):
-                    await botao.click()
-                    await page.wait_for_timeout(2500)
-                    break
-
-            except Exception:
-                pass
-
-        # Garante que estamos na página da lotérica
-        if "bolao-caixa/20002" not in page.url:
-            await page.goto(
-                URL,
-                wait_until="domcontentloaded",
-                timeout=90000,
+    with urllib.request.urlopen(request, timeout=60) as response:
+        if response.status != 200:
+            raise RuntimeError(
+                f"Erro na API ConectaLot: HTTP {response.status}"
             )
 
-        await page.wait_for_timeout(12000)
+        return json.loads(response.read().decode("utf-8"))
 
-        # Faz a página carregar conteúdos que aparecem ao rolar
-        for _ in range(8):
-            await page.mouse.wheel(0, 1000)
-            await page.wait_for_timeout(800)
 
-        corpo = await page.locator("body").inner_text()
+def normalizar(item):
+    jogo = item.get("jogo") or {}
 
-        agora = datetime.now(
-            ZoneInfo("America/Sao_Paulo")
-        ).strftime("%d/%m/%Y %H:%M")
+    loterica = item.get("loterica") or {}
+    cotas = item.get("cotas") or {}
 
-        # Nesta etapa ainda não inventamos bolões.
-        # Primeiro vamos descobrir a resposta correta da CAIXA.
-        payload = {
-            "fonte": URL,
-            "lotérica": "Serra Loterias",
-            "codigo_loterica": "20002",
-            "atualizado_em": agora,
-            "boloes": [],
-        }
+    modalidade = (
+        jogo.get("nome")
+        or jogo.get("slug")
+        or item.get("modalidade")
+        or "Bolão"
+    )
 
-        OUT.write_text(
-            json.dumps(
-                payload,
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
+    concurso = (
+        item.get("concurso")
+        or item.get("numero_concurso")
+        or item.get("n")
+    )
+
+    valor_cota = (
+        item.get("valor_cota")
+        or item.get("valor")
+        or item.get("preco")
+    )
+
+    descricao = (
+        item.get("titulo")
+        or item.get("nome")
+        or item.get("descricao")
+        or "Bolão disponível"
+    )
+
+    premio = (
+        item.get("premio")
+        or item.get("premio_estimado")
+        or item.get("estimativa_premio")
+    )
+
+    data_sorteio = (
+        item.get("data_sorteio")
+        or item.get("sorteio")
+        or item.get("data")
+    )
+
+    restantes = (
+        cotas.get("restantes")
+        or cotas.get("disponiveis")
+    )
+
+    total = cotas.get("total")
+
+    if restantes is not None and total is not None:
+        disponibilidade = f"Restam {restantes} de {total} cotas"
+    elif restantes is not None:
+        disponibilidade = f"{restantes} cotas disponíveis"
+    else:
+        disponibilidade = "Disponível"
+
+    return {
+        "id": item.get("id"),
+        "modalidade": modalidade,
+        "concurso": concurso,
+        "premio_estimado": premio,
+        "data_sorteio": data_sorteio,
+        "descricao": descricao,
+        "valor_cota": valor_cota,
+        "disponibilidade": disponibilidade,
+        "loterica": {
+            "nome": loterica.get("nome"),
+            "codigo_ul": loterica.get("codigo_ul"),
+        },
+        "cotas": cotas,
+    }
+
+
+def main():
+    resposta = carregar_boloes()
+
+    itens = (
+        resposta.get("data")
+        if isinstance(resposta, dict)
+        else resposta
+    )
+
+    if not isinstance(itens, list):
+        raise RuntimeError(
+            "Formato inesperado retornado pela API da ConectaLot."
         )
 
-        diagnostico = {
-            "pagina_final": page.url,
-            "texto_pagina": corpo[:30000],
-            "respostas_rede": respostas,
-        }
+    boloes = []
 
-        DIAG.write_text(
-            json.dumps(
-                diagnostico,
-                ensure_ascii=False,
-                indent=2,
-                default=str,
-            ),
-            encoding="utf-8",
-        )
+    for item in itens:
+        if isinstance(item, dict):
+            boloes.append(normalizar(item))
 
-        print(
-            f"Diagnóstico concluído. "
-            f"{len(respostas)} respostas da CAIXA capturadas."
-        )
+    agora = datetime.now(
+        ZoneInfo("America/Sao_Paulo")
+    ).strftime("%d/%m/%Y %H:%M")
 
-        await browser.close()
+    payload = {
+        "fonte": "ConectaLot API",
+        "atualizado_em": agora,
+        "quantidade": len(boloes),
+        "boloes": boloes,
+    }
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+
+    OUT.write_text(
+        json.dumps(
+            payload,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    print(
+        f"{len(boloes)} bolões sincronizados "
+        f"pela API da ConectaLot em {agora}."
+    )
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
