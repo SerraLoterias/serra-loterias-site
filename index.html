@@ -373,7 +373,8 @@ async function carregarResultados() {
 
     const dados = await resposta.json();
     const resultados = Array.isArray(dados) ? dados : (dados.resultados || []);
-
+    resultadosLoterias = resultados;
+    
     if (!resultados.length) {
       grid.innerHTML = '<div class="loading-card">Resultados ainda não disponíveis.</div>';
       return;
@@ -427,12 +428,38 @@ carregarResultados();
     const msg = `Olá, vim pelo site da Serra Loterias e quero informações sobre este bolão: ${b.modalidade || ''}${b.concurso ? ', concurso '+b.concurso : ''}${b.descricao ? ', '+b.descricao : ''}${b.valor_cota ? ', cota '+b.valor_cota : ''}.`;
     return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
   }
+  let resultadosLoterias = [];
+
+  function dataSorteioBolao(b) {
+  const nomeBolao = String(b.modalidade || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace('+', 'mais')
+    .replace(/[^a-z0-9]/g, '');
+
+  const resultado = resultadosLoterias.find(r => {
+    const nomeResultado = String(r.modalidade || '')
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace('mais', '')
+      .replace(/[^a-z0-9]/g, '');
+
+    const nomeComparacao = nomeBolao.replace('mais', '');
+
+    return nomeResultado === nomeComparacao;
+  });
+
+  return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
+}
+  
   function renderCard(b) {
     const cls = classMap[b.modalidade] || '';
     const titulo = esc(b.modalidade || 'Bolão CAIXA');
     const conc = b.concurso ? `CONC. ${esc(b.concurso)}` : '';
     const premio = esc(b.premio_estimado || 'Consulte na CAIXA');
-    const sorteio = esc(b.data_sorteio || 'Consultar');
+    const sorteio = esc(dataSorteioBolao(b));
     const desc = esc(b.descricao || b.chances || 'Bolão disponível');
     const cota = esc(b.valor_cota || 'Consulte');
     const estoque = esc(b.disponibilidade || 'Disponível no marketplace');
