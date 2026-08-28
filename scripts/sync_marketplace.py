@@ -73,9 +73,14 @@ def carregar_lista():
 
 
 def carregar_detalhe(id_bolao):
-    return api_get(
+    resposta = api_get(
         f"/boloes/{id_bolao}"
     )
+
+    if isinstance(resposta, dict) and isinstance(resposta.get("data"), dict):
+        return resposta["data"]
+
+return resposta
 
 
 def normalizar(item_lista):
