@@ -1,7 +1,475 @@
 {
-  "fonte": "https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002",
-  "lotérica": "Serra Loterias",
-  "codigo_loterica": "20002",
-  "atualizado_em": "27/08/2026 17:38",
-  "boloes": []
+  "fonte": "ConectaLot API",
+  "atualizado_em": "28/08/2026 10:54",
+  "quantidade": 18,
+  "boloes": [
+    {
+      "id": "01a047ef-8580-714a-9318-9ac38c79ce9b",
+      "modalidade": "Mega-Sena",
+      "concurso": 3051,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 6 de 9 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 9,
+        "disponiveis": 6,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 6,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 6
+      }
+    },
+    {
+      "id": "01a047ed-4be4-7283-8b1a-2771d5e1e263",
+      "modalidade": "Mega-Sena",
+      "concurso": 3051,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 8 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 1,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 7,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "01a047f3-4687-70bc-9cc4-2be88e1ed4ef",
+      "modalidade": "Lotofácil",
+      "concurso": 3774,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 5 de 8 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 5,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 5,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 5
+      }
+    },
+    {
+      "id": "01a047f1-2e78-73d1-9b85-d07ba02858cb",
+      "modalidade": "Lotofácil",
+      "concurso": 3774,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 2 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 2,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 2
+      }
+    },
+    {
+      "id": "019f7f9c-5177-73fb-8bd8-c2a6c99a9cc3",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 40 de 60 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 60,
+        "disponiveis": 40,
+        "reservadas": 0,
+        "vendidas": 2,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 42,
+        "fisicas": 18,
+        "perdidas": null,
+        "restantes": 40
+      }
+    },
+    {
+      "id": "019fffe8-a60a-70f2-9505-dfa15f2cee04",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 32 de 50 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 50,
+        "disponiveis": 32,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 32,
+        "fisicas": 18,
+        "perdidas": null,
+        "restantes": 32
+      }
+    },
+    {
+      "id": "019ffae1-0f02-707a-8987-6373ae1504a0",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 28 de 40 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 40,
+        "disponiveis": 28,
+        "reservadas": 0,
+        "vendidas": 2,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 30,
+        "fisicas": 10,
+        "perdidas": null,
+        "restantes": 28
+      }
+    },
+    {
+      "id": "01a01be0-bfc9-70d6-b9f2-7727f59f5567",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 1,
+        "baixadas": 0,
+        "impressas": 2,
+        "digitais": 3,
+        "fisicas": 0,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "01a03365-381d-7117-8a5b-9e7c85d2c6e7",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 2,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "01a03daf-34c9-71f8-b730-eae1faa41e08",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 2,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "01a044b5-8ff5-7228-8415-b6c116d3f62e",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 2 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 2,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 2
+      }
+    },
+    {
+      "id": "01a01be0-ab76-73e1-a018-656a5057a4f0",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 2,
+        "baixadas": 0,
+        "impressas": 1,
+        "digitais": 3,
+        "fisicas": 0,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "019ffd17-b2dd-723b-ba57-87c9c46b6e2a",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 2,
+        "baixadas": 0,
+        "impressas": 1,
+        "digitais": 3,
+        "fisicas": 0,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "019ffd17-ab9f-72c6-96fb-9b24f5812e1a",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 2,
+        "baixadas": 0,
+        "impressas": 1,
+        "digitais": 3,
+        "fisicas": 0,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "019ffae1-2879-7283-bc67-beb9c7e47185",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 0 de 3 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 0,
+        "reservadas": 0,
+        "vendidas": 1,
+        "baixadas": 0,
+        "impressas": 1,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": 0,
+        "restantes": 0
+      }
+    },
+    {
+      "id": "01a042d4-7883-7376-902f-f6769c7ae37b",
+      "modalidade": "Dupla Sena",
+      "concurso": 3002,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 1 de 4 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 4,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 1
+      }
+    },
+    {
+      "id": "01a042d2-739f-73f9-a25d-0c2035063140",
+      "modalidade": "Super Sete",
+      "concurso": 892,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 1 de 8 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 7,
+        "perdidas": null,
+        "restantes": 1
+      }
+    },
+    {
+      "id": "01a042d4-7039-724a-a66d-951dde538483",
+      "modalidade": "+Milionária",
+      "concurso": 385,
+      "premio_estimado": null,
+      "data_sorteio": null,
+      "descricao": "Bolão disponível",
+      "valor_cota": null,
+      "disponibilidade": "Restam 1 de 6 cotas",
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0"
+      },
+      "cotas": {
+        "total": 6,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 1,
+        "baixadas": 0,
+        "impressas": 3,
+        "digitais": 5,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 1
+      }
+    }
+  ]
 }
