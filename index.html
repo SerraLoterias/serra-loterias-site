@@ -219,6 +219,21 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 <a class="today-card diadesorte" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Dia de Sorte</strong><span>R$ 800 mil</span><b>›</b></a></div>
 </div></section>
 
+  <section class="section" id="resultados">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Resultados dos jogos</h2>
+        <p>Confira os últimos resultados das Loterias CAIXA</p>
+      </div>
+    </div>
+
+    <div class="today-grid" id="resultadosGrid">
+      <div class="loading-card">Carregando resultados...</div>
+    </div>
+  </div>
+</section>
+
 <section class="section prizes"><div class="container">
 <div class="section-head"><div><h2>Prêmios que já saíram aqui</h2><p>Premiações da Serra Loterias contabilizadas desde 2023.</p></div></div>
 <div class="prize-feature">
@@ -348,6 +363,46 @@ function toggleGames(btn){
  function u(){const d=Math.max(0,target-Date.now());document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=String(Math.floor((d%86400000)/3600000)).padStart(2,'0');}
  u();setInterval(u,60000);
 })();
+
+async function carregarResultados() {
+  const grid = document.getElementById('resultadosGrid');
+
+  try {
+    const resposta = await fetch('data/resultados.json?v=' + Date.now());
+    if (!resposta.ok) throw new Error('Erro ao carregar resultados');
+
+    const dados = await resposta.json();
+    const resultados = Array.isArray(dados) ? dados : (dados.resultados || []);
+
+    if (!resultados.length) {
+      grid.innerHTML = '<div class="loading-card">Resultados ainda não disponíveis.</div>';
+      return;
+    }
+
+    grid.innerHTML = resultados.map(item => {
+      const dezenas = Array.isArray(item.dezenas) ? item.dezenas : [];
+
+      return `
+        <div class="today-card ${item.endpoint || ''}">
+          <strong>${item.modalidade || ''}</strong>
+          <div>Concurso ${item.concurso || ''}</div>
+          <div>${item.data || ''}</div>
+          <div style="margin-top:10px;font-weight:800">
+            ${dezenas.join(' - ')}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+  } catch (erro) {
+    console.error(erro);
+    grid.innerHTML =
+      '<div class="loading-card">Não foi possível carregar os resultados.</div>';
+  }
+}
+
+carregarResultados();
+
 </script>
 
 <script>
