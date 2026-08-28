@@ -1,4 +1,4 @@
-name: Sincronizar bolões CAIXA
+name: Sincronizar bolões ConectaLot
 
 on:
   schedule:
@@ -21,21 +21,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar dependências
-        run: |
-          pip install -r requirements.txt
-          python -m playwright install --with-deps chromium
-
-   - name: Sincronizar marketplace via ConectaLot
-  env:
-    CONECTALOG_TOKEN: ${{ secrets.CONECTALOG_TOKEN }}
-  run: python scripts/sync_marketplace.py
+      - name: Sincronizar bolões pela ConectaLot
+        env:
+          CONECTALOG_TOKEN: ${{ secrets.CONECTALOG_TOKEN }}
+        run: python scripts/sync_marketplace.py
 
       - name: Salvar atualização
         run: |
           git config user.name "Serra Loterias Sync"
           git config user.email "actions@users.noreply.github.com"
-          git add data/boloes.json data/ultima_pagina.txt
+          git add data/boloes.json
           git diff --cached --quiet && exit 0
-          git commit -m "Atualiza bolões do Marketplace CAIXA"
+          git commit -m "Atualiza bolões via ConectaLot"
           git push
