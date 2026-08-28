@@ -198,6 +198,21 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 </div>
 </div></section>
 
+  <section class="section" id="boloesIndependencia">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Bolões da Lotofácil da Independência</h2>
+        <p>Concurso 3780 · sorteio 15/09/2026</p>
+      </div>
+    </div>
+
+    <div class="bets-grid" id="independenciaGrid">
+      <div class="loading-card">Carregando bolões da Independência...</div>
+    </div>
+  </div>
+</section>
+  
 <section class="section" id="boloes"><div class="container">
 <div class="section-head"><div><h2>Bolões disponíveis <span id="dataHoje" style="font-size:14px;font-weight:700;color:var(--muted)"></span></h2><p>Escolha um bolão disponível, fale pelo WhatsApp ou compre pela página da Serra Loterias na CAIXA. A Lotofácil da Independência fica em destaque exclusivo no topo.</p></div></div>
 <div class="sync-status" id="syncStatus">
@@ -498,6 +513,16 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
         grid.innerHTML = `<div class="empty-card"><strong>Nenhum bolão disponível no último sincronismo.</strong><br><a class="link" href="${marketplace}" target="_blank">Ver diretamente na CAIXA</a></div>`;
         return;
       }
+      const independenciaGrid = document.getElementById('independenciaGrid');
+const boloesIndependencia = bol.filter(
+  b => String(b.concurso) === '3780'
+);
+
+if (independenciaGrid) {
+  independenciaGrid.innerHTML = boloesIndependencia.length
+    ? boloesIndependencia.map(renderCard).join('')
+    : '<div class="loading-card">Nenhum bolão da Independência disponível no momento.</div>';
+}
       grid.innerHTML = bol
   .filter(b => String(b.concurso) !== '3780')
   .map(renderCard)
