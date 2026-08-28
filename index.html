@@ -373,7 +373,7 @@ async function carregarResultados() {
 
     const dados = await resposta.json();
     const resultados = Array.isArray(dados) ? dados : (dados.resultados || []);
-    resultadosLoterias = resultados;
+    window.resultadosLoterias = resultados;
     
     if (!resultados.length) {
       grid.innerHTML = '<div class="loading-card">Resultados ainda não disponíveis.</div>';
@@ -402,15 +402,17 @@ async function carregarResultados() {
   }
 }
 
-carregarResultados();
+window.resultadosPromise = carregarResultados();
 
 </script>
 
 <script>
-(function(){
+(async function(){
   const grid = document.getElementById('boloesGrid');
   const lastSync = document.getElementById('lastSync');
   if (!grid) return;
+
+  await window.resultadosPromise;
 
   const marketplace = "https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002";
   const whatsapp = "5554996443157";
@@ -428,7 +430,7 @@ carregarResultados();
     const msg = `Olá, vim pelo site da Serra Loterias e quero informações sobre este bolão: ${b.modalidade || ''}${b.concurso ? ', concurso '+b.concurso : ''}${b.descricao ? ', '+b.descricao : ''}${b.valor_cota ? ', cota '+b.valor_cota : ''}.`;
     return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
   }
-  let resultadosLoterias = [];
+  window.resultadosLoterias = window.resultadosLoterias || [];
 
   function dataSorteioBolao(b) {
   const nomeBolao = String(b.modalidade || '')
@@ -438,7 +440,7 @@ carregarResultados();
     .replace('+', 'mais')
     .replace(/[^a-z0-9]/g, '');
 
-  const resultado = resultadosLoterias.find(r => {
+  const resultado = window.resultadosLoterias.find(r => {
     const nomeResultado = String(r.modalidade || '')
       .toLowerCase()
       .normalize('NFD')
