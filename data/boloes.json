@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "28/08/2026 17:24",
-  "quantidade": 6,
+  "atualizado_em": "28/08/2026 18:58",
+  "quantidade": 7,
   "boloes": [
     {
       "id": "01a047ef-8580-714a-9318-9ac38c79ce9b",
@@ -12,7 +12,7 @@
       "quantidade_jogos": 3,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 6 de 9 cotas",
+      "disponibilidade": "Restam 5 de 9 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -22,15 +22,15 @@
       },
       "cotas": {
         "total": 9,
-        "disponiveis": 6,
+        "disponiveis": 5,
         "reservadas": 0,
-        "vendidas": 0,
+        "vendidas": 1,
         "baixadas": 0,
         "impressas": 0,
         "digitais": 6,
         "fisicas": 3,
         "perdidas": null,
-        "restantes": 6
+        "restantes": 5
       },
       "valores": {
         "cota_sem_tarifa": 14,
@@ -247,6 +247,47 @@
       "apostas": {
         "quantidade": 9,
         "numeros": 17
+      }
+    },
+    {
+      "id": "01a04a0e-5b5f-71eb-b55f-f841560dd940",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "descricao": "15 números • 9 jogos",
+      "quantidade_jogos": 9,
+      "quantidade_numeros": 15,
+      "valor_cota": "R$ 14,17",
+      "disponibilidade": "Restam 2 de 3 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 2,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 2
+      },
+      "valores": {
+        "cota_sem_tarifa": 10.5,
+        "cota_com_tarifa": 14.17,
+        "tarifa_servico": 3.67,
+        "valor_bolao": 31.5,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 9,
+        "numeros": 15
       }
     }
   ]
