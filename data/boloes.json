@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "28/08/2026 18:58",
-  "quantidade": 7,
+  "atualizado_em": "28/08/2026 19:21",
+  "quantidade": 6,
   "boloes": [
     {
       "id": "01a047ef-8580-714a-9318-9ac38c79ce9b",
@@ -53,7 +53,7 @@
       "quantidade_jogos": 2,
       "quantidade_numeros": 16,
       "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 5 de 8 cotas",
+      "disponibilidade": "Restam 4 de 8 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,15 +63,15 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 5,
+        "disponiveis": 4,
         "reservadas": 0,
-        "vendidas": 0,
+        "vendidas": 1,
         "baixadas": 0,
         "impressas": 0,
         "digitais": 5,
         "fisicas": 3,
         "perdidas": null,
-        "restantes": 5
+        "restantes": 4
       },
       "valores": {
         "cota_sem_tarifa": 14,
@@ -83,47 +83,6 @@
       "apostas": {
         "quantidade": 2,
         "numeros": 16
-      }
-    },
-    {
-      "id": "01a047f1-2e78-73d1-9b85-d07ba02858cb",
-      "modalidade": "Lotofácil",
-      "concurso": 3774,
-      "premio_estimado": null,
-      "descricao": "15 números • 9 jogos",
-      "quantidade_jogos": 9,
-      "quantidade_numeros": 15,
-      "valor_cota": "R$ 14,17",
-      "disponibilidade": "Restam 1 de 3 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 3,
-        "disponiveis": 1,
-        "reservadas": 0,
-        "vendidas": 1,
-        "baixadas": 0,
-        "impressas": 0,
-        "digitais": 2,
-        "fisicas": 1,
-        "perdidas": null,
-        "restantes": 1
-      },
-      "valores": {
-        "cota_sem_tarifa": 10.5,
-        "cota_com_tarifa": 14.17,
-        "tarifa_servico": 3.67,
-        "valor_bolao": 31.5,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 9,
-        "numeros": 15
       }
     },
     {
