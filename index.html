@@ -498,7 +498,10 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
         grid.innerHTML = `<div class="empty-card"><strong>Nenhum bolão disponível no último sincronismo.</strong><br><a class="link" href="${marketplace}" target="_blank">Ver diretamente na CAIXA</a></div>`;
         return;
       }
-      grid.innerHTML = bol.map(renderCard).join('');
+      grid.innerHTML = bol
+  .filter(b => String(b.concurso) !== '3780')
+  .map(renderCard)
+  .join('');
     })
     .catch(() => {
       lastSync.textContent = 'Não foi possível carregar a sincronização agora.';
