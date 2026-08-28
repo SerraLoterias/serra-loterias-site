@@ -453,7 +453,8 @@ window.resultadosPromise = carregarResultados();
     return nomeResultado === nomeComparacao;
   });
 
-  return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
+  if (String(b.concurso) === '3780') return b.data_sorteio || '15/09/2026';
+return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
 }
   
   function renderCard(b) {
