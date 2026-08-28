@@ -26,8 +26,10 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Sincronizar marketplace
-        run: python scripts/sync_marketplace.py
+   - name: Sincronizar marketplace via ConectaLot
+  env:
+    CONECTALOG_TOKEN: ${{ secrets.CONECTALOG_TOKEN }}
+  run: python scripts/sync_marketplace.py
 
       - name: Salvar atualização
         run: |
