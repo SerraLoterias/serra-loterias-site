@@ -60,27 +60,43 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 .today-card.duplasena{background:linear-gradient(135deg,#b4202a,#8f141d);color:#fff;border-color:#8f141d}
 .today-card.quina{background:linear-gradient(135deg,#1a4fa3,#123d82);color:#fff;border-color:#123d82}
 .today-card.diadesorte{background:linear-gradient(135deg,#d29a18,#b27c00);color:#fff;border-color:#b27c00}
-
+.today-card.mega{background:linear-gradient(135deg,#159447,#087a38);color:#fff;border-color:#087a38}
+.today-card.timemania{background:linear-gradient(135deg,#d0a51d,#aa8510);color:#fff;border-color:#aa8510}
+.today-card.milionaria{background:linear-gradient(135deg,#246f70,#18595a);color:#fff;border-color:#18595a}
+.today-card.federal{background:linear-gradient(135deg,#1f4f8a,#173b68);color:#fff;border-color:#173b68}
+  
 .today-card.lotomania strong,
 .today-card.lotofacil strong,
 .today-card.supersete strong,
 .today-card.duplasena strong,
 .today-card.quina strong,
-.today-card.diadesorte strong{color:#fff}
+.today-card.diadesorte,
+.today-card.mega strong,
+.today-card.timemania strong,
+.today-card.milionaria strong,
+.today-card.federal strong{color:#fff}
 
 .today-card.lotomania span,
 .today-card.lotofacil span,
 .today-card.supersete span,
 .today-card.duplasena span,
 .today-card.quina span,
-.today-card.diadesorte span{color:#fff}
+.today-card.diadesorte,
+.today-card.mega span,
+.today-card.timemania span,
+.today-card.milionaria span,
+.today-card.federal span{color:#fff}
 
 .today-card.lotomania b,
 .today-card.lotofacil b,
 .today-card.supersete b,
 .today-card.duplasena b,
 .today-card.quina b,
-.today-card.diadesorte b{color:#fff}
+.today-card.diadesorte b,
+.today-card.mega b,
+.today-card.timemania b,
+.today-card.milionaria b,
+.today-card.federal b{color:#fff}
 
 
 /* “Bolões disponíveis” com a identidade visual de cada modalidade */
@@ -232,6 +248,11 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 <a class="today-card duplasena" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Dupla Sena</strong><span>R$ 2 milhões</span><b>›</b></a>
 <a class="today-card quina" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Quina</strong><span>R$ 1,5 milhão</span><b>›</b></a>
 <a class="today-card diadesorte" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Dia de Sorte</strong><span>R$ 800 mil</span><b>›</b></a></div>
+<a class="today-card mega" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Mega-Sena</strong></a>
+<a class="today-card timemania" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Timemania</strong></a>
+<a class="today-card milionaria" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>+Milionária</strong></a>
+<a class="today-card federal" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Federal</strong></a>
+
 </div></section>
 
   <section class="section" id="resultados">
@@ -545,5 +566,48 @@ if (independenciaGrid) {
   }
 })();
 </script>
+<script>
+(function () {
+  const sorteiosPorDia = {
+    0: ['lotofacil', 'quina', 'mega', 'timemania', 'diadesorte', 'milionaria', 'federal'],
+    1: ['lotofacil', 'lotomania', 'supersete', 'duplasena', 'quina', 'diadesorte'],
+    2: ['lotofacil', 'quina', 'mega', 'timemania', 'diadesorte'],
+    3: ['lotofacil', 'lotomania', 'supersete', 'duplasena', 'quina', 'diadesorte', 'milionaria', 'federal'],
+    4: ['lotofacil', 'quina', 'mega', 'timemania', 'diadesorte'],
+    5: ['lotofacil', 'lotomania', 'supersete', 'duplasena', 'quina', 'diadesorte'],
+    6: []
+  };
 
+  const diaSemana = Number(
+    new Intl.DateTimeFormat('en-US', {
+      weekday: 'short',
+      timeZone: 'America/Sao_Paulo'
+    }).formatToParts(new Date()).find(p => p.type === 'weekday')
+      ? new Date(
+          new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' })
+        ).getDay()
+      : new Date().getDay()
+  );
+
+  const permitidos = sorteiosPorDia[diaSemana] || [];
+  const grid = document.querySelector('.today-grid');
+
+  if (!grid) return;
+
+  const cards = grid.querySelectorAll('.today-card');
+
+  cards.forEach(card => {
+    const modalidade = [...card.classList].find(
+      classe => classe !== 'today-card'
+    );
+
+    card.style.display = permitidos.includes(modalidade) ? '' : 'none';
+  });
+
+  if (diaSemana === 6) {
+    grid.innerHTML =
+      '<div style="padding:16px;font-weight:700;">Hoje não há sorteios regulares das Loterias CAIXA.</div>';
+  }
+})();
+</script>
 </body></html>
