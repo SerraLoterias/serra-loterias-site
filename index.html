@@ -594,6 +594,13 @@ if (independenciaGrid) {
   const grid = document.querySelector('.today-grid');
 
   if (!grid) return;
+  
+  if (diaSemana === 0 && !document.getElementById('avisoDomingo')) {
+  grid.insertAdjacentHTML(
+    'beforebegin',
+    '<div id="avisoDomingo" style="margin:8px 0 14px;font-weight:700;">Sorteios de hoje às 11h</div>'
+  );
+}
 
   const cards = grid.querySelectorAll('.today-card');
 
