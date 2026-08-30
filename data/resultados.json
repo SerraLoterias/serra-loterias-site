@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "29/08/2026 21:39",
+  "atualizado_em": "29/08/2026 22:00",
   "quantidade": 11,
   "resultados": [
     {
@@ -145,7 +145,10 @@
       "endpoint": "duplasena",
       "concurso": 3002,
       "data": "28/08/2026",
-      "dezenas": [],
+      "dezenas": [
+        "1º: 06 - 19 - 22 - 27 - 41 - 46",
+        "2º: 07 - 11 - 12 - 13 - 25 - 28"
+      ],
       "acumulado": 1,
       "valor_arrecadado": 1664931,
       "proximo_concurso": null,
