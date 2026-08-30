@@ -399,7 +399,7 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   
 <section class="section"><div class="container">
 <div class="section-head"><div><h2>Sorteia hoje</h2></div><a class="link" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank">Ver todos os bolões</a></div>
-<div class="today-grid">
+<div class="today-grid" id="sorteiosHojeGrid">
   <a class="today-card lotomania" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Lotomania</strong><span>R$ 17,5 milhões</span><b>›</b></a>
 <a class="today-card lotofacil" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Lotofácil</strong><span>R$ 12 milhões</span><b>›</b></a>
 <a class="today-card supersete" href="https://loteriasonline.caixa.gov.br/silce-web/#/bolao-caixa/20002" target="_blank"><strong>Super Sete</strong><span>R$ 6,2 milhões</span><b>›</b></a>
@@ -757,7 +757,7 @@ if (independenciaGrid) {
   );
 
   const permitidos = sorteiosPorDia[diaSemana] || [];
-  const grid = document.querySelector('.today-grid');
+  const grid = document.getElementById('sorteiosHojeGrid');
 
   if (!grid) return;
   
