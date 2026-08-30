@@ -62,9 +62,9 @@ def normalizar(nome, endpoint, dados):
        segundo = dados.get("dezenas_sorteadas2") or []
 
        dezenas = []
-        if primeiro:
+       if primeiro:
            dezenas.append("1º: " + " - ".join(str(x) for x in primeiro))
-        if segundo:
+       if segundo:
            dezenas.append("2º: " + " - ".join(str(x) for x in segundo))
     if isinstance(dezenas, list):
         dezenas = [str(x) for x in dezenas]
