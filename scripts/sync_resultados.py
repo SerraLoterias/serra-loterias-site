@@ -61,7 +61,7 @@ def normalizar(nome, endpoint, dados):
        primeiro = dados.get("dezenas_sorteadas1") or []
        segundo = dados.get("dezenas_sorteadas2") or []
 
-        dezenas = []
+       dezenas = []
         if primeiro:
            dezenas.append("1º: " + " - ".join(str(x) for x in primeiro))
         if segundo:
