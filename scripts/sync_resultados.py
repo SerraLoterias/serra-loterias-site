@@ -99,7 +99,7 @@ def main():
                 dados = dados["data"]
 
             if endpoint == "duplasena":
-        print("DEBUG DUPLA SENA:", json.dumps(dados, ensure_ascii=False, indent=2))
+                print("DEBUG DUPLA SENA:", json.dumps(dados, ensure_ascii=False, indent=2))
     
             if isinstance(dados, dict):
                 resultados.append(
