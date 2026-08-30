@@ -1,91 +1,91 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "30/08/2026 11:26",
+  "atualizado_em": "30/08/2026 12:26",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3050,
-      "data": "27/08/2026",
+      "concurso": 3051,
+      "data": "30/08/2026",
       "dezenas": [
-        "14",
-        "38",
-        "49",
-        "30",
-        "55",
-        "11"
+        "11",
+        "21",
+        "15",
+        "20",
+        "48",
+        "38"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 36235608,
+      "valor_arrecadado": 48865248,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 30000000
+      "data_proximo_concurso": "01/09/2026",
+      "valor_estimado_proximo_concurso": 36000000
     },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7104,
-      "data": "28/08/2026",
+      "concurso": 7105,
+      "data": "30/08/2026",
       "dezenas": [
-        "66",
-        "75",
-        "61",
-        "51",
-        "07"
+        "41",
+        "33",
+        "02",
+        "78",
+        "48"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 7983450,
+      "valor_arrecadado": 9746694,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 9200000
+      "data_proximo_concurso": "31/08/2026",
+      "valor_estimado_proximo_concurso": 10000000
     },
     {
       "modalidade": "Mais Milionária",
       "endpoint": "maismilionaria",
-      "concurso": 384,
-      "data": "26/08/2026",
+      "concurso": 385,
+      "data": "30/08/2026",
       "dezenas": [
-        "01",
-        "14",
-        "19",
-        "29",
-        "31",
-        "46"
+        "10",
+        "12",
+        "13",
+        "16",
+        "33",
+        "50"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 10008798,
+      "valor_arrecadado": 9945960,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 88000000
+      "data_proximo_concurso": "02/09/2026",
+      "valor_estimado_proximo_concurso": 90000000
     },
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3774,
-      "data": "28/08/2026",
+      "concurso": 3775,
+      "data": "30/08/2026",
       "dezenas": [
-        "04",
-        "14",
-        "12",
-        "09",
-        "06",
-        "01",
-        "05",
+        "17",
         "15",
-        "16",
-        "07",
-        "03",
-        "19",
-        "24",
+        "04",
+        "13",
+        "05",
+        "18",
+        "06",
+        "12",
         "23",
-        "18"
+        "19",
+        "25",
+        "11",
+        "10",
+        "01",
+        "08"
       ],
-      "acumulado": 1,
-      "valor_arrecadado": 19968543,
+      "acumulado": 0,
+      "valor_arrecadado": 31360451.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 5000000
+      "data_proximo_concurso": "31/08/2026",
+      "valor_estimado_proximo_concurso": 2000000
     },
     {
       "modalidade": "Lotomania",
@@ -123,22 +123,22 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2434,
-      "data": "27/08/2026",
+      "concurso": 2435,
+      "data": "30/08/2026",
       "dezenas": [
-        "79",
+        "80",
         "07",
-        "50",
+        "53",
         "42",
-        "38",
-        "52",
-        "09"
+        "15",
+        "26",
+        "78"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 2386359.5,
+      "valor_arrecadado": 2456622,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 11000000
+      "data_proximo_concurso": "01/09/2026",
+      "valor_estimado_proximo_concurso": 11300000
     },
     {
       "modalidade": "Dupla Sena",
@@ -158,19 +158,19 @@
     {
       "modalidade": "Federal",
       "endpoint": "federal",
-      "concurso": 6095,
-      "data": "26/08/2026",
+      "concurso": 6096,
+      "data": "30/08/2026",
       "dezenas": [
-        "004574",
-        "004929",
-        "059657",
-        "030781",
-        "053798"
+        "008932",
+        "049314",
+        "017181",
+        "010373",
+        "047859"
       ],
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
+      "data_proximo_concurso": "02/09/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
@@ -188,22 +188,22 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1284,
-      "data": "28/08/2026",
+      "concurso": 1285,
+      "data": "30/08/2026",
       "dezenas": [
-        "05",
+        "17",
+        "15",
+        "06",
+        "12",
+        "10",
         "04",
-        "22",
-        "25",
-        "30",
-        "14",
-        "08"
+        "05"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 2188627.5,
+      "valor_arrecadado": 2423862.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/08/2026",
-      "valor_estimado_proximo_concurso": 2200000
+      "data_proximo_concurso": "31/08/2026",
+      "valor_estimado_proximo_concurso": 2500000
     },
     {
       "modalidade": "Super Sete",
