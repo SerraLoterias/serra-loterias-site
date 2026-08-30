@@ -57,6 +57,15 @@ def normalizar(nome, endpoint, dados):
         or []
     )
 
+    if endpoint == "duplasena":
+       primeiro = dados.get("dezenas_sorteadas1") or []
+       segundo = dados.get("dezenas_sorteadas2") or []
+
+        dezenas = []
+        if primeiro:
+           dezenas.append("1º: " + " - ".join(str(x) for x in primeiro))
+        if segundo:
+           dezenas.append("2º: " + " - ".join(str(x) for x in segundo))
     if isinstance(dezenas, list):
         dezenas = [str(x) for x in dezenas]
     elif isinstance(dezenas, str):
