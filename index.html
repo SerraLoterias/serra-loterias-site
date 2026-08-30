@@ -510,6 +510,75 @@ async function carregarResultados() {
     const dados = await resposta.json();
     const resultados = Array.isArray(dados) ? dados : (dados.resultados || []);
     window.resultadosLoterias = resultados;
+
+    const classePorEndpoint = {
+  megasena: 'mega',
+  quina: 'quina',
+  maismilionaria: 'milionaria',
+  milionaria: 'milionaria',
+  lotofacil: 'lotofacil',
+  lotomania: 'lotomania',
+  timemania: 'timemania',
+  duplasena: 'duplasena',
+  diadesorte: 'diadesorte',
+  supersete: 'supersete',
+  federal: 'federal'
+};
+
+function formatarPremioHoje(valor) {
+  const numero = Number(valor || 0);
+
+  if (!numero) return '';
+
+  if (numero >= 1000000) {
+    const milhoes = numero / 1000000;
+    const texto = milhoes.toLocaleString('pt-BR', {
+      maximumFractionDigits: 1
+    });
+
+    return `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+  }
+
+  if (numero >= 1000) {
+    const milhares = numero / 1000;
+    const texto = milhares.toLocaleString('pt-BR', {
+      maximumFractionDigits: 1
+    });
+
+    return `R$ ${texto} mil`;
+  }
+
+  return numero.toLocaleString('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+    maximumFractionDigits: 0
+  });
+}
+
+resultados.forEach(item => {
+  const classe = classePorEndpoint[item.endpoint];
+  const premio = item.valor_estimado_proximo_concurso;
+
+  if (!classe || !premio) return;
+
+  const card = document.querySelector(`.today-card.${classe}`);
+  if (!card) return;
+
+  let span = card.querySelector('span');
+
+  if (!span) {
+    span = document.createElement('span');
+    const titulo = card.querySelector('strong');
+
+    if (titulo) {
+      titulo.insertAdjacentElement('afterend', span);
+    } else {
+      card.prepend(span);
+    }
+  }
+
+  span.textContent = formatarPremioHoje(premio);
+});
     
     if (!resultados.length) {
       grid.innerHTML = '<div class="loading-card">Resultados ainda não disponíveis.</div>';
