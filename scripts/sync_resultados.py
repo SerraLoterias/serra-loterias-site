@@ -98,6 +98,9 @@ def main():
             if isinstance(dados, dict) and isinstance(dados.get("data"), dict):
                 dados = dados["data"]
 
+            if endpoint == "duplasena":
+    print("DEBUG DUPLA SENA:", json.dumps(dados, ensure_ascii=False, indent=2))
+    
             if isinstance(dados, dict):
                 resultados.append(
                     normalizar(nome, endpoint, dados)
