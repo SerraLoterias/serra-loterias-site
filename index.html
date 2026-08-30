@@ -281,6 +281,49 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     font-size:14px;
   }
 }
+
+  /* CORES E TREVO DOS ÚLTIMOS RESULTADOS */
+
+#resultadosGrid .result-card.megasena{--game-color:#159447;}
+#resultadosGrid .result-card.quina{--game-color:#234fc7;}
+#resultadosGrid .result-card.maismilionaria{--game-color:#246f70;}
+#resultadosGrid .result-card.milionaria{--game-color:#246f70;}
+#resultadosGrid .result-card.lotofacil{--game-color:#8a2ca6;}
+#resultadosGrid .result-card.lotomania{--game-color:#f58220;}
+#resultadosGrid .result-card.timemania{--game-color:#d0a51d;}
+#resultadosGrid .result-card.duplasena{--game-color:#b4202a;}
+#resultadosGrid .result-card.diadesorte{--game-color:#d29128;}
+#resultadosGrid .result-card.supersete{--game-color:#8bc53f;}
+#resultadosGrid .result-card.loteca{--game-color:#555f68;}
+#resultadosGrid .result-card.federal{--game-color:#168bd2;}
+
+/* bolinhas na cor da modalidade */
+#resultadosGrid .result-ball{
+  background:var(--game-color,#087a38);
+}
+
+#resultadosGrid .result-pill{
+  background:var(--game-color,#168bd2);
+}
+
+/* símbolo de quatro pétalas ao lado do nome */
+#resultadosGrid .result-head strong::before{
+  content:"";
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin-right:8px;
+  vertical-align:-4px;
+  background:var(--game-color,#087a38);
+
+  -webkit-mask:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='6' cy='6' r='5'/%3E%3Ccircle cx='14' cy='6' r='5'/%3E%3Ccircle cx='6' cy='14' r='5'/%3E%3Ccircle cx='14' cy='14' r='5'/%3E%3C/svg%3E")
+    center/contain no-repeat;
+
+  mask:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Ccircle cx='6' cy='6' r='5'/%3E%3Ccircle cx='14' cy='6' r='5'/%3E%3Ccircle cx='6' cy='14' r='5'/%3E%3Ccircle cx='14' cy='14' r='5'/%3E%3C/svg%3E")
+    center/contain no-repeat;
+}
   
 </style>
 </head>
