@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 07:27",
+  "atualizado_em": "31/08/2026 08:27",
   "quantidade": 11,
   "resultados": [
     {
@@ -176,14 +176,14 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1267,
-      "data": "24/08/2026",
+      "concurso": 1268,
+      "data": "31/08/2026",
       "dezenas": [],
-      "acumulado": 0,
-      "valor_arrecadado": 2404604,
+      "acumulado": 1,
+      "valor_arrecadado": 1821690,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 600000
+      "data_proximo_concurso": "08/09/2026",
+      "valor_estimado_proximo_concurso": 1200000
     },
     {
       "modalidade": "Dia de Sorte",
