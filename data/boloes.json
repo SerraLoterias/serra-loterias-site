@@ -1,8 +1,213 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 07:21",
-  "quantidade": 4,
+  "atualizado_em": "31/08/2026 08:21",
+  "quantidade": 16,
   "boloes": [
+    {
+      "id": "01a05762-25f6-7151-93c1-9a036eb3ee61",
+      "modalidade": "Mega-Sena",
+      "concurso": 3052,
+      "premio_estimado": null,
+      "descricao": "8 números • 1 jogo",
+      "quantidade_jogos": 1,
+      "quantidade_numeros": 8,
+      "valor_cota": "R$ 32,40",
+      "disponibilidade": "Restam 4 de 7 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 7,
+        "disponiveis": 4,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 4,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 4
+      },
+      "valores": {
+        "cota_sem_tarifa": 24,
+        "cota_com_tarifa": 32.4,
+        "tarifa_servico": 8.4,
+        "valor_bolao": 168,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 1,
+        "numeros": 8
+      }
+    },
+    {
+      "id": "01a05764-3fdb-7337-8359-0fe004d484ef",
+      "modalidade": "Mega-Sena",
+      "concurso": 3052,
+      "premio_estimado": null,
+      "descricao": "7 números • 3 jogos",
+      "quantidade_jogos": 3,
+      "quantidade_numeros": 7,
+      "valor_cota": "R$ 18,89",
+      "disponibilidade": "Restam 6 de 9 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 9,
+        "disponiveis": 6,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 6,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 6
+      },
+      "valores": {
+        "cota_sem_tarifa": 14,
+        "cota_com_tarifa": 18.89,
+        "tarifa_servico": 4.89,
+        "valor_bolao": 126,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 3,
+        "numeros": 7
+      }
+    },
+    {
+      "id": "01a05761-ed9d-7007-be34-895f73b319e2",
+      "modalidade": "Mega-Sena",
+      "concurso": 3052,
+      "premio_estimado": null,
+      "descricao": "6 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 6,
+      "valor_cota": "R$ 10,12",
+      "disponibilidade": "Restam 1 de 8 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 7,
+        "perdidas": null,
+        "restantes": 1
+      },
+      "valores": {
+        "cota_sem_tarifa": 7.5,
+        "cota_com_tarifa": 10.12,
+        "tarifa_servico": 2.62,
+        "valor_bolao": 60,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 6
+      }
+    },
+    {
+      "id": "01a05765-f0f4-7342-a0e6-acedf87aa0f1",
+      "modalidade": "Lotofácil",
+      "concurso": 3776,
+      "premio_estimado": null,
+      "descricao": "16 números • 2 jogos",
+      "quantidade_jogos": 2,
+      "quantidade_numeros": 16,
+      "valor_cota": "R$ 18,89",
+      "disponibilidade": "Restam 5 de 8 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 5,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 5,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 5
+      },
+      "valores": {
+        "cota_sem_tarifa": 14,
+        "cota_com_tarifa": 18.89,
+        "tarifa_servico": 4.89,
+        "valor_bolao": 112,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 2,
+        "numeros": 16
+      }
+    },
+    {
+      "id": "01a05765-caba-7118-bbf9-a84f2d48be93",
+      "modalidade": "Lotofácil",
+      "concurso": 3776,
+      "premio_estimado": null,
+      "descricao": "15 números • 9 jogos",
+      "quantidade_jogos": 9,
+      "quantidade_numeros": 15,
+      "valor_cota": "R$ 14,17",
+      "disponibilidade": "Restam 2 de 3 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 2,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 2
+      },
+      "valores": {
+        "cota_sem_tarifa": 10.5,
+        "cota_com_tarifa": 14.17,
+        "tarifa_servico": 3.67,
+        "valor_bolao": 31.5,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 9,
+        "numeros": 15
+      }
+    },
     {
       "id": "019f7f9c-5177-73fb-8bd8-c2a6c99a9cc3",
       "modalidade": "Lotofácil",
@@ -165,6 +370,293 @@
       "apostas": {
         "quantidade": 9,
         "numeros": 15
+      }
+    },
+    {
+      "id": "01a0576f-f154-7200-91c9-74a866d0d82a",
+      "modalidade": "Lotofácil",
+      "concurso": 3780,
+      "premio_estimado": null,
+      "descricao": "15 números • 9 jogos",
+      "quantidade_jogos": 9,
+      "quantidade_numeros": 15,
+      "valor_cota": "R$ 14,17",
+      "disponibilidade": "Restam 2 de 3 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 3,
+        "disponiveis": 2,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 2,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 2
+      },
+      "valores": {
+        "cota_sem_tarifa": 10.5,
+        "cota_com_tarifa": 14.17,
+        "tarifa_servico": 3.67,
+        "valor_bolao": 31.5,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 9,
+        "numeros": 15
+      }
+    },
+    {
+      "id": "01a05767-cd46-71e7-9dcf-3319dd97163a",
+      "modalidade": "TimeMania",
+      "concurso": 2436,
+      "premio_estimado": null,
+      "descricao": "10 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 10,
+      "valor_cota": "R$ 9,45",
+      "disponibilidade": "Restam 3 de 5 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 5,
+        "disponiveis": 3,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 3,
+        "fisicas": 2,
+        "perdidas": null,
+        "restantes": 3
+      },
+      "valores": {
+        "cota_sem_tarifa": 7,
+        "cota_com_tarifa": 9.45,
+        "tarifa_servico": 2.45,
+        "valor_bolao": 35,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 10
+      }
+    },
+    {
+      "id": "01a05769-adb2-70ca-9030-2d9728ffc3bc",
+      "modalidade": "Dupla Sena",
+      "concurso": 3003,
+      "premio_estimado": null,
+      "descricao": "6 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 6,
+      "valor_cota": "R$ 10,12",
+      "disponibilidade": "Restam 1 de 4 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 4,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 1
+      },
+      "valores": {
+        "cota_sem_tarifa": 7.5,
+        "cota_com_tarifa": 10.12,
+        "tarifa_servico": 2.62,
+        "valor_bolao": 30,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 6
+      }
+    },
+    {
+      "id": "01a05767-b504-71c9-80a4-0a9ba62a5126",
+      "modalidade": "Dia de Sorte",
+      "concurso": 1286,
+      "premio_estimado": null,
+      "descricao": "7 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 7,
+      "valor_cota": "R$ 6,75",
+      "disponibilidade": "Restam 3 de 5 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 5,
+        "disponiveis": 3,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 3,
+        "fisicas": 2,
+        "perdidas": null,
+        "restantes": 3
+      },
+      "valores": {
+        "cota_sem_tarifa": 5,
+        "cota_com_tarifa": 6.75,
+        "tarifa_servico": 1.75,
+        "valor_bolao": 25,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 7
+      }
+    },
+    {
+      "id": "01a05765-c5ac-7277-be2e-579d55d0f287",
+      "modalidade": "Super Sete",
+      "concurso": 893,
+      "premio_estimado": null,
+      "descricao": "8 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 8,
+      "valor_cota": "R$ 10,12",
+      "disponibilidade": "Restam 1 de 8 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 1,
+        "fisicas": 7,
+        "perdidas": null,
+        "restantes": 1
+      },
+      "valores": {
+        "cota_sem_tarifa": 7.5,
+        "cota_com_tarifa": 10.12,
+        "tarifa_servico": 2.62,
+        "valor_bolao": 60,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 8
+      }
+    },
+    {
+      "id": "01a0576b-8c41-734a-87e6-db4100f5225b",
+      "modalidade": "+Milionária",
+      "concurso": 386,
+      "premio_estimado": null,
+      "descricao": "7 números • 5 jogos",
+      "quantidade_jogos": 5,
+      "quantidade_numeros": 7,
+      "valor_cota": "R$ 31,49",
+      "disponibilidade": "Restam 6 de 9 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 9,
+        "disponiveis": 6,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 6,
+        "fisicas": 3,
+        "perdidas": null,
+        "restantes": 6
+      },
+      "valores": {
+        "cota_sem_tarifa": 23.33,
+        "cota_com_tarifa": 31.49,
+        "tarifa_servico": 8.16,
+        "valor_bolao": 209.97,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 5,
+        "numeros": 7
+      }
+    },
+    {
+      "id": "01a05769-a0e2-7155-8f70-35f42bc56671",
+      "modalidade": "+Milionária",
+      "concurso": 386,
+      "premio_estimado": null,
+      "descricao": "6 números • 7 jogos",
+      "quantidade_jogos": 7,
+      "quantidade_numeros": 6,
+      "valor_cota": "R$ 9,44",
+      "disponibilidade": "Restam 5 de 6 cotas",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 6,
+        "disponiveis": 5,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 0,
+        "digitais": 5,
+        "fisicas": 1,
+        "perdidas": null,
+        "restantes": 5
+      },
+      "valores": {
+        "cota_sem_tarifa": 7,
+        "cota_com_tarifa": 9.44,
+        "tarifa_servico": 2.44,
+        "valor_bolao": 42,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 7,
+        "numeros": 6
       }
     }
   ]
