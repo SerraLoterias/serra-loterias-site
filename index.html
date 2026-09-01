@@ -577,6 +577,10 @@ resultados.forEach(item => {
   endpoint === 'timemania' && item.time_coracao
     ? `<div class="result-team">Time do Coração: <strong>${item.time_coracao}</strong></div>`
     : '';
+     const mesSorteHtml =
+  endpoint === 'diadesorte' && item.mes_sorte
+    ? `<div class="result-team">Mês da Sorte: <strong>${item.mes_sorte}</strong></div>`
+    : '';
   let numerosHtml = '';
 
   if (endpoint === 'duplasena') {
@@ -620,6 +624,7 @@ resultados.forEach(item => {
       <div class="result-date">${item.data || ''}</div>
      ${numerosHtml}
      ${timeCoracaoHtml}
+     ${mesSorteHtml}
      ${acumuladoHtml}
       
     </div>
