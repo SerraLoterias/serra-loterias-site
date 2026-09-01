@@ -84,6 +84,12 @@ def normalizar(nome, endpoint, dados):
             or dados.get("data_apuracao")
         ),
         "dezenas": dezenas,
+        "time_coracao": (
+    dados.get("nome_time_coracao")
+    or dados.get("time_coracao")
+    or dados.get("nomeTimeCoracaoMesSorte")
+    or dados.get("nome_time_coracao_mes_sorte")
+),
         "acumulado": dados.get("acumulado"),
         "valor_arrecadado": dados.get("valor_arrecadado"),
         "proximo_concurso": dados.get("prox_concurso"),
