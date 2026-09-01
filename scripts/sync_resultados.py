@@ -80,7 +80,7 @@ def normalizar(nome, endpoint, dados):
     if endpoint == "loteca":
         for jogo in dados.get("resultado_equipe_esportiva") or []:
             jogos_loteca.append({
-                "jogo": jogo.get("nuJogo"),
+                "jogo": jogo.get("nuSequencial"),
                 "equipe1": jogo.get("nomeEquipeUm"),
                 "gols1": jogo.get("nuGolEquipeUm"),
                 "equipe2": jogo.get("nomeEquipeDois"),
