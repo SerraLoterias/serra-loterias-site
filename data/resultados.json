@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "01/09/2026 14:13",
+  "atualizado_em": "01/09/2026 14:28",
   "quantidade": 11,
   "resultados": [
     {
@@ -17,6 +17,7 @@
         "38"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 48865248,
       "proximo_concurso": null,
@@ -36,6 +37,7 @@
         "23"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 10204932,
       "proximo_concurso": null,
@@ -56,6 +58,7 @@
         "50"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 9945960,
       "proximo_concurso": null,
@@ -85,6 +88,7 @@
         "10"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 0,
       "valor_arrecadado": 18923191,
       "proximo_concurso": null,
@@ -119,6 +123,7 @@
         "70"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 4077318,
       "proximo_concurso": null,
@@ -140,6 +145,7 @@
         "78"
       ],
       "time_coracao": "CRUZEIRO /MG",
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 2456622,
       "proximo_concurso": null,
@@ -156,6 +162,7 @@
         "2º: 03 - 19 - 22 - 38 - 39 - 45"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 1655553,
       "proximo_concurso": null,
@@ -175,6 +182,7 @@
         "047859"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
@@ -188,6 +196,7 @@
       "data": "31/08/2026",
       "dezenas": [],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 1821690,
       "proximo_concurso": null,
@@ -209,6 +218,7 @@
         "04"
       ],
       "time_coracao": null,
+      "mes_sorte": "Novembro",
       "acumulado": 1,
       "valor_arrecadado": 2661340,
       "proximo_concurso": null,
@@ -230,6 +240,7 @@
         "7"
       ],
       "time_coracao": null,
+      "mes_sorte": null,
       "acumulado": 1,
       "valor_arrecadado": 1353966,
       "proximo_concurso": null,
