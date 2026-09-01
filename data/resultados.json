@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 21:42",
+  "atualizado_em": "31/08/2026 21:49",
   "quantidade": 11,
   "resultados": [
     {
@@ -218,23 +218,23 @@
     {
       "modalidade": "Super Sete",
       "endpoint": "supersete",
-      "concurso": 892,
-      "data": "28/08/2026",
+      "concurso": 893,
+      "data": "31/08/2026",
       "dezenas": [
-        "1",
-        "8",
-        "6",
-        "5",
         "7",
-        "2",
-        "0"
+        "3",
+        "8",
+        "5",
+        "0",
+        "4",
+        "7"
       ],
       "time_coracao": null,
       "acumulado": 1,
-      "valor_arrecadado": 1395312,
+      "valor_arrecadado": 1353966,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 6700000
+      "data_proximo_concurso": "02/09/2026",
+      "valor_estimado_proximo_concurso": 7000000
     }
   ]
 }
