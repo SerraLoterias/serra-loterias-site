@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 21:41",
+  "atualizado_em": "31/08/2026 21:42",
   "quantidade": 11,
   "resultados": [
     {
@@ -16,6 +16,7 @@
         "48",
         "38"
       ],
+      "time_coracao": null,
       "acumulado": 1,
       "valor_arrecadado": 48865248,
       "proximo_concurso": null,
@@ -34,6 +35,7 @@
         "69",
         "23"
       ],
+      "time_coracao": null,
       "acumulado": 1,
       "valor_arrecadado": 10204932,
       "proximo_concurso": null,
@@ -53,6 +55,7 @@
         "33",
         "50"
       ],
+      "time_coracao": null,
       "acumulado": 1,
       "valor_arrecadado": 9945960,
       "proximo_concurso": null,
@@ -81,6 +84,7 @@
         "07",
         "10"
       ],
+      "time_coracao": null,
       "acumulado": 0,
       "valor_arrecadado": 18923191,
       "proximo_concurso": null,
@@ -90,35 +94,36 @@
     {
       "modalidade": "Lotomania",
       "endpoint": "lotomania",
-      "concurso": 2969,
-      "data": "28/08/2026",
+      "concurso": 2970,
+      "data": "31/08/2026",
       "dezenas": [
-        "99",
-        "62",
-        "25",
-        "70",
-        "21",
-        "68",
+        "87",
+        "80",
+        "66",
+        "19",
+        "39",
+        "11",
+        "92",
+        "72",
+        "85",
+        "44",
+        "17",
+        "96",
         "15",
-        "86",
-        "00",
-        "38",
-        "84",
-        "13",
-        "90",
-        "55",
-        "56",
-        "75",
-        "58",
-        "47",
-        "40",
-        "57"
+        "37",
+        "07",
+        "32",
+        "16",
+        "82",
+        "28",
+        "70"
       ],
+      "time_coracao": null,
       "acumulado": 1,
-      "valor_arrecadado": 3976047,
+      "valor_arrecadado": 4077318,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "02/09/2026",
+      "valor_estimado_proximo_concurso": 2700000
     },
     {
       "modalidade": "Timemania",
@@ -134,6 +139,7 @@
         "26",
         "78"
       ],
+      "time_coracao": "CRUZEIRO /MG",
       "acumulado": 1,
       "valor_arrecadado": 2456622,
       "proximo_concurso": null,
@@ -143,17 +149,18 @@
     {
       "modalidade": "Dupla Sena",
       "endpoint": "duplasena",
-      "concurso": 3002,
-      "data": "28/08/2026",
+      "concurso": 3003,
+      "data": "31/08/2026",
       "dezenas": [
-        "1º: 06 - 19 - 22 - 27 - 41 - 46",
-        "2º: 07 - 11 - 12 - 13 - 25 - 28"
+        "1º: 09 - 11 - 19 - 34 - 36 - 44",
+        "2º: 03 - 19 - 22 - 38 - 39 - 45"
       ],
+      "time_coracao": null,
       "acumulado": 1,
-      "valor_arrecadado": 1664931,
+      "valor_arrecadado": 1655553,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 2600000
+      "data_proximo_concurso": "02/09/2026",
+      "valor_estimado_proximo_concurso": 2800000
     },
     {
       "modalidade": "Federal",
@@ -167,6 +174,7 @@
         "010373",
         "047859"
       ],
+      "time_coracao": null,
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
@@ -179,6 +187,7 @@
       "concurso": 1268,
       "data": "31/08/2026",
       "dezenas": [],
+      "time_coracao": null,
       "acumulado": 1,
       "valor_arrecadado": 1821690,
       "proximo_concurso": null,
@@ -188,22 +197,23 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1285,
-      "data": "30/08/2026",
+      "concurso": 1286,
+      "data": "31/08/2026",
       "dezenas": [
-        "17",
-        "15",
-        "06",
+        "02",
+        "08",
+        "23",
         "12",
         "10",
-        "04",
-        "05"
+        "17",
+        "04"
       ],
+      "time_coracao": null,
       "acumulado": 1,
-      "valor_arrecadado": 2423862.5,
+      "valor_arrecadado": 2661340,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 2500000
+      "data_proximo_concurso": "01/09/2026",
+      "valor_estimado_proximo_concurso": 3000000
     },
     {
       "modalidade": "Super Sete",
@@ -219,6 +229,7 @@
         "2",
         "0"
       ],
+      "time_coracao": null,
       "acumulado": 1,
       "valor_arrecadado": 1395312,
       "proximo_concurso": null,
