@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 20:26",
+  "atualizado_em": "31/08/2026 21:41",
   "quantidade": 11,
   "resultados": [
     {
@@ -25,20 +25,20 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7105,
-      "data": "30/08/2026",
+      "concurso": 7106,
+      "data": "31/08/2026",
       "dezenas": [
-        "41",
-        "33",
-        "02",
-        "78",
-        "48"
+        "18",
+        "49",
+        "34",
+        "69",
+        "23"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 9746694,
+      "valor_arrecadado": 10204932,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
-      "valor_estimado_proximo_concurso": 10000000
+      "data_proximo_concurso": "01/09/2026",
+      "valor_estimado_proximo_concurso": 11300000
     },
     {
       "modalidade": "Mais Milionária",
@@ -62,29 +62,29 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3775,
-      "data": "30/08/2026",
+      "concurso": 3776,
+      "data": "31/08/2026",
       "dezenas": [
-        "17",
-        "15",
-        "04",
-        "13",
-        "05",
+        "20",
         "18",
-        "06",
-        "12",
-        "23",
+        "21",
         "19",
+        "14",
+        "16",
         "25",
-        "11",
-        "10",
-        "01",
-        "08"
+        "24",
+        "08",
+        "17",
+        "23",
+        "05",
+        "03",
+        "07",
+        "10"
       ],
       "acumulado": 0,
-      "valor_arrecadado": 31360451.5,
+      "valor_arrecadado": 18923191,
       "proximo_concurso": null,
-      "data_proximo_concurso": "31/08/2026",
+      "data_proximo_concurso": "01/09/2026",
       "valor_estimado_proximo_concurso": 2000000
     },
     {
