@@ -50,8 +50,7 @@ def api_get(endpoint):
 
 
 def normalizar(nome, endpoint, dados):
-    if endpoint == "loteca":
-        print("DEBUG LOTECA:", json.dumps(dados, ensure_ascii=False, indent=2))
+    
     dezenas = (
         dados.get("dezenas_na_string")
         or dados.get("dezenas_sorteadas")
@@ -76,7 +75,17 @@ def normalizar(nome, endpoint, dados):
             for x in dezenas.replace(";", ",").split(",")
             if x.strip()
         ]
+    jogos_loteca = []
 
+    if endpoint == "loteca":
+        for jogo in dados.get("resultado_equipe_esportiva") or []:
+            jogos_loteca.append({
+                "jogo": jogo.get("nuJogo"),
+                "equipe1": jogo.get("nomeEquipeUm"),
+                "gols1": jogo.get("nuGolEquipeUm"),
+                "equipe2": jogo.get("nomeEquipeDois"),
+                "gols2": jogo.get("nuGolEquipeDois"),
+            })
     return {
         "modalidade": nome,
         "endpoint": endpoint,
@@ -86,7 +95,7 @@ def normalizar(nome, endpoint, dados):
             or dados.get("data_apuracao")
         ),
    "dezenas": dezenas,
-
+"jogos_loteca": jogos_loteca,
 "time_coracao": (
     dados.get("nome_time_coracao")
     or dados.get("time_coracao")
