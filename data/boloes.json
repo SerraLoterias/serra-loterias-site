@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "31/08/2026 21:28",
-  "quantidade": 11,
+  "atualizado_em": "31/08/2026 21:37",
+  "quantidade": 10,
   "boloes": [
     {
       "id": "01a05762-25f6-7151-93c1-9a036eb3ee61",
@@ -124,47 +124,6 @@
       "apostas": {
         "quantidade": 10,
         "numeros": 6
-      }
-    },
-    {
-      "id": "01a05765-f0f4-7342-a0e6-acedf87aa0f1",
-      "modalidade": "Lotofácil",
-      "concurso": 3776,
-      "premio_estimado": null,
-      "descricao": "16 números • 2 jogos",
-      "quantidade_jogos": 2,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 0 de 8 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 0,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 3,
-        "digitais": 5,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": 0
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 112,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 2,
-        "numeros": 16
       }
     },
     {
