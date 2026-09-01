@@ -50,6 +50,8 @@ def api_get(endpoint):
 
 
 def normalizar(nome, endpoint, dados):
+    if endpoint == "loteca":
+    print("DEBUG LOTECA:", json.dumps(dados, ensure_ascii=False, indent=2))
     dezenas = (
         dados.get("dezenas_na_string")
         or dados.get("dezenas_sorteadas")
