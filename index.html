@@ -601,7 +601,23 @@ resultados.forEach(item => {
         </div>
       `;
     }).join('');
-  } else if (endpoint === 'federal') {
+  } else if (endpoint === 'loteca') {
+    const jogosLoteca = Array.isArray(item.jogos_loteca) ? item.jogos_loteca : [];
+
+    numerosHtml = jogosLoteca.length
+      ? `
+        <div class="result-loteca">
+          ${jogosLoteca.map(jogo => `
+            <div class="loteca-game">
+              <span>Jogo ${jogo.jogo}</span>
+              <strong>${jogo.equipe1} ${jogo.gols1 ?? '-'} × ${jogo.gols2 ?? '-'} ${jogo.equipe2}</strong>
+            </div>
+          `).join('')}
+        </div>
+      `
+      : '';
+
+} else if (endpoint === 'federal') {
     numerosHtml = `
       <div class="result-federal">
         ${dezenas.map(n => `<span class="result-pill">${n}</span>`).join('')}
