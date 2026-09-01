@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "01/09/2026 15:56",
+  "atualizado_em": "01/09/2026 16:02",
   "quantidade": 11,
   "resultados": [
     {
@@ -205,98 +205,98 @@
       "dezenas": [],
       "jogos_loteca": [
         {
-          "jogo": 19,
+          "jogo": 1,
           "equipe1": "FLAMENGO",
           "gols1": 3,
           "equipe2": "BOTAFOGO",
           "gols2": 0
         },
         {
-          "jogo": 19,
+          "jogo": 2,
           "equipe1": "ATLETICO",
           "gols1": 2,
           "equipe2": "VITORIA",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 3,
           "equipe1": "SAO PAULO",
           "gols1": 2,
           "equipe2": "BRAGANTINO",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 4,
           "equipe1": "SEVILLA",
           "gols1": 1,
           "equipe2": "ATLETICO MADRID",
           "gols2": 3
         },
         {
-          "jogo": 19,
+          "jogo": 5,
           "equipe1": "VASCO DA GAMA",
           "gols1": 3,
           "equipe2": "CRUZEIRO",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 6,
           "equipe1": "ATHLETICO",
           "gols1": 3,
           "equipe2": "FLUMINENSE",
           "gols2": 3
         },
         {
-          "jogo": 19,
+          "jogo": 7,
           "equipe1": "CHELSEA",
           "gols1": 4,
           "equipe2": "BRIGHTON",
           "gols2": 3
         },
         {
-          "jogo": 19,
+          "jogo": 8,
           "equipe1": "LEEDS UNITED",
           "gols1": 1,
           "equipe2": "BRENTFORD",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 9,
           "equipe1": "CORINTHIANS",
           "gols1": 0,
           "equipe2": "SANTOS",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 10,
           "equipe1": "CRB",
           "gols1": 2,
           "equipe2": "CRICIUMA",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 11,
           "equipe1": "MIRASSOL",
           "gols1": 1,
           "equipe2": "PALMEIRAS",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 12,
           "equipe1": "GREMIO",
           "gols1": 3,
           "equipe2": "CHAPECOENSE",
           "gols2": 1
         },
         {
-          "jogo": 19,
+          "jogo": 13,
           "equipe1": "BAHIA",
           "gols1": 3,
           "equipe2": "INTERNACIONAL",
           "gols2": 2
         },
         {
-          "jogo": 19,
+          "jogo": 14,
           "equipe1": "CELTA DE VIGO",
           "gols1": 0,
           "equipe2": "ATHLETIC BILBAO",
