@@ -550,6 +550,10 @@ resultados.forEach(item => {
  const acumuladoHtml = premioProximo
   ? `<div class="result-jackpot">${textoPremio}: <strong>${premioProximo}</strong></div>`
   : '';   
+     const timeCoracaoHtml =
+  endpoint === 'timemania' && item.time_coracao
+    ? `<div class="result-team">Time do Coração: <strong>${item.time_coracao}</strong></div>`
+    : '';
   let numerosHtml = '';
 
   if (endpoint === 'duplasena') {
@@ -591,8 +595,9 @@ resultados.forEach(item => {
         <span>CONC. ${item.concurso || ''}</span>
       </div>
       <div class="result-date">${item.data || ''}</div>
-      ${numerosHtml}
-      ${acumuladoHtml}
+     ${numerosHtml}
+     ${timeCoracaoHtml}
+     ${acumuladoHtml}
       
     </div>
   `;
