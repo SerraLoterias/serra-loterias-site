@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "01/09/2026 09:33",
+  "atualizado_em": "01/09/2026 10:28",
   "quantidade": 17,
   "boloes": [
     {
@@ -381,7 +381,7 @@
       "quantidade_jogos": 8,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 13,88",
-      "disponibilidade": "Restam 3 de 14 cotas",
+      "disponibilidade": "Restam 1 de 14 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -391,15 +391,15 @@
       },
       "cotas": {
         "total": 14,
-        "disponiveis": 3,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 1,
         "baixadas": 0,
-        "impressas": 0,
+        "impressas": 2,
         "digitais": 4,
         "fisicas": 10,
         "perdidas": null,
-        "restantes": 3
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 10.28,
