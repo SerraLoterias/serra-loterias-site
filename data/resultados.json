@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "02/09/2026 20:28",
+  "atualizado_em": "02/09/2026 21:40",
   "quantidade": 11,
   "resultados": [
     {
@@ -28,23 +28,23 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7107,
-      "data": "01/09/2026",
+      "concurso": 7108,
+      "data": "02/09/2026",
       "dezenas": [
-        "71",
-        "49",
-        "61",
-        "33",
-        "36"
+        "30",
+        "67",
+        "28",
+        "04",
+        "29"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "acumulado": 1,
-      "valor_arrecadado": 10611003,
+      "valor_arrecadado": 11271909,
       "proximo_concurso": null,
-      "data_proximo_concurso": "02/09/2026",
-      "valor_estimado_proximo_concurso": 12500000
+      "data_proximo_concurso": "03/09/2026",
+      "valor_estimado_proximo_concurso": 13700000
     },
     {
       "modalidade": "Mais Milionária",
@@ -71,33 +71,33 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3777,
-      "data": "01/09/2026",
+      "concurso": 3778,
+      "data": "02/09/2026",
       "dezenas": [
-        "03",
-        "09",
-        "15",
-        "21",
-        "20",
-        "13",
+        "16",
         "08",
-        "19",
-        "25",
-        "24",
-        "07",
-        "22",
-        "12",
+        "18",
         "10",
-        "05"
+        "22",
+        "13",
+        "17",
+        "03",
+        "06",
+        "20",
+        "01",
+        "09",
+        "14",
+        "05",
+        "02"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
-      "acumulado": 0,
-      "valor_arrecadado": 19045512.5,
+      "acumulado": 1,
+      "valor_arrecadado": 19224653,
       "proximo_concurso": null,
-      "data_proximo_concurso": "02/09/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "03/09/2026",
+      "valor_estimado_proximo_concurso": 5000000
     },
     {
       "modalidade": "Lotomania",
