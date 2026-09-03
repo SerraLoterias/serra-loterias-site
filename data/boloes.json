@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "03/09/2026 11:29",
+  "atualizado_em": "03/09/2026 12:30",
   "quantidade": 14,
   "boloes": [
     {
@@ -135,7 +135,7 @@
       "quantidade_jogos": 2,
       "quantidade_numeros": 16,
       "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 4 de 8 cotas",
+      "disponibilidade": "Restam 3 de 8 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -145,15 +145,15 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 4,
+        "disponiveis": 3,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
-        "impressas": 0,
+        "impressas": 1,
         "digitais": 4,
         "fisicas": 4,
         "perdidas": null,
-        "restantes": 4
+        "restantes": 3
       },
       "valores": {
         "cota_sem_tarifa": 14,
@@ -299,7 +299,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 15,
       "valor_cota": "R$ 14,17",
-      "disponibilidade": "Restam 2 de 3 cotas",
+      "disponibilidade": "Restam 1 de 3 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -309,15 +309,15 @@
       },
       "cotas": {
         "total": 3,
-        "disponiveis": 2,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
-        "impressas": 0,
+        "impressas": 1,
         "digitais": 2,
         "fisicas": 1,
         "perdidas": null,
-        "restantes": 2
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 10.5,
@@ -381,7 +381,7 @@
       "quantidade_jogos": 8,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 13,88",
-      "disponibilidade": "Restam 2 de 14 cotas",
+      "disponibilidade": "Restam 1 de 14 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -391,15 +391,15 @@
       },
       "cotas": {
         "total": 14,
-        "disponiveis": 2,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
-        "impressas": 2,
+        "impressas": 3,
         "digitais": 4,
         "fisicas": 10,
         "perdidas": null,
-        "restantes": 2
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 10.28,
