@@ -1,49 +1,8 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "03/09/2026 19:25",
-  "quantidade": 10,
+  "atualizado_em": "03/09/2026 20:23",
+  "quantidade": 8,
   "boloes": [
-    {
-      "id": "01a061b4-55bd-72cd-80df-a79b55a7c448",
-      "modalidade": "Mega-Sena",
-      "concurso": 3053,
-      "premio_estimado": null,
-      "descricao": "7 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 2 de 9 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 9,
-        "disponiveis": 2,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 3,
-        "digitais": 5,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": 2
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 126,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 7
-      }
-    },
     {
       "id": "01a066e2-3959-703e-88db-d084a925ad95",
       "modalidade": "Lotofácil",
@@ -83,47 +42,6 @@
       "apostas": {
         "quantidade": 1,
         "numeros": 17
-      }
-    },
-    {
-      "id": "01a066e0-3cf4-735e-bf5f-725f2e8ef563",
-      "modalidade": "Lotofácil",
-      "concurso": 3779,
-      "premio_estimado": null,
-      "descricao": "16 números • 2 jogos",
-      "quantidade_jogos": 2,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 1 de 8 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 1,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 3,
-        "digitais": 4,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": 1
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 112,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 2,
-        "numeros": 16
       }
     },
     {
