@@ -1,49 +1,8 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "03/09/2026 20:23",
-  "quantidade": 8,
+  "atualizado_em": "03/09/2026 21:34",
+  "quantidade": 7,
   "boloes": [
-    {
-      "id": "01a066e2-3959-703e-88db-d084a925ad95",
-      "modalidade": "Lotofácil",
-      "concurso": 3779,
-      "premio_estimado": null,
-      "descricao": "17 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 17,
-      "valor_cota": "R$ 58,41",
-      "disponibilidade": "Restam 6 de 11 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 11,
-        "disponiveis": 6,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 1,
-        "digitais": 7,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": 6
-      },
-      "valores": {
-        "cota_sem_tarifa": 43.27,
-        "cota_com_tarifa": 58.41,
-        "tarifa_servico": 15.14,
-        "valor_bolao": 475.97,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 17
-      }
-    },
     {
       "id": "019f7f9c-5177-73fb-8bd8-c2a6c99a9cc3",
       "modalidade": "Lotofácil",
