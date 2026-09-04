@@ -27,14 +27,14 @@
 .section{padding:34px 0} .section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:16px} .section-head h2{margin:0;font-size:28px;color:#1b2a40} .section-head p{margin:4px 0 0;color:var(--muted)} .link{font-weight:900;color:var(--blue)}
 .today-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px} .today-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;display:grid;gap:5px;min-height:96px;position:relative} .today-card strong{font-size:15px} .today-card span{font-weight:900;color:var(--orange)} .today-card b{position:absolute;right:12px;bottom:10px;color:var(--blue);font-size:20px}
 .bets-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px} .bet-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
-.bet-head{display:flex;justify-content:space-between;gap:15px;align-items:start} .game{font-weight:1000;color:var(--blue);font-size:18px} .conc{font-size:12px;color:var(--muted);margin-left:8px} .big-prize{font-size:21px;font-weight:1000;color:#25364e}
+.bet-head{display:flex;justify-content:space-between;gap:15px;align-items:start} .game{font-weight:1000;color:var(--blue);font-size:26px} .conc{font-size:21px;color:var(--muted);margin-left:8px} .big-prize{font-size:21px;font-weight:1000;color:#25364e}
 .bet-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0} .bet-meta div{background:#f7f8fa;border-radius:10px;padding:10px} .bet-meta small{display:block;color:var(--muted);font-size:11px} .bet-meta strong{font-size:13px}
 .games-toggle{width:100%;background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px;font-weight:900;color:var(--blue);cursor:pointer} .games-hidden{display:none;background:#f7f8fa;border-radius:9px;padding:10px;margin-top:8px;color:var(--muted);font-size:13px} .games-hidden.open{display:block}
 .stock{font-size:13px;font-weight:900;color:#d85c00;margin:11px 0} .bet-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .prizes{background:#072d6b;color:white} .prizes .section-head h2{color:white} .prizes .section-head p{color:#d9e6f6}
 .prize-feature{display:grid;grid-template-columns:1.1fr .9fr;gap:14px} .p-main{background:var(--orange);border-radius:16px;padding:22px} .p-main b{display:block;font-size:42px} .p-main span{font-size:14px} .p-side{background:rgba(255,255,255,.08);border-radius:16px;padding:22px} .p-side strong{font-size:22px}
-.p-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px} .p-card{background:#fff;color:var(--text);border-radius:13px;padding:16px} .p-card small{color:var(--muted)} .p-card strong{display:block;font-size:24px;color:var(--blue);margin:4px 0}
-.lottery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px} .lottery-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px;display:grid;gap:7px} .lottery-name{font-weight:900;color:var(--blue);display:block} .lottery-card small{color:var(--muted)} .lottery-card>strong{font-size:22px} .lottery-card>span{color:var(--muted);font-size:13px} .lottery-actions{display:flex;gap:8px;margin-top:5px} .lottery-actions a{font-weight:900;font-size:13px;color:var(--blue)}
+.p-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px} .p-card{background:#fff4d6;color:var(--text);border-radius:13px;padding:16px} .p-card small{color:var(--muted)} .p-card strong{display:block;font-size:28px;color:var(--blue);margin:4px 0}
+.lottery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px} .lottery-card{background:#fff;border:1px solid #f3c969;border-radius:14px;padding:15px;display:grid;gap:7px} .lottery-name{font-weight:900;color:var(--blue);display:block} .lottery-card small{color:var(--muted)} .lottery-card>strong{font-size:22px} .lottery-card>span{color:var(--muted);font-size:13px} .lottery-actions{display:flex;gap:8px;margin-top:5px} .lottery-actions a{font-weight:900;font-size:13px;color:var(--blue)}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:14px} .panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px} .panel h3{margin-top:0} .line{padding:8px 0;border-bottom:1px solid var(--line)} .line:last-child{border-bottom:0} .line span{display:block;color:var(--muted)}
 .notice{font-size:12px;color:var(--muted);margin-top:14px}
 footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
@@ -891,7 +891,9 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
   ? 'Lotofácil da Independência'
   : esc(b.modalidade || 'Bolão CAIXA');
     const conc = b.concurso ? `CONC. ${esc(b.concurso)}` : '';
-    const premio = esc(b.premio_estimado || 'BOLÕES SERRA LOTERIAS');
+    const premio = b.premio_estimado
+  ? esc(b.premio_estimado)
+  : '<span style="font-size:15px;font-weight:800;">BOLÕES SERRA LOTERIAS</span>';
     const sorteio = esc(dataSorteioBolao(b));
     const desc = esc(b.descricao || b.chances || 'Bolão disponível');
     const cota = esc(b.valor_cota || 'Consulte');
