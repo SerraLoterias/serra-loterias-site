@@ -844,8 +844,9 @@ window.resultadosPromise = carregarResultados();
     return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
   }
   function waLink(b) {
-    const msg = `Olá! Encontrei este bolão no site da Serra Loterias 🍀 e gostaria de mais informações sobre ele: ${b.modalidade || ''} ${b.concurso || ''}. Pode me ajudar?`;
-  }
+  const msg = `Olá! Encontrei este bolão no site da Serra Loterias 🍀 e gostaria de mais informações sobre ele: ${b.modalidade || ''} ${b.concurso || ''}. Pode me ajudar?`;
+  return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
+}
   window.resultadosLoterias = window.resultadosLoterias || [];
 
   function dataSorteioBolao(b) {
