@@ -46,7 +46,16 @@
 footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 .float-wa{position:fixed;right:16px;bottom:16px;width:56px;height:56px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-size:26px;box-shadow:0 12px 28px rgba(0,0,0,.22)}
 @media(max-width:850px){.hero-grid,.prize-feature,.contact{grid-template-columns:1fr}.today-grid{grid-template-columns:repeat(3,1fr)}.lottery-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:620px){.top-row{height:64px}.logo img{height:43px}.wa{display:none} h1{font-size:34px} .stats{grid-template-columns:1fr} .special{grid-template-columns:1fr} .today-grid,.bets-grid,.lottery-grid,.p-cards{grid-template-columns:1fr} .bet-actions{grid-template-columns:1fr} .section{padding:26px 0}}
+@media(max-width:620px){.top-row{
+  height:auto;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}.logo img{height:90px}.logo{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}.wa{display:none} h1{font-size:34px} .stats{grid-template-columns:1fr} .special{grid-template-columns:1fr} .today-grid,.bets-grid,.lottery-grid,.p-cards{grid-template-columns:1fr} .bet-actions{grid-template-columns:1fr} .section{padding:26px 0}}
 
 
 
@@ -56,7 +65,7 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 .main-slogan{font-size:27px;font-weight:1000;color:var(--blue);letter-spacing:-.02em;text-align:center}
 .kicker{margin-bottom:6px}
 @media(max-width:620px){
-  .hero-brand-main img{max-width:320px;max-height:180px}
+  .hero-brand-main img{display:none}
   .main-slogan{font-size:23px}
 }
 
