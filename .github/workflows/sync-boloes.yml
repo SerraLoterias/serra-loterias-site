@@ -33,4 +33,5 @@ jobs:
           git add data/boloes.json
           git diff --cached --quiet && exit 0
           git commit -m "Atualiza bolões via ConectaLot"
-          git push
+          git pull --rebase origin main
+          git push origin main
