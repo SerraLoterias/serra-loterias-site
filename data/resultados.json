@@ -1,50 +1,50 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "06/09/2026 10:29",
+  "atualizado_em": "06/09/2026 11:29",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3053,
-      "data": "03/09/2026",
+      "concurso": 3054,
+      "data": "06/09/2026",
       "dezenas": [
-        "13",
-        "51",
-        "35",
-        "01",
-        "39",
-        "25"
+        "43",
+        "58",
+        "24",
+        "47",
+        "08",
+        "17"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "acumulado": 1,
-      "valor_arrecadado": 45798930,
+      "valor_arrecadado": 59006376,
       "proximo_concurso": null,
-      "data_proximo_concurso": "06/09/2026",
-      "valor_estimado_proximo_concurso": 48000000
+      "data_proximo_concurso": "08/09/2026",
+      "valor_estimado_proximo_concurso": 70000000
     },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7110,
-      "data": "04/09/2026",
+      "concurso": 7111,
+      "data": "06/09/2026",
       "dezenas": [
-        "54",
-        "09",
-        "14",
-        "57",
-        "80"
+        "47",
+        "13",
+        "44",
+        "15",
+        "79"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "acumulado": 1,
-      "valor_arrecadado": 13971507,
+      "valor_arrecadado": 14445348,
       "proximo_concurso": null,
-      "data_proximo_concurso": "06/09/2026",
-      "valor_estimado_proximo_concurso": 17000000
+      "data_proximo_concurso": "08/09/2026",
+      "valor_estimado_proximo_concurso": 18500000
     },
     {
       "modalidade": "Mais Milionária",
