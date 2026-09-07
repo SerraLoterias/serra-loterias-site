@@ -977,7 +977,7 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
         <div class="stock">${estoque}</div>
         <div class="bet-actions">
           <a class="btn btn-orange" href="${waLink(b)}" target="_blank" rel="noopener noreferrer">FALE CONOSCO</a>
-          <a class="btn btn-blue" href="${marketplace}" target="_blank" rel="noopener noreferrer">COMPRE AQUI</a>
+          <a class="btn btn-blue" href="${marketplace}" target="_blank" rel="noopener noreferrer">VER DISPONIBILIDADE</a>
         </div>
         <div class="source-note">Disponibilidade sincronizada da página da Serra Loterias no Loterias Online CAIXA.</div>
       </article>`;
@@ -1012,7 +1012,7 @@ if (independenciaGrid) {
     })
     .catch(() => {
       lastSync.textContent = 'Não foi possível carregar a sincronização agora.';
-      grid.innerHTML = `<div class="empty-card"><strong>Consulte os bolões diretamente na CAIXA.</strong><br><a class="btn btn-blue" style="margin-top:10px" href="${marketplace}" target="_blank">COMPRE AQUI</a></div>`;
+      grid.innerHTML = `<div class="empty-card"><strong>Consulte os bolões diretamente na CAIXA.</strong><br><a class="btn btn-blue" style="margin-top:10px" href="${marketplace}" target="_blank">VER DISPONIBILIDADE</a></div>`;
     });
 })();
 </script>
