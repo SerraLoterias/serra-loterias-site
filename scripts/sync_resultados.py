@@ -136,7 +136,10 @@ def main():
 
             if endpoint == "duplasena":
                 print("DEBUG DUPLA SENA:", json.dumps(dados, ensure_ascii=False, indent=2))
-    
+
+            if endpoint == "maismilionaria":
+                print("DEBUG MAIS MILIONARIA:", json.dumps(dados, ensure_ascii=False, indent=2))
+            
             if isinstance(dados, dict):
                 resultados.append(
                     normalizar(nome, endpoint, dados)
