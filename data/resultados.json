@@ -1,8 +1,30 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "07/09/2026 11:33",
-  "quantidade": 10,
+  "atualizado_em": "07/09/2026 11:55",
+  "quantidade": 11,
   "resultados": [
+    {
+      "modalidade": "Mega-Sena",
+      "endpoint": "megasena",
+      "concurso": 3054,
+      "data": "06/09/2026",
+      "dezenas": [
+        "43",
+        "58",
+        "24",
+        "47",
+        "08",
+        "17"
+      ],
+      "jogos_loteca": [],
+      "time_coracao": null,
+      "mes_sorte": null,
+      "acumulado": 1,
+      "valor_arrecadado": 59006376,
+      "proximo_concurso": null,
+      "data_proximo_concurso": "08/09/2026",
+      "valor_estimado_proximo_concurso": 70000000
+    },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
