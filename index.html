@@ -802,6 +802,11 @@ resultados.forEach(item => {
    grid.innerHTML = resultados.map(item => {
   const dezenas = Array.isArray(item.dezenas) ? item.dezenas : [];
   const endpoint = item.endpoint || '';
+  const endpointsSemOrdenar = ['supersete', 'federal', 'loteca', 'duplasena'];
+
+    if (!endpointsSemOrdenar.includes(endpoint)) {
+      dezenas.sort((a, b) => Number(a) - Number(b));
+}
   const premioProximo = formatarPremioHoje(item.valor_estimado_proximo_concurso);
 
   const acumulou =
@@ -833,10 +838,11 @@ resultados.forEach(item => {
     numerosHtml = dezenas.map(linha => {
       const partes = String(linha).split(':');
       const rotulo = partes.length > 1 ? partes.shift().trim() : '';
-      const numeros = partes.join(':')
-        .split('-')
-        .map(n => n.trim())
-        .filter(Boolean);
+      const numeros = partes.join('')
+       .split('-')
+       .map(n => n.trim())
+       .filter(Boolean)
+       .sort((a, b) => Number(a) - Number(b));
 
       return `
         <div class="result-draw">
