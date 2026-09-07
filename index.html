@@ -823,7 +823,12 @@ resultados.forEach(item => {
     ? `<div class="result-team">Mês da Sorte: <strong>${item.mes_sorte}</strong></div>`
     : '';
   let numerosHtml = '';
-
+     const trevosHtml =
+  endpoint === 'maismilionaria' &&
+  Array.isArray(item.trevos_sorteados) &&
+  item.trevos_sorteados.length
+    ? `<div class="result-team">Trevos da Sorte: <strong>${item.trevos_sorteados.join(' e ')}</strong></div>`
+    : '';
   if (endpoint === 'duplasena') {
     numerosHtml = dezenas.map(linha => {
       const partes = String(linha).split(':');
@@ -882,6 +887,7 @@ resultados.forEach(item => {
      ${numerosHtml}
      ${timeCoracaoHtml}
      ${mesSorteHtml}
+     ${trevosHtml}
      ${acumuladoHtml}
       
     </div>
