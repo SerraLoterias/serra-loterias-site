@@ -110,7 +110,7 @@ def normalizar(nome, endpoint, dados):
     or dados.get("mesSorte")
     or dados.get("nome_mes_sorte")
 ),
-
+"trevos_sorteados": dados.get("trevos_sorteados") or [],
 "acumulado": dados.get("acumulado"),
         "valor_arrecadado": dados.get("valor_arrecadado"),
         "proximo_concurso": dados.get("prox_concurso"),
