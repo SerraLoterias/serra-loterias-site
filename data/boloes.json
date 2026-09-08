@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "08/09/2026 15:32",
+  "atualizado_em": "08/09/2026 16:26",
   "quantidade": 14,
   "boloes": [
     {
@@ -291,7 +291,7 @@
       }
     },
     {
-      "id": "01a06ca9-df9e-70ce-adf2-69c35edeedba",
+      "id": "01a0825d-5dd8-73ae-a764-980bde8594fc",
       "modalidade": "Lotofácil",
       "concurso": 3780,
       "premio_estimado": null,
@@ -299,7 +299,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 16,
       "valor_cota": "R$ 25,19",
-      "disponibilidade": "Restam 2 de 30 cotas",
+      "disponibilidade": "30 de 30 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -309,15 +309,15 @@
       },
       "cotas": {
         "total": 30,
-        "disponiveis": 2,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 16,
-        "digitais": 20,
-        "fisicas": 10,
+        "disponiveis": 30,
+        "reservadas": null,
+        "vendidas": null,
+        "baixadas": null,
+        "impressas": null,
+        "digitais": 30,
+        "fisicas": 0,
         "perdidas": null,
-        "restantes": 2
+        "restantes": null
       },
       "valores": {
         "cota_sem_tarifa": 18.66,
@@ -332,15 +332,15 @@
       }
     },
     {
-      "id": "01a081c5-92f3-71f0-ac01-f651c83f840f",
+      "id": "01a06ca9-df9e-70ce-adf2-69c35edeedba",
       "modalidade": "Lotofácil",
       "concurso": 3780,
       "premio_estimado": null,
-      "descricao": "15 números • 9 jogos",
-      "quantidade_jogos": 9,
-      "quantidade_numeros": 15,
-      "valor_cota": "R$ 14,17",
-      "disponibilidade": "3 de 3 cotas disponíveis",
+      "descricao": "16 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 16,
+      "valor_cota": "R$ 25,19",
+      "disponibilidade": "Restam 1 de 30 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -349,31 +349,31 @@
         "uf": "RS"
       },
       "cotas": {
-        "total": 3,
-        "disponiveis": 3,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 3,
-        "fisicas": 0,
+        "total": 30,
+        "disponiveis": 1,
+        "reservadas": 0,
+        "vendidas": 0,
+        "baixadas": 0,
+        "impressas": 16,
+        "digitais": 20,
+        "fisicas": 10,
         "perdidas": null,
-        "restantes": null
+        "restantes": 1
       },
       "valores": {
-        "cota_sem_tarifa": 10.5,
-        "cota_com_tarifa": 14.17,
-        "tarifa_servico": 3.67,
-        "valor_bolao": 31.5,
+        "cota_sem_tarifa": 18.66,
+        "cota_com_tarifa": 25.19,
+        "tarifa_servico": 6.53,
+        "valor_bolao": 559.8,
         "valor_premio": null
       },
       "apostas": {
-        "quantidade": 9,
-        "numeros": 15
+        "quantidade": 10,
+        "numeros": 16
       }
     },
     {
-      "id": "01a081c5-8e76-7013-893d-0f61248b6ba3",
+      "id": "01a0825d-55cd-7151-b51f-2c70c63a5546",
       "modalidade": "Lotofácil",
       "concurso": 3780,
       "premio_estimado": null,
