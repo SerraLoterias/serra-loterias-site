@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "08/09/2026 08:32",
+  "atualizado_em": "08/09/2026 09:39",
   "quantidade": 11,
   "resultados": [
     {
@@ -211,106 +211,106 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1268,
-      "data": "31/08/2026",
+      "concurso": 1269,
+      "data": "08/09/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "FLAMENGO",
-          "gols1": 3,
-          "equipe2": "BOTAFOGO",
+          "equipe1": "BOTAFOGO",
+          "gols1": 0,
+          "equipe2": "PALMEIRAS",
           "gols2": 0
         },
         {
           "jogo": 2,
-          "equipe1": "ATLETICO",
+          "equipe1": "BRAGANTINO",
           "gols1": 2,
-          "equipe2": "VITORIA",
-          "gols2": 1
+          "equipe2": "BAHIA",
+          "gols2": 3
         },
         {
           "jogo": 3,
           "equipe1": "SAO PAULO",
           "gols1": 2,
-          "equipe2": "BRAGANTINO",
-          "gols2": 1
+          "equipe2": "ATLETICO",
+          "gols2": 0
         },
         {
           "jogo": 4,
-          "equipe1": "SEVILLA",
-          "gols1": 1,
-          "equipe2": "ATLETICO MADRID",
-          "gols2": 3
-        },
-        {
-          "jogo": 5,
-          "equipe1": "VASCO DA GAMA",
-          "gols1": 3,
-          "equipe2": "CRUZEIRO",
+          "equipe1": "CEARA",
+          "gols1": 2,
+          "equipe2": "SPORT",
           "gols2": 1
         },
         {
+          "jogo": 5,
+          "equipe1": "FLUMINENSE",
+          "gols1": 1,
+          "equipe2": "VASCO DA GAMA",
+          "gols2": 0
+        },
+        {
           "jogo": 6,
-          "equipe1": "ATHLETICO",
-          "gols1": 3,
-          "equipe2": "FLUMINENSE",
-          "gols2": 3
+          "equipe1": "CORITIBA",
+          "gols1": 1,
+          "equipe2": "MIRASSOL",
+          "gols2": 2
         },
         {
           "jogo": 7,
-          "equipe1": "CHELSEA",
-          "gols1": 4,
-          "equipe2": "BRIGHTON",
-          "gols2": 3
+          "equipe1": "EVERTON",
+          "gols1": 2,
+          "equipe2": "MANCHESTER UNITED",
+          "gols2": 2
         },
         {
           "jogo": 8,
-          "equipe1": "LEEDS UNITED",
-          "gols1": 1,
-          "equipe2": "BRENTFORD",
+          "equipe1": "CRUZEIRO",
+          "gols1": 3,
+          "equipe2": "ATHLETICO",
           "gols2": 1
         },
         {
           "jogo": 9,
-          "equipe1": "CORINTHIANS",
-          "gols1": 0,
+          "equipe1": "INTERNACIONAL",
+          "gols1": 2,
           "equipe2": "SANTOS",
-          "gols2": 1
+          "gols2": 3
         },
         {
           "jogo": 10,
-          "equipe1": "CRB",
-          "gols1": 2,
-          "equipe2": "CRICIUMA",
+          "equipe1": "REMO",
+          "gols1": 0,
+          "equipe2": "FLAMENGO",
           "gols2": 1
         },
         {
           "jogo": 11,
-          "equipe1": "MIRASSOL",
-          "gols1": 1,
-          "equipe2": "PALMEIRAS",
-          "gols2": 1
+          "equipe1": "VALENCIA CLUB",
+          "gols1": 0,
+          "equipe2": "BARCELONA",
+          "gols2": 5
         },
         {
           "jogo": 12,
-          "equipe1": "GREMIO",
-          "gols1": 3,
-          "equipe2": "CHAPECOENSE",
+          "equipe1": "ARSENAL",
+          "gols1": 2,
+          "equipe2": "CHELSEA",
           "gols2": 1
         },
         {
           "jogo": 13,
-          "equipe1": "BAHIA",
-          "gols1": 3,
-          "equipe2": "INTERNACIONAL",
+          "equipe1": "DEPORTIVO ALAVES",
+          "gols1": 5,
+          "equipe2": "OSASUNA",
           "gols2": 2
         },
         {
           "jogo": 14,
-          "equipe1": "CELTA DE VIGO",
-          "gols1": 0,
-          "equipe2": "ATHLETIC BILBAO",
+          "equipe1": "CORINTHIANS",
+          "gols1": 1,
+          "equipe2": "CHAPECOENSE",
           "gols2": 2
         }
       ],
@@ -318,10 +318,10 @@
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1821690,
+      "valor_arrecadado": 2449712,
       "proximo_concurso": null,
-      "data_proximo_concurso": "08/09/2026",
-      "valor_estimado_proximo_concurso": 1200000
+      "data_proximo_concurso": "14/09/2026",
+      "valor_estimado_proximo_concurso": 2000000
     },
     {
       "modalidade": "Dia de Sorte",
