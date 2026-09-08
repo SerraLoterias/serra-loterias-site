@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "08/09/2026 09:34",
-  "quantidade": 16,
+  "atualizado_em": "08/09/2026 10:30",
+  "quantidade": 14,
   "boloes": [
     {
       "id": "01a08094-3c2c-723e-b761-3137fbe8253e",
@@ -94,7 +94,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "Restam 6 de 8 cotas",
+      "disponibilidade": "Restam 3 de 8 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -104,15 +104,15 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 6,
+        "disponiveis": 3,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
-        "impressas": 0,
+        "impressas": 3,
         "digitais": 6,
         "fisicas": 2,
         "perdidas": null,
-        "restantes": 6
+        "restantes": 3
       },
       "valores": {
         "cota_sem_tarifa": 7.5,
@@ -411,88 +411,6 @@
       "apostas": {
         "quantidade": 2,
         "numeros": 7
-      }
-    },
-    {
-      "id": "01a08095-c266-722f-b54b-872108b2f265",
-      "modalidade": "Quina",
-      "concurso": 7112,
-      "premio_estimado": null,
-      "descricao": "6 números • 8 jogos",
-      "quantidade_jogos": 8,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 13,88",
-      "disponibilidade": "Restam 2 de 14 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 14,
-        "disponiveis": 2,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 2,
-        "digitais": 4,
-        "fisicas": 10,
-        "perdidas": null,
-        "restantes": 2
-      },
-      "valores": {
-        "cota_sem_tarifa": 10.28,
-        "cota_com_tarifa": 13.88,
-        "tarifa_servico": 3.6,
-        "valor_bolao": 143.92,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 8,
-        "numeros": 6
-      }
-    },
-    {
-      "id": "01a0809b-624c-720e-8460-31b339b2a8d3",
-      "modalidade": "TimeMania",
-      "concurso": 2439,
-      "premio_estimado": null,
-      "descricao": "10 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 10,
-      "valor_cota": "R$ 6,75",
-      "disponibilidade": "Restam 3 de 7 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 7,
-        "disponiveis": 3,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 0,
-        "digitais": 3,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": 3
-      },
-      "valores": {
-        "cota_sem_tarifa": 5,
-        "cota_com_tarifa": 6.75,
-        "tarifa_servico": 1.75,
-        "valor_bolao": 35,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 10
       }
     },
     {
