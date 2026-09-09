@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "09/09/2026 08:28",
+  "atualizado_em": "09/09/2026 09:34",
   "quantidade": 17,
   "boloes": [
     {
@@ -422,7 +422,7 @@
       "quantidade_jogos": 8,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 13,88",
-      "disponibilidade": "4 de 14 cotas disponíveis",
+      "disponibilidade": "2 de 14 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -432,7 +432,7 @@
       },
       "cotas": {
         "total": 14,
-        "disponiveis": 4,
+        "disponiveis": 2,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -504,7 +504,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "Restam 2 de 4 cotas",
+      "disponibilidade": "Restam 1 de 4 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -514,7 +514,7 @@
       },
       "cotas": {
         "total": 4,
-        "disponiveis": 2,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
@@ -522,7 +522,7 @@
         "digitais": 2,
         "fisicas": 2,
         "perdidas": null,
-        "restantes": 2
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 7.5,
@@ -545,7 +545,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "4 de 4 cotas disponíveis",
+      "disponibilidade": "3 de 4 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -555,7 +555,7 @@
       },
       "cotas": {
         "total": 4,
-        "disponiveis": 4,
+        "disponiveis": 3,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -586,7 +586,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 6,75",
-      "disponibilidade": "5 de 5 cotas disponíveis",
+      "disponibilidade": "1 de 5 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -596,7 +596,7 @@
       },
       "cotas": {
         "total": 5,
-        "disponiveis": 5,
+        "disponiveis": 1,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -668,7 +668,7 @@
       "quantidade_jogos": 7,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 9,44",
-      "disponibilidade": "5 de 6 cotas disponíveis",
+      "disponibilidade": "4 de 6 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -678,7 +678,7 @@
       },
       "cotas": {
         "total": 6,
-        "disponiveis": 5,
+        "disponiveis": 4,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
