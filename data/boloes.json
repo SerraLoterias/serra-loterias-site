@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "10/09/2026 11:28",
+  "atualizado_em": "10/09/2026 12:29",
   "quantidade": 15,
   "boloes": [
     {
@@ -42,6 +42,47 @@
       "apostas": {
         "quantidade": 1,
         "numeros": 9
+      }
+    },
+    {
+      "id": "01a08bb8-be1f-738b-bd5a-9ce90d20025f",
+      "modalidade": "Mega-Sena",
+      "concurso": 3056,
+      "premio_estimado": null,
+      "descricao": "6 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 6,
+      "valor_cota": "R$ 10,12",
+      "disponibilidade": "3 de 8 cotas disponíveis",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 3,
+        "reservadas": null,
+        "vendidas": null,
+        "baixadas": null,
+        "impressas": null,
+        "digitais": 6,
+        "fisicas": 2,
+        "perdidas": null,
+        "restantes": null
+      },
+      "valores": {
+        "cota_sem_tarifa": 7.5,
+        "cota_com_tarifa": 10.12,
+        "tarifa_servico": 2.62,
+        "valor_bolao": 60,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 6
       }
     },
     {
@@ -251,47 +292,6 @@
     },
     {
       "id": "01a0881a-2811-70ee-a437-c65110be8108",
-      "modalidade": "Lotofácil",
-      "concurso": 3780,
-      "premio_estimado": null,
-      "descricao": "15 números • 9 jogos",
-      "quantidade_jogos": 9,
-      "quantidade_numeros": 15,
-      "valor_cota": "R$ 14,17",
-      "disponibilidade": "Restam 3 de 3 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 3,
-        "disponiveis": 3,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 0,
-        "digitais": 3,
-        "fisicas": 0,
-        "perdidas": null,
-        "restantes": 3
-      },
-      "valores": {
-        "cota_sem_tarifa": 10.5,
-        "cota_com_tarifa": 14.17,
-        "tarifa_servico": 3.67,
-        "valor_bolao": 31.5,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 9,
-        "numeros": 15
-      }
-    },
-    {
-      "id": "01a0881a-28eb-7377-86cc-1c3ed53b3c9b",
       "modalidade": "Lotofácil",
       "concurso": 3780,
       "premio_estimado": null,
