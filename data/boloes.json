@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "10/09/2026 10:27",
-  "quantidade": 16,
+  "atualizado_em": "10/09/2026 11:28",
+  "quantidade": 15,
   "boloes": [
     {
       "id": "01a085c2-dda7-700e-9e04-74f0bc7236fb",
@@ -12,7 +12,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 9,
       "valor_cota": "R$ 56,69",
-      "disponibilidade": "Restam 3 de 12 cotas",
+      "disponibilidade": "Restam 2 de 12 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -22,7 +22,7 @@
       },
       "cotas": {
         "total": 12,
-        "disponiveis": 3,
+        "disponiveis": 2,
         "reservadas": 0,
         "vendidas": 3,
         "baixadas": 0,
@@ -30,7 +30,7 @@
         "digitais": 8,
         "fisicas": 4,
         "perdidas": null,
-        "restantes": 3
+        "restantes": 2
       },
       "valores": {
         "cota_sem_tarifa": 42,
@@ -42,47 +42,6 @@
       "apostas": {
         "quantidade": 1,
         "numeros": 9
-      }
-    },
-    {
-      "id": "01a08ae6-7c39-7142-aeb6-57e5fdde4d58",
-      "modalidade": "Mega-Sena",
-      "concurso": 3056,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "Restam 3 de 8 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 3,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 0,
-        "digitais": 6,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": 3
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6
       }
     },
     {
@@ -176,7 +135,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 17,
       "valor_cota": "R$ 144,58",
-      "disponibilidade": "Restam 22 de 40 cotas",
+      "disponibilidade": "Restam 21 de 40 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -186,7 +145,7 @@
       },
       "cotas": {
         "total": 40,
-        "disponiveis": 22,
+        "disponiveis": 21,
         "reservadas": 0,
         "vendidas": 8,
         "baixadas": 0,
@@ -194,7 +153,7 @@
         "digitais": 30,
         "fisicas": 10,
         "perdidas": null,
-        "restantes": 22
+        "restantes": 21
       },
       "valores": {
         "cota_sem_tarifa": 107.1,
@@ -463,7 +422,7 @@
       "quantidade_jogos": 2,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 24,29",
-      "disponibilidade": "Restam 3 de 7 cotas",
+      "disponibilidade": "Restam 1 de 7 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -473,7 +432,7 @@
       },
       "cotas": {
         "total": 7,
-        "disponiveis": 3,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
@@ -481,7 +440,7 @@
         "digitais": 3,
         "fisicas": 4,
         "perdidas": null,
-        "restantes": 3
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 18,
@@ -504,7 +463,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 6,75",
-      "disponibilidade": "Restam 5 de 7 cotas",
+      "disponibilidade": "Restam 1 de 7 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -514,7 +473,7 @@
       },
       "cotas": {
         "total": 7,
-        "disponiveis": 5,
+        "disponiveis": 1,
         "reservadas": 0,
         "vendidas": 0,
         "baixadas": 0,
@@ -522,7 +481,7 @@
         "digitais": 5,
         "fisicas": 2,
         "perdidas": null,
-        "restantes": 5
+        "restantes": 1
       },
       "valores": {
         "cota_sem_tarifa": 5,
