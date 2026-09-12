@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "12/09/2026 16:25",
+  "atualizado_em": "12/09/2026 17:28",
   "quantidade": 13,
   "boloes": [
     {
@@ -229,7 +229,7 @@
         "total": 30,
         "disponiveis": 8,
         "reservadas": 0,
-        "vendidas": 0,
+        "vendidas": 1,
         "baixadas": 0,
         "impressas": 21,
         "digitais": 30,
