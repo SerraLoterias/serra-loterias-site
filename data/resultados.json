@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "11/09/2026 20:29",
+  "atualizado_em": "11/09/2026 21:37",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,24 +29,24 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7114,
-      "data": "10/09/2026",
+      "concurso": 7115,
+      "data": "11/09/2026",
       "dezenas": [
-        "21",
-        "54",
-        "05",
-        "51",
-        "43"
+        "12",
+        "74",
+        "43",
+        "61",
+        "67"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 14673195,
+      "valor_arrecadado": 16996086,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/09/2026",
-      "valor_estimado_proximo_concurso": 30000000
+      "data_proximo_concurso": "13/09/2026",
+      "valor_estimado_proximo_concurso": 31000000
     },
     {
       "modalidade": "Mais Milionária",
