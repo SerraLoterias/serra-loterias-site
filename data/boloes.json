@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "13/09/2026 19:27",
+  "atualizado_em": "13/09/2026 20:25",
   "quantidade": 11,
   "boloes": [
     {
@@ -22,8 +22,8 @@
       },
       "cotas": {
         "total": 60,
-        "disponiveis": 34,
-        "reservadas": 0,
+        "disponiveis": 33,
+        "reservadas": 1,
         "vendidas": 8,
         "baixadas": 0,
         "impressas": 0,
@@ -135,7 +135,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 16,
       "valor_cota": "R$ 25,19",
-      "disponibilidade": "Restam 8 de 30 cotas",
+      "disponibilidade": "Restam 6 de 30 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -145,15 +145,15 @@
       },
       "cotas": {
         "total": 30,
-        "disponiveis": 8,
+        "disponiveis": 6,
         "reservadas": 0,
-        "vendidas": 1,
+        "vendidas": 3,
         "baixadas": 0,
         "impressas": 21,
         "digitais": 30,
         "fisicas": 0,
         "perdidas": null,
-        "restantes": 8
+        "restantes": 6
       },
       "valores": {
         "cota_sem_tarifa": 18.66,
@@ -340,7 +340,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 15,
       "valor_cota": "R$ 14,17",
-      "disponibilidade": "Restam 3 de 3 cotas",
+      "disponibilidade": "Restam 2 de 3 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -350,15 +350,15 @@
       },
       "cotas": {
         "total": 3,
-        "disponiveis": 3,
+        "disponiveis": 2,
         "reservadas": 0,
-        "vendidas": 0,
+        "vendidas": 1,
         "baixadas": 0,
         "impressas": 0,
         "digitais": 3,
         "fisicas": 0,
         "perdidas": null,
-        "restantes": 3
+        "restantes": 2
       },
       "valores": {
         "cota_sem_tarifa": 10.5,
