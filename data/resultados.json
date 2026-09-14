@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "14/09/2026 08:33",
+  "atualizado_em": "14/09/2026 09:39",
   "quantidade": 11,
   "resultados": [
     {
@@ -211,117 +211,117 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1269,
-      "data": "08/09/2026",
+      "concurso": 1270,
+      "data": "14/09/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "BOTAFOGO",
-          "gols1": 0,
-          "equipe2": "PALMEIRAS",
-          "gols2": 0
-        },
-        {
-          "jogo": 2,
-          "equipe1": "BRAGANTINO",
+          "equipe1": "FLAMENGO",
           "gols1": 2,
-          "equipe2": "BAHIA",
-          "gols2": 3
-        },
-        {
-          "jogo": 3,
-          "equipe1": "SAO PAULO",
-          "gols1": 2,
-          "equipe2": "ATLETICO",
-          "gols2": 0
-        },
-        {
-          "jogo": 4,
-          "equipe1": "CEARA",
-          "gols1": 2,
-          "equipe2": "SPORT",
+          "equipe2": "CORINTHIANS",
           "gols2": 1
         },
         {
-          "jogo": 5,
-          "equipe1": "FLUMINENSE",
+          "jogo": 2,
+          "equipe1": "ATLETICO",
+          "gols1": 3,
+          "equipe2": "FLUMINENSE",
+          "gols2": 1
+        },
+        {
+          "jogo": 3,
+          "equipe1": "GREMIO",
           "gols1": 1,
           "equipe2": "VASCO DA GAMA",
+          "gols2": 2
+        },
+        {
+          "jogo": 4,
+          "equipe1": "PALMEIRAS",
+          "gols1": 2,
+          "equipe2": "SAO PAULO",
           "gols2": 0
         },
         {
-          "jogo": 6,
-          "equipe1": "CORITIBA",
+          "jogo": 5,
+          "equipe1": "CHAPECOENSE",
           "gols1": 1,
-          "equipe2": "MIRASSOL",
+          "equipe2": "INTERNACIONAL",
           "gols2": 2
+        },
+        {
+          "jogo": 6,
+          "equipe1": "REAL MADRID",
+          "gols1": 4,
+          "equipe2": "RAYO VALLECANO",
+          "gols2": 1
         },
         {
           "jogo": 7,
-          "equipe1": "EVERTON",
-          "gols1": 2,
-          "equipe2": "MANCHESTER UNITED",
-          "gols2": 2
+          "equipe1": "BOTAFOGO",
+          "gols1": 1,
+          "equipe2": "BRAGANTINO",
+          "gols2": 1
         },
         {
           "jogo": 8,
-          "equipe1": "CRUZEIRO",
-          "gols1": 3,
-          "equipe2": "ATHLETICO",
+          "equipe1": "SANTOS",
+          "gols1": 2,
+          "equipe2": "CRUZEIRO",
           "gols2": 1
         },
         {
           "jogo": 9,
-          "equipe1": "INTERNACIONAL",
+          "equipe1": "MIRASSOL",
           "gols1": 2,
-          "equipe2": "SANTOS",
-          "gols2": 3
+          "equipe2": "VITORIA",
+          "gols2": 2
         },
         {
           "jogo": 10,
-          "equipe1": "REMO",
-          "gols1": 0,
-          "equipe2": "FLAMENGO",
-          "gols2": 1
+          "equipe1": "ATLETICO",
+          "gols1": 4,
+          "equipe2": "CRICIUMA",
+          "gols2": 0
         },
         {
           "jogo": 11,
-          "equipe1": "VALENCIA CLUB",
+          "equipe1": "MANCHESTER UNITED",
           "gols1": 0,
-          "equipe2": "BARCELONA",
-          "gols2": 5
-        },
-        {
-          "jogo": 12,
-          "equipe1": "ARSENAL",
-          "gols1": 2,
-          "equipe2": "CHELSEA",
+          "equipe2": "MANCHESTER CITY",
           "gols2": 1
         },
         {
+          "jogo": 12,
+          "equipe1": "NAPOLI",
+          "gols1": 1,
+          "equipe2": "BOLOGNA",
+          "gols2": 0
+        },
+        {
           "jogo": 13,
-          "equipe1": "DEPORTIVO ALAVES",
-          "gols1": 5,
-          "equipe2": "OSASUNA",
-          "gols2": 2
+          "equipe1": "FORTALEZA",
+          "gols1": 1,
+          "equipe2": "CEARA",
+          "gols2": 1
         },
         {
           "jogo": 14,
-          "equipe1": "CORINTHIANS",
-          "gols1": 1,
-          "equipe2": "CHAPECOENSE",
-          "gols2": 2
+          "equipe1": "REAL SOCIEDAD",
+          "gols1": 0,
+          "equipe2": "ATLETICO MADRID",
+          "gols2": 3
         }
       ],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 2449712,
+      "acumulado": 0,
+      "valor_arrecadado": 2952060,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "21/09/2026",
+      "valor_estimado_proximo_concurso": 600000
     },
     {
       "modalidade": "Dia de Sorte",
