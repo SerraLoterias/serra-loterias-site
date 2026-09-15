@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "14/09/2026 21:40",
+  "atualizado_em": "14/09/2026 22:33",
   "quantidade": 11,
   "resultados": [
     {
@@ -350,15 +350,15 @@
     {
       "modalidade": "Super Sete",
       "endpoint": "supersete",
-      "concurso": 897,
-      "data": "11/09/2026",
+      "concurso": 898,
+      "data": "14/09/2026",
       "dezenas": [
-        "1",
-        "1",
-        "4",
-        "6",
-        "8",
         "7",
+        "8",
+        "3",
+        "9",
+        "8",
+        "1",
         "6"
       ],
       "jogos_loteca": [],
@@ -366,10 +366,10 @@
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1478064,
+      "valor_arrecadado": 1441152,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 8000000
+      "data_proximo_concurso": "16/09/2026",
+      "valor_estimado_proximo_concurso": 8100000
     }
   ]
 }
