@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "15/09/2026 18:26",
-  "quantidade": 3,
+  "atualizado_em": "15/09/2026 19:27",
+  "quantidade": 2,
   "boloes": [
     {
       "id": "019fffe8-a60a-70f2-9505-dfa15f2cee04",
@@ -12,7 +12,7 @@
       "quantidade_jogos": 2,
       "quantidade_numeros": 18,
       "valor_cota": "R$ 154,22",
-      "disponibilidade": "Restam 11 de 50 cotas",
+      "disponibilidade": "Restam 6 de 50 cotas",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -22,15 +22,15 @@
       },
       "cotas": {
         "total": 50,
-        "disponiveis": 11,
-        "reservadas": 0,
-        "vendidas": 19,
+        "disponiveis": 4,
+        "reservadas": 2,
+        "vendidas": 24,
         "baixadas": 0,
         "impressas": 0,
         "digitais": 32,
         "fisicas": 18,
         "perdidas": null,
-        "restantes": 11
+        "restantes": 6
       },
       "valores": {
         "cota_sem_tarifa": 114.24,
@@ -42,47 +42,6 @@
       "apostas": {
         "quantidade": 2,
         "numeros": 18
-      }
-    },
-    {
-      "id": "01a0a4b7-3d53-704e-a2dc-f1aca0a72919",
-      "modalidade": "Lotofácil",
-      "concurso": 3780,
-      "premio_estimado": null,
-      "descricao": "16 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 25,19",
-      "disponibilidade": "Restam 1 de 30 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 30,
-        "disponiveis": 1,
-        "reservadas": 0,
-        "vendidas": 1,
-        "baixadas": 0,
-        "impressas": 19,
-        "digitais": 25,
-        "fisicas": 5,
-        "perdidas": null,
-        "restantes": 1
-      },
-      "valores": {
-        "cota_sem_tarifa": 18.66,
-        "cota_com_tarifa": 25.19,
-        "tarifa_servico": 6.53,
-        "valor_bolao": 559.8,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 16
       }
     },
     {
