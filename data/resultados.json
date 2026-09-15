@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "14/09/2026 20:29",
+  "atualizado_em": "14/09/2026 21:40",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,24 +29,24 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7116,
-      "data": "13/09/2026",
+      "concurso": 7117,
+      "data": "14/09/2026",
       "dezenas": [
-        "47",
-        "72",
-        "78",
-        "09",
-        "16"
+        "40",
+        "54",
+        "37",
+        "63",
+        "44"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 16566327,
+      "valor_arrecadado": 15531072,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 33000000
+      "data_proximo_concurso": "15/09/2026",
+      "valor_estimado_proximo_concurso": 35000000
     },
     {
       "modalidade": "Mais Milionária",
@@ -109,39 +109,39 @@
     {
       "modalidade": "Lotomania",
       "endpoint": "lotomania",
-      "concurso": 2974,
-      "data": "11/09/2026",
+      "concurso": 2975,
+      "data": "14/09/2026",
       "dezenas": [
-        "59",
-        "20",
-        "47",
-        "31",
-        "03",
-        "13",
-        "07",
-        "92",
+        "34",
+        "50",
+        "55",
+        "17",
+        "43",
         "79",
-        "29",
-        "95",
-        "73",
-        "23",
-        "46",
-        "26",
+        "91",
         "42",
+        "84",
+        "66",
+        "04",
         "10",
-        "37",
-        "58",
-        "61"
+        "64",
+        "81",
+        "51",
+        "11",
+        "96",
+        "77",
+        "09",
+        "12"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 3860970,
+      "valor_arrecadado": 3881769,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 1500000
+      "data_proximo_concurso": "16/09/2026",
+      "valor_estimado_proximo_concurso": 2000000
     },
     {
       "modalidade": "Timemania",
@@ -170,21 +170,21 @@
     {
       "modalidade": "Dupla Sena",
       "endpoint": "duplasena",
-      "concurso": 3007,
-      "data": "11/09/2026",
+      "concurso": 3008,
+      "data": "14/09/2026",
       "dezenas": [
-        "1º: 10 - 24 - 26 - 31 - 32 - 48",
-        "2º: 09 - 23 - 32 - 33 - 39 - 48"
+        "1º: 06 - 10 - 37 - 44 - 45 - 46",
+        "2º: 12 - 20 - 28 - 34 - 36 - 42"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2162868,
+      "valor_arrecadado": 2109903,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 4000000
+      "data_proximo_concurso": "16/09/2026",
+      "valor_estimado_proximo_concurso": 4100000
     },
     {
       "modalidade": "Federal",
@@ -326,26 +326,26 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1296,
-      "data": "13/09/2026",
+      "concurso": 1297,
+      "data": "14/09/2026",
       "dezenas": [
-        "14",
-        "30",
-        "16",
         "08",
+        "19",
+        "26",
+        "09",
         "11",
-        "02",
-        "21"
+        "07",
+        "01"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Dezembro",
+      "mes_sorte": "Novembro",
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 1967052.5,
+      "acumulado": 0,
+      "valor_arrecadado": 1885195,
       "proximo_concurso": null,
-      "data_proximo_concurso": "14/09/2026",
-      "valor_estimado_proximo_concurso": 1400000
+      "data_proximo_concurso": "15/09/2026",
+      "valor_estimado_proximo_concurso": 100000
     },
     {
       "modalidade": "Super Sete",
