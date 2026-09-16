@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "16/09/2026 12:27",
-  "quantidade": 7,
+  "atualizado_em": "16/09/2026 13:28",
+  "quantidade": 6,
   "boloes": [
     {
       "id": "01a0a9ce-0038-7067-b0ce-d15c1fba9b1f",
@@ -206,47 +206,6 @@
       "apostas": {
         "quantidade": 8,
         "numeros": 6
-      }
-    },
-    {
-      "id": "01a0a9d2-dd3a-724d-9954-b405e4251f1c",
-      "modalidade": "Super Sete",
-      "concurso": 899,
-      "premio_estimado": null,
-      "descricao": "8 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 8,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "Restam 1 de 8 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 1,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 1,
-        "digitais": 2,
-        "fisicas": 6,
-        "perdidas": null,
-        "restantes": 1
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 8
       }
     },
     {
