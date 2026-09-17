@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "16/09/2026 20:30",
+  "atualizado_em": "16/09/2026 21:38",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,24 +29,24 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7118,
-      "data": "15/09/2026",
+      "concurso": 7119,
+      "data": "16/09/2026",
       "dezenas": [
-        "11",
-        "03",
-        "01",
-        "70",
-        "10"
+        "24",
+        "19",
+        "20",
+        "77",
+        "70"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 14861706,
+      "acumulado": 1,
+      "valor_arrecadado": 4846458,
       "proximo_concurso": null,
-      "data_proximo_concurso": "16/09/2026",
-      "valor_estimado_proximo_concurso": 600000
+      "data_proximo_concurso": "17/09/2026",
+      "valor_estimado_proximo_concurso": 1200000
     },
     {
       "modalidade": "Mais Milionária",
@@ -77,34 +77,34 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3780,
-      "data": "15/09/2026",
+      "concurso": 3781,
+      "data": "16/09/2026",
       "dezenas": [
-        "15",
-        "07",
-        "03",
         "19",
-        "06",
-        "21",
-        "22",
-        "04",
-        "23",
-        "02",
-        "05",
-        "12",
         "16",
-        "01",
-        "17"
+        "03",
+        "08",
+        "05",
+        "06",
+        "13",
+        "09",
+        "11",
+        "12",
+        "25",
+        "21",
+        "07",
+        "22",
+        "24"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 843914921.5,
+      "acumulado": 1,
+      "valor_arrecadado": 16824703,
       "proximo_concurso": null,
-      "data_proximo_concurso": "16/09/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "17/09/2026",
+      "valor_estimado_proximo_concurso": 5000000
     },
     {
       "modalidade": "Lotomania",
