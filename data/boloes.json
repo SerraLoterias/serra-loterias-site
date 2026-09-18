@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "18/09/2026 11:27",
-  "quantidade": 8,
+  "atualizado_em": "18/09/2026 12:26",
+  "quantidade": 7,
   "boloes": [
     {
       "id": "01a0b410-80ec-7191-b782-0e75141ca41b",
@@ -205,47 +205,6 @@
       },
       "apostas": {
         "quantidade": 8,
-        "numeros": 6
-      }
-    },
-    {
-      "id": "01a0b41b-fd02-72e8-b566-fef4eb049fa1",
-      "modalidade": "Dupla Sena",
-      "concurso": 3010,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "Restam 2 de 4 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 4,
-        "disponiveis": 2,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 0,
-        "digitais": 2,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": 2
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 30,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
         "numeros": 6
       }
     },
