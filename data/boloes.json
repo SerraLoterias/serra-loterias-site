@@ -1,49 +1,8 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "17/09/2026 20:23",
-  "quantidade": 3,
+  "atualizado_em": "17/09/2026 21:33",
+  "quantidade": 2,
   "boloes": [
-    {
-      "id": "01a0afb8-35de-7055-aa78-a828d24db143",
-      "modalidade": "Lotofácil",
-      "concurso": 3782,
-      "premio_estimado": null,
-      "descricao": "16 números • 2 jogos",
-      "quantidade_jogos": 2,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "Restam 2 de 8 cotas",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 2,
-        "reservadas": 0,
-        "vendidas": 0,
-        "baixadas": 0,
-        "impressas": 5,
-        "digitais": 7,
-        "fisicas": 1,
-        "perdidas": null,
-        "restantes": 2
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 112,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 2,
-        "numeros": 16
-      }
-    },
     {
       "id": "01a0aefd-1319-713c-b3ad-5be4212a7cce",
       "modalidade": "Super Sete",
