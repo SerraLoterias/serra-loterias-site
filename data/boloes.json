@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "22/09/2026 13:28",
-  "quantidade": 9,
+  "atualizado_em": "22/09/2026 14:26",
+  "quantidade": 7,
   "boloes": [
     {
       "id": "01a0c381-e0b7-7049-9ba0-592d974453cd",
@@ -83,88 +83,6 @@
       "apostas": {
         "quantidade": 2,
         "numeros": 16
-      }
-    },
-    {
-      "id": "01a0c950-473b-722a-8863-2010f0a0b4d6",
-      "modalidade": "Lotofácil",
-      "concurso": 3786,
-      "premio_estimado": null,
-      "descricao": "15 números • 9 jogos",
-      "quantidade_jogos": 9,
-      "quantidade_numeros": 15,
-      "valor_cota": "R$ 14,17",
-      "disponibilidade": "0 de 3 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 3,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 1,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 10.5,
-        "cota_com_tarifa": 14.17,
-        "tarifa_servico": 3.67,
-        "valor_bolao": 31.5,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 9,
-        "numeros": 15
-      }
-    },
-    {
-      "id": "01a0c387-2732-712b-8b87-ca89604eba35",
-      "modalidade": "TimeMania",
-      "concurso": 2445,
-      "premio_estimado": null,
-      "descricao": "10 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 10,
-      "valor_cota": "R$ 9,45",
-      "disponibilidade": "0 de 5 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 5,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 3,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7,
-        "cota_com_tarifa": 9.45,
-        "tarifa_servico": 2.45,
-        "valor_bolao": 35,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 10
       }
     },
     {
@@ -299,7 +217,7 @@
       "quantidade_jogos": 7,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 9,44",
-      "disponibilidade": "5 de 6 cotas disponíveis",
+      "disponibilidade": "3 de 6 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -309,7 +227,7 @@
       },
       "cotas": {
         "total": 6,
-        "disponiveis": 5,
+        "disponiveis": 3,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
