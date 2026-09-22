@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "22/09/2026 10:29",
+  "atualizado_em": "22/09/2026 11:28",
   "quantidade": 10,
   "boloes": [
     {
@@ -53,7 +53,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "3 de 8 cotas disponíveis",
+      "disponibilidade": "0 de 8 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,7 +63,7 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 3,
+        "disponiveis": 0,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": "01a0c8af-13c3-731f-b986-7eb952a7ab38",
+      "id": "01a0c950-473b-722a-8863-2010f0a0b4d6",
       "modalidade": "Lotofácil",
       "concurso": 3786,
       "premio_estimado": null,
@@ -135,7 +135,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 15,
       "valor_cota": "R$ 14,17",
-      "disponibilidade": "0 de 3 cotas disponíveis",
+      "disponibilidade": "1 de 3 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -145,13 +145,13 @@
       },
       "cotas": {
         "total": 3,
-        "disponiveis": 0,
+        "disponiveis": 1,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
         "impressas": null,
-        "digitais": 2,
-        "fisicas": 1,
+        "digitais": 1,
+        "fisicas": 2,
         "perdidas": null,
         "restantes": null
       },
