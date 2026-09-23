@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "23/09/2026 15:30",
+  "atualizado_em": "23/09/2026 16:26",
   "quantidade": 5,
   "boloes": [
     {
@@ -45,7 +45,7 @@
       }
     },
     {
-      "id": "01a0cf4d-49dc-7202-8314-79e991dc6edf",
+      "id": "01a0cfb6-3828-72e8-a849-cb6172cdc452",
       "modalidade": "Mega-Sena",
       "concurso": 3062,
       "premio_estimado": null,
@@ -53,7 +53,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "0 de 8 cotas disponíveis",
+      "disponibilidade": "6 de 8 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,13 +63,13 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 0,
+        "disponiveis": 6,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
         "impressas": null,
-        "digitais": 4,
-        "fisicas": 4,
+        "digitais": 6,
+        "fisicas": 2,
         "perdidas": null,
         "restantes": null
       },
