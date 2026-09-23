@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "23/09/2026 19:25",
-  "quantidade": 5,
+  "atualizado_em": "23/09/2026 20:23",
+  "quantidade": 4,
   "boloes": [
     {
       "id": "01a0cdd9-0f54-7389-9c20-767308fe55de",
@@ -86,47 +86,6 @@
       }
     },
     {
-      "id": "01a0cddb-9e20-71d5-9a47-c8a711d9a995",
-      "modalidade": "Lotofácil",
-      "concurso": 3787,
-      "premio_estimado": null,
-      "descricao": "16 números • 2 jogos",
-      "quantidade_jogos": 2,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "0 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 4,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 112,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 2,
-        "numeros": 16
-      }
-    },
-    {
       "id": "01a0cddd-efd2-73aa-9c91-81c86d1dbe65",
       "modalidade": "TimeMania",
       "concurso": 2446,
@@ -176,7 +135,7 @@
       "quantidade_jogos": 6,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 34,01",
-      "disponibilidade": "2 de 10 cotas disponíveis",
+      "disponibilidade": "0 de 10 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -186,7 +145,7 @@
       },
       "cotas": {
         "total": 10,
-        "disponiveis": 2,
+        "disponiveis": 0,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
