@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "25/09/2026 13:29",
-  "quantidade": 7,
+  "atualizado_em": "25/09/2026 14:27",
+  "quantidade": 6,
   "boloes": [
     {
       "id": "01a0d824-152d-7270-b1ae-878235699af6",
@@ -53,7 +53,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 6,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "1 de 8 cotas disponíveis",
+      "disponibilidade": "0 de 8 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,13 +63,54 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 1,
+        "disponiveis": 0,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
         "impressas": null,
         "digitais": 8,
         "fisicas": 0,
+        "perdidas": null,
+        "restantes": null
+      },
+      "valores": {
+        "cota_sem_tarifa": 7.5,
+        "cota_com_tarifa": 10.12,
+        "tarifa_servico": 2.62,
+        "valor_bolao": 60,
+        "valor_premio": null
+      },
+      "apostas": {
+        "quantidade": 10,
+        "numeros": 6
+      }
+    },
+    {
+      "id": "01a0d98c-67c1-7094-b9d2-b6f48bf27550",
+      "modalidade": "Mega-Sena",
+      "concurso": 3063,
+      "premio_estimado": null,
+      "descricao": "6 números • 10 jogos",
+      "quantidade_jogos": 10,
+      "quantidade_numeros": 6,
+      "valor_cota": "R$ 10,12",
+      "disponibilidade": "6 de 8 cotas disponíveis",
+      "finalizado": false,
+      "loterica": {
+        "nome": "Coringa loterias",
+        "codigo_ul": "18-020002-0",
+        "cidade": "Caxias Do Sul",
+        "uf": "RS"
+      },
+      "cotas": {
+        "total": 8,
+        "disponiveis": 6,
+        "reservadas": null,
+        "vendidas": null,
+        "baixadas": null,
+        "impressas": null,
+        "digitais": 6,
+        "fisicas": 2,
         "perdidas": null,
         "restantes": null
       },
@@ -165,88 +206,6 @@
       "apostas": {
         "quantidade": 2,
         "numeros": 16
-      }
-    },
-    {
-      "id": "01a0d824-d684-73d7-b89b-1de0f085c0f2",
-      "modalidade": "Quina",
-      "concurso": 7127,
-      "premio_estimado": null,
-      "descricao": "6 números • 4 jogos",
-      "quantidade_jogos": 4,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 13,88",
-      "disponibilidade": "0 de 7 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 7,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 7,
-        "fisicas": 0,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 10.28,
-        "cota_com_tarifa": 13.88,
-        "tarifa_servico": 3.6,
-        "valor_bolao": 71.96,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 4,
-        "numeros": 6
-      }
-    },
-    {
-      "id": "01a0d305-8768-7137-b727-35d2f19f1df7",
-      "modalidade": "Super Sete",
-      "concurso": 903,
-      "premio_estimado": null,
-      "descricao": "8 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 8,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "0 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 6,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 8
       }
     },
     {
