@@ -657,6 +657,42 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 <div class="sync-status" id="syncStatus">
   <strong>Bolões da Serra Loterias atualizados automaticamente conforme a disponibilidade digital.</strong>
   <span id="lastSync">Carregando atualização...</span>
+</div><div class="modalidades-grid">
+
+  <div class="modalidade-card mega">
+    <div class="modalidade-topo">
+      MEGA-SENA
+    </div>
+
+    <div class="modalidade-info">
+      <div>
+        <small>PRÓXIMO CONCURSO</small>
+        <strong id="megaProximoConcurso">Carregando...</strong>
+      </div>
+
+      <div>
+        <small>DATA DO SORTEIO</small>
+        <strong id="megaProximaData">Carregando...</strong>
+      </div>
+
+      <div>
+        <small>VALOR DO PRÊMIO</small>
+        <strong id="megaProximoPremio">Carregando...</strong>
+      </div>
+    </div>
+
+    <div class="modalidade-acoes">
+      <a class="btn btn-orange" href="#boloesGrid">VER BOLÕES</a>
+
+      <button type="button"
+              class="btn btn-blue"
+              onclick="toggleResultadoModalidade(this,'mega')"
+              aria-expanded="false">
+        VER RESULTADO
+      </button>
+    </div>
+  </div>
+
 </div>
 <div class="bets-grid" id="boloesGrid" aria-live="polite">
   <div class="loading-card">Carregando bolões disponíveis...</div>
@@ -1095,5 +1131,75 @@ rel="noopener noreferrer">VER OPÇÕES</a>
       '<div style="padding:16px;font-weight:700;">Hoje não há sorteios regulares das Loterias CAIXA.</div>';
   }
 })();
+</script><style>
+  .resultado-expansivel{
+    display:none;
+    margin-top:14px;
+  }
+
+  .resultado-expansivel.aberto{
+    display:block;
+  }
+
+  .resultado-expansivel .result-card{
+    width:100%;
+    max-width:none;
+    margin:0;
+  }
+</style>
+
+<script>
+async function toggleResultadoModalidade(botao, classeResultado) {
+  const card = botao.closest('.modalidade-card, .bet-card, .today-card') || botao.parentElement;
+
+  let caixa = card.querySelector('.resultado-expansivel');
+
+  if (!caixa) {
+    caixa = document.createElement('div');
+    caixa.className = 'resultado-expansivel';
+    card.appendChild(caixa);
+  }
+
+  if (caixa.classList.contains('aberto')) {
+    caixa.classList.remove('aberto');
+    caixa.innerHTML = '';
+    botao.textContent = 'VER RESULTADO';
+    botao.setAttribute('aria-expanded', 'false');
+    return;
+  }
+
+  botao.disabled = true;
+  botao.textContent = 'CARREGANDO...';
+
+  try {
+    if (window.resultadosPromise) {
+      await window.resultadosPromise;
+    }
+
+    const resultadoOriginal = document.querySelector(
+      '#resultadosGrid .result-card.' + classeResultado
+    );
+
+    caixa.innerHTML = '';
+
+    if (!resultadoOriginal) {
+      caixa.innerHTML = '<div class="loading-card">Resultado ainda não disponível.</div>';
+    } else {
+      const copia = resultadoOriginal.cloneNode(true);
+      caixa.appendChild(copia);
+    }
+
+    caixa.classList.add('aberto');
+    botao.textContent = 'FECHAR RESULTADO';
+    botao.setAttribute('aria-expanded', 'true');
+
+  } catch (erro) {
+    caixa.innerHTML = '<div class="loading-card">Não foi possível carregar o resultado agora.</div>';
+    caixa.classList.add('aberto');
+    botao.textContent = 'FECHAR RESULTADO';
+  } finally {
+    botao.disabled = false;
+  }
+}
 </script>
 </body></html>
