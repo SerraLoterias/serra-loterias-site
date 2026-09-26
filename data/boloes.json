@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "26/09/2026 18:26",
-  "quantidade": 2,
+  "atualizado_em": "26/09/2026 19:26",
+  "quantidade": 1,
   "boloes": [
     {
       "id": "01a0d824-152d-7270-b1ae-878235699af6",
@@ -42,47 +42,6 @@
       "apostas": {
         "quantidade": 1,
         "numeros": 8
-      }
-    },
-    {
-      "id": "01a0d98c-67c1-7094-b9d2-b6f48bf27550",
-      "modalidade": "Mega-Sena",
-      "concurso": 3063,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "0 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 6,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6
       }
     }
   ]
