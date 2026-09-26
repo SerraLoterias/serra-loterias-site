@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "25/09/2026 20:29",
+  "atualizado_em": "25/09/2026 21:38",
   "quantidade": 11,
   "resultados": [
     {
@@ -350,26 +350,26 @@
     {
       "modalidade": "Super Sete",
       "endpoint": "supersete",
-      "concurso": 902,
-      "data": "23/09/2026",
+      "concurso": 903,
+      "data": "25/09/2026",
       "dezenas": [
         "9",
-        "9",
-        "9",
-        "7",
         "2",
-        "3",
-        "9"
+        "4",
+        "7",
+        "5",
+        "5",
+        "2"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1776876,
+      "valor_arrecadado": 1650180,
       "proximo_concurso": null,
-      "data_proximo_concurso": "25/09/2026",
-      "valor_estimado_proximo_concurso": 9000000
+      "data_proximo_concurso": "28/09/2026",
+      "valor_estimado_proximo_concurso": 9300000
     }
   ]
 }
