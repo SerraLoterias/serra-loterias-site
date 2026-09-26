@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "25/09/2026 20:25",
-  "quantidade": 3,
+  "atualizado_em": "25/09/2026 21:33",
+  "quantidade": 2,
   "boloes": [
     {
       "id": "01a0d824-152d-7270-b1ae-878235699af6",
@@ -83,47 +83,6 @@
       "apostas": {
         "quantidade": 10,
         "numeros": 6
-      }
-    },
-    {
-      "id": "01a0d826-f5fd-727e-8559-059a278d608d",
-      "modalidade": "Lotofácil",
-      "concurso": 3789,
-      "premio_estimado": null,
-      "descricao": "17 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 17,
-      "valor_cota": "R$ 29,20",
-      "disponibilidade": "11 de 22 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 22,
-        "disponiveis": 11,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 18,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 21.63,
-        "cota_com_tarifa": 29.2,
-        "tarifa_servico": 7.57,
-        "valor_bolao": 475.86,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 17
       }
     }
   ]
