@@ -1200,6 +1200,43 @@ async function toggleResultadoModalidade(botao, classeResultado) {
   } finally {
     botao.disabled = false;
   }
+}async function preencherCardMega() {
+  if (window.resultadosPromise) {
+    await window.resultadosPromise;
+  }
+
+  const resultados = window.resultadosLoterias || [];
+  const mega = resultados.find(item => item.endpoint === 'megasena');
+
+  if (!mega) return;
+
+  const concurso = document.getElementById('megaProximoConcurso');
+  const data = document.getElementById('megaProximaData');
+  const premio = document.getElementById('megaProximoPremio');
+
+  if (concurso) {
+    concurso.textContent = mega.concurso
+      ? Number(mega.concurso) + 1
+      : 'Consulte';
+  }
+
+  if (data) {
+    data.textContent = mega.data_proximo_concurso || 'Consulte';
+  }
+
+  if (premio) {
+    const valor = Number(mega.valor_estimado_proximo_concurso || 0);
+
+    premio.textContent = valor
+      ? valor.toLocaleString('pt-BR', {
+          style: 'currency',
+          currency: 'BRL',
+          maximumFractionDigits: 0
+        })
+      : 'Consulte';
+  }
 }
+
+preencherCardMega();
 </script>
 </body></html>
