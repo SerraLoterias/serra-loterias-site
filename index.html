@@ -1057,7 +1057,7 @@ rel="noopener noreferrer">VER OPÇÕES</a>
     })
     .then(data => {
       const bol = Array.isArray(data.boloes) ? data.boloes : [];
-      lastSync.textContent = data.atualizado_em ? `Última atualização: ${data.atualizado_em}` : 'Dados sincronizados';
+      lastSync.textContent = data.atualizado_em ? ('Última atualização: ' + data.atualizado_em) : 'Dados sincronizados';
       if (!bol.length) {
         grid.innerHTML = `<div class="empty-card"><strong>Procurando um bolão? 🍀</strong><br>Consulte nossa equipe para conferir as opções disponíveis na Serra Loterias.<br><a class="link" href="https://wa.me/${whatsapp}?text=Olá%20Serra%20Loterias!%20Gostaria%20de%20ver%20as%20opções%20de%20bolões%20disponíveis." target="_blank" rel="noopener noreferrer">VER OPÇÕES</a></div>`;
         return;
