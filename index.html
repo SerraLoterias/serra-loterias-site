@@ -1051,23 +1051,43 @@ rel="noopener noreferrer">VER OPÇÕES</a>
   }
 
   fetch('./data/boloes.json?ts=' + Date.now(), {cache:'no-store'})
-    .then(r => {
-      if (!r.ok) throw new Error('HTTP '+r.status);
-      return r.json();
-    })
-    .then(data => {
-      const bol = Array.isArray(data.boloes) ? data.boloes : [];
-      lastSync.textContent = data.atualizado_em ? ('Última atualização: ' + data.atualizado_em) : 'Dados sincronizados';
-      if (!bol.length) {
-        grid.innerHTML = '<div class="empty-card"><strong>Procurando um bolão? 🍀</strong><br>Consulte nossa equipe para conferir as opções disponíveis na Serra Loterias.<br><a class="link" href="https://wa.me/' + whatsapp + '?text=Ol%C3%A1%20Serra%20Loterias!%20Gostaria%20de%20ver%20as%20op%C3%A7%C3%B5es%20de%20bol%C3%B5es%20dispon%C3%ADveis." target="_blank" rel="noopener noreferrer">VER OPÇÕES</a></div>';
-        return;
-      }
-     grid.innerHTML = bol.map(renderCard).join('');
-    })
-    .catch(() => {
-      lastSync.textContent = 'Não foi possível carregar a sincronização agora.';
-      grid.innerHTML = '<div class="empty-card"><strong>Não foi possível atualizar os bolões agora.</strong><br>Consulte nossa equipe para conferir as opções disponíveis.<br><a class="btn btn-blue" style="margin-top:10px" href="https://wa.me/' + whatsapp + '?text=Ol%C3%A1%20Serra%20Loterias!%20Gostaria%20de%20ver%20as%20op%C3%A7%C3%B5es%20de%20bol%C3%B5es%20dispon%C3%ADveis." target="_blank" rel="noopener noreferrer">VER OPÇÕES</a></div>';
-    });
+  .then(r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  })
+  .then(data => {
+    const bol = Array.isArray(data.boloes) ? data.boloes : [];
+
+    lastSync.textContent = data.atualizado_em
+      ? ('Última atualização: ' + data.atualizado_em)
+      : 'Dados sincronizados';
+
+    if (!bol.length) {
+      grid.innerHTML =
+        '<div class="empty-card">' +
+        '<strong>Procurando um bolão? 🍀</strong><br>' +
+        'Consulte nossa equipe para conferir as opções disponíveis na Serra Loterias.<br>' +
+        '<a class="link" href="https://wa.me/' + whatsapp +
+        '?text=Ol%C3%A1%20Serra%20Loterias!%20Gostaria%20de%20ver%20as%20op%C3%A7%C3%B5es%20de%20bol%C3%B5es%20dispon%C3%ADveis."' +
+        ' target="_blank" rel="noopener noreferrer">VER OPÇÕES</a>' +
+        '</div>';
+      return;
+    }
+
+    grid.innerHTML = bol.map(renderCard).join('');
+  })
+  .catch(() => {
+    lastSync.textContent = 'Não foi possível carregar a sincronização agora.';
+
+    grid.innerHTML =
+      '<div class="empty-card">' +
+      '<strong>Não foi possível atualizar os bolões agora.</strong><br>' +
+      'Consulte nossa equipe para conferir as opções disponíveis.<br>' +
+      '<a class="btn btn-blue" style="margin-top:10px" href="https://wa.me/' + whatsapp +
+      '?text=Ol%C3%A1%20Serra%20Loterias!%20Gostaria%20de%20ver%20as%20op%C3%A7%C3%B5es%20de%20bol%C3%B5es%20dispon%C3%ADveis."' +
+      ' target="_blank" rel="noopener noreferrer">VER OPÇÕES</a>' +
+      '</div>';
+  });
 })();
 </script>
 
