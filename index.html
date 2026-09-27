@@ -765,11 +765,6 @@ function toggleGames(btn){
   const box=btn.nextElementSibling; box.classList.toggle('open');
   btn.textContent=box.classList.contains('open')?'Fechar jogos ▴':'Ver os jogos ▾';
 }
-(function(){
- const target=new Date("2026-09-15T20:00:00-03:00").getTime();
- function u(){const d=Math.max(0,target-Date.now());document.getElementById('days').textContent=Math.floor(d/86400000);document.getElementById('hours').textContent=String(Math.floor((d%86400000)/3600000)).padStart(2,'0');}
- u();setInterval(u,60000);
-})();
 
 async function carregarResultados() {
   const grid = document.getElementById('resultadosGrid');
