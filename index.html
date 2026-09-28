@@ -504,6 +504,130 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     max-width:280px;
   }
 }
+/* ===== NOVO CARD MEGA-SENA ===== */
+
+.modalidade-card.mega {
+  background: #fff;
+  border: 1px solid #e4e8ec;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+  margin: 18px 0;
+}
+
+.modalidade-card.mega .modalidade-topo {
+  background: #2f9e63;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 20px 24px;
+  text-align: center;
+}
+
+.modalidade-card.mega .modalidade-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+.modalidade-card.mega .modalidade-info > div {
+  padding: 18px 20px;
+  text-align: center;
+  border-right: 1px solid #e5e5e5;
+}
+
+.modalidade-card.mega .modalidade-info > div:last-child {
+  border-right: 0;
+}
+
+.modalidade-card.mega .modalidade-info small {
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.modalidade-card.mega .modalidade-info strong {
+  display: block;
+  font-size: 23px;
+  font-weight: 900;
+  color: #2f9e63;
+}
+
+.modalidade-card.mega .modalidade-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.modalidade-card.mega .modalidade-acoes .btn {
+  min-width: 160px;
+  text-align: center;
+  font-weight: 800;
+}
+
+/* CELULAR */
+@media (max-width: 700px) {
+
+  .modalidade-card.mega {
+    max-width: 500px;
+    margin: 18px auto;
+    border-radius: 12px;
+  }
+
+  .modalidade-card.mega .modalidade-topo {
+    font-size: 28px;
+    padding: 22px 15px;
+  }
+
+  .modalidade-card.mega .modalidade-info {
+    display: block;
+  }
+
+  .modalidade-card.mega .modalidade-info > div {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .modalidade-card.mega .modalidade-info small {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .modalidade-card.mega .modalidade-info strong {
+    font-size: 27px;
+  }
+
+  .modalidade-card.mega .modalidade-acoes {
+    display: block;
+    padding: 0;
+    border-top: 0;
+  }
+
+  .modalidade-card.mega .modalidade-acoes .btn {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 18px 20px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .modalidade-card.mega .modalidade-acoes .btn-blue {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 18px 12px;
+    background: #2f9e63;
+  }
+}  
 </style>
 </head>
 <body>
