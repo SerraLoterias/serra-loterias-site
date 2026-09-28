@@ -1176,6 +1176,157 @@ window.resultadosPromise = carregarResultados();
   const msg = `Olá! Encontrei este bolão no site da Serra Loterias 🍀 e gostaria de mais informações sobre ele: ${b.modalidade || ''}, concurso ${b.concurso || ''}, ${b.descricao || ''}, cota ${b.valor_cota || ''}. Pode me ajudar?`;
   return `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}`;
 }
+  function abrirJanelaBolao(linkWhatsapp, modalidade) {
+  const antiga = document.querySelector('.compra-bolao-overlay');
+  if (antiga) antiga.remove();
+
+  if (!document.getElementById('compraBolaoStyles')) {
+    const estilo = document.createElement('style');
+    estilo.id = 'compraBolaoStyles';
+    estilo.textContent = `
+      .compra-bolao-overlay{
+        position:fixed;
+        inset:0;
+        z-index:100000;
+        background:rgba(0,0,0,.55);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:20px;
+        box-sizing:border-box;
+      }
+
+      .compra-bolao-fundo{
+        position:relative;
+        width:min(780px,96vw);
+        background:#26b96f;
+        padding:70px 28px;
+        border-radius:20px;
+        box-sizing:border-box;
+      }
+
+      .compra-bolao-card{
+        max-width:620px;
+        margin:auto;
+        background:#fff;
+        border-radius:16px;
+        padding:42px 35px;
+        text-align:center;
+        box-shadow:0 8px 25px rgba(0,0,0,.18);
+      }
+
+      .compra-bolao-alerta{
+        font-size:34px;
+        color:#ff9f1c;
+        margin-bottom:18px;
+      }
+
+      .compra-bolao-texto{
+        font-size:25px;
+        line-height:1.35;
+        color:#555;
+        margin:0 0 28px;
+      }
+
+      .compra-bolao-whatsapp{
+        display:inline-block;
+        background:#31c84b;
+        color:#fff;
+        font-weight:900;
+        text-decoration:none;
+        padding:14px 24px;
+        border-radius:6px;
+      }
+
+      .compra-bolao-fechar{
+        position:absolute;
+        top:14px;
+        right:18px;
+        border:0;
+        background:transparent;
+        color:#fff;
+        font-size:32px;
+        font-weight:900;
+        cursor:pointer;
+      }
+
+      @media(max-width:700px){
+        .compra-bolao-fundo{
+          padding:55px 16px;
+        }
+
+        .compra-bolao-card{
+          padding:32px 20px;
+        }
+
+        .compra-bolao-texto{
+          font-size:21px;
+        }
+      }
+    `;
+    document.head.appendChild(estilo);
+  }
+
+  const overlay = document.createElement('div');
+  overlay.className = 'compra-bolao-overlay';
+
+  const fundo = document.createElement('div');
+  fundo.className = 'compra-bolao-fundo';
+
+  const fechar = document.createElement('button');
+  fechar.className = 'compra-bolao-fechar';
+  fechar.type = 'button';
+  fechar.textContent = '×';
+
+  const card = document.createElement('div');
+  card.className = 'compra-bolao-card';
+
+  const alerta = document.createElement('div');
+  alerta.className = 'compra-bolao-alerta';
+  alerta.textContent = '⚠';
+
+  const texto = document.createElement('p');
+  texto.className = 'compra-bolao-texto';
+  texto.textContent =
+    `Para adquirir o seu bolão da ${modalidade}, deixe-nos uma mensagem no WhatsApp`;
+
+  const botao = document.createElement('a');
+  botao.className = 'compra-bolao-whatsapp';
+  botao.href = linkWhatsapp;
+  botao.target = '_blank';
+  botao.rel = 'noopener noreferrer';
+  botao.textContent = `BOLÃO ${modalidade.toUpperCase()}`;
+
+  card.appendChild(alerta);
+  card.appendChild(texto);
+  card.appendChild(botao);
+
+  fundo.appendChild(fechar);
+  fundo.appendChild(card);
+  overlay.appendChild(fundo);
+  document.body.appendChild(overlay);
+
+  fechar.onclick = () => overlay.remove();
+
+  overlay.onclick = function(evento) {
+    if (evento.target === overlay) {
+      overlay.remove();
+    }
+  };
+}
+
+document.addEventListener('click', function(evento) {
+  const link = evento.target.closest('.bet-actions a');
+  if (!link) return;
+
+  evento.preventDefault();
+
+  const card = link.closest('.bet-card');
+  const modalidade =
+    card?.querySelector('.game')?.textContent.trim() || 'Serra Loterias';
+
+  abrirJanelaBolao(link.href, modalidade);
+});
   window.resultadosLoterias = window.resultadosLoterias || [];
 
   function dataSorteioBolao(b) {
