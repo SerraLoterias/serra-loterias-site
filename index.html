@@ -513,15 +513,23 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   overflow: hidden;
   box-shadow: 0 4px 14px rgba(0,0,0,.08);
   margin: 18px 0;
+
+  display: grid;
+  grid-template-columns: 1.25fr 2.6fr 1.55fr;
+  align-items: stretch;
 }
 
 .modalidade-card.mega .modalidade-topo {
   background: #2f9e63;
   color: #fff;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 900;
-  padding: 20px 24px;
+  padding: 18px;
   text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modalidade-card.mega .modalidade-info {
@@ -531,9 +539,13 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 }
 
 .modalidade-card.mega .modalidade-info > div {
-  padding: 18px 20px;
+  padding: 16px 14px;
   text-align: center;
   border-right: 1px solid #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .modalidade-card.mega .modalidade-info > div:last-child {
@@ -542,33 +554,39 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 
 .modalidade-card.mega .modalidade-info small {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
   color: #555;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .modalidade-card.mega .modalidade-info strong {
   display: block;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 900;
   color: #2f9e63;
 }
 
 .modalidade-card.mega .modalidade-acoes {
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 12px;
-  padding: 18px;
-  border-top: 1px solid #e5e5e5;
+  gap: 8px;
+  padding: 12px;
+  border-left: 1px solid #e5e5e5;
 }
 
 .modalidade-card.mega .modalidade-acoes .btn {
-  min-width: 160px;
+  min-width: 0;
+  padding: 12px 14px;
   text-align: center;
   font-weight: 800;
+  white-space: nowrap;
 }
 
+.modalidade-card.mega > .resultado-expansivel {
+  grid-column: 1 / -1;
+}
 /* CELULAR */
 @media (max-width: 700px) {
 
