@@ -1961,7 +1961,10 @@ async function preencherCardLotofacil() {
   }
 
   const resultados = window.resultadosLoterias || [];
-  const quina = resultados.find(item => item.endpoint === 'quina');
+  const quina = resultados.find(item =>
+  item.endpoint === 'quina' ||
+  String(item.modalidade || '').toLowerCase().includes('quina')
+);
 
   if (!quina) return;
 
