@@ -950,6 +950,201 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     </button>
   </div>
 </div>
+  <div class="modalidade-card mega duplasena-card">
+  <div class="modalidade-topo" style="background:#b4202a;">
+    DUPLA SENA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="duplasenaProximoConcurso" style="color:#b4202a;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="duplasenaProximaData" style="color:#b4202a;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="duplasenaProximoPremio" style="color:#b4202a;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('duplasena') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'duplasena')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+  <!-- + MILIONÁRIA -->
+<div class="modalidade-card mega milionaria-card">
+  <div class="modalidade-topo" style="background:#246f70;">
+    +MILIONÁRIA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="milionariaProximoConcurso" style="color:#246f70;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="milionariaProximaData" style="color:#246f70;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="milionariaProximoPremio" style="color:#246f70;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = (card.classList.contains('milionaria') || card.classList.contains('maismilionaria')) ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this, document.querySelector('#resultadosGrid .result-card.maismilionaria') ? 'maismilionaria' : 'milionaria')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+
+
+<!-- TIMEMANIA -->
+<div class="modalidade-card mega timemania-card">
+  <div class="modalidade-topo" style="background:#d0a51d;">
+    TIMEMANIA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="timemaniaProximoConcurso" style="color:#d0a51d;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="timemaniaProximaData" style="color:#d0a51d;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="timemaniaProximoPremio" style="color:#d0a51d;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('timemania') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'timemania')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+
+
+<!-- DIA DE SORTE -->
+<div class="modalidade-card mega diadesorte-card">
+  <div class="modalidade-topo" style="background:#d29a18;">
+    DIA DE SORTE
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="diadesorteProximoConcurso" style="color:#d29a18;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="diadesorteProximaData" style="color:#d29a18;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="diadesorteProximoPremio" style="color:#d29a18;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('diadesorte') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'diadesorte')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+
+
+<!-- SUPER SETE -->
+<div class="modalidade-card mega supersete-card">
+  <div class="modalidade-topo" style="background:#8bc53f;">
+    SUPER SETE
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="superseteProximoConcurso" style="color:#69a82e;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="superseteProximaData" style="color:#69a82e;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="superseteProximoPremio" style="color:#69a82e;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('supersete') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'supersete')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
   <div style="margin:12px 0 18px;">
   <a class="btn btn-blue"
      href="#boloes"
@@ -1631,6 +1826,26 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
 .resultado-modal-box.quina {
   --cor-modal: #1a4fa3;
 }
+  .resultado-modal-box.duplasena {
+  --cor-modal: #b4202a;
+}
+
+.resultado-modal-box.maismilionaria,
+.resultado-modal-box.milionaria {
+  --cor-modal: #246f70;
+}
+
+.resultado-modal-box.timemania {
+  --cor-modal: #d0a51d;
+}
+
+.resultado-modal-box.diadesorte {
+  --cor-modal: #d29a18;
+}
+
+.resultado-modal-box.supersete {
+  --cor-modal: #8bc53f;
+}
 
 .resultado-modal-fechar {
   position: absolute;
@@ -2004,9 +2219,165 @@ async function preencherCardLotofacil() {
     }
   }
 }
+  async function preencherCardDuplasena() {
+  if (window.resultadosPromise) {
+    await window.resultadosPromise;
+  }
+
+  const resultados = window.resultadosLoterias || [];
+  const duplasena = resultados.find(item =>
+    item.endpoint === 'duplasena' ||
+    String(item.modalidade || '').toLowerCase().includes('dupla')
+  );
+
+  if (!duplasena) return;
+
+  const concurso = document.getElementById('duplasenaProximoConcurso');
+  const data = document.getElementById('duplasenaProximaData');
+  const premio = document.getElementById('duplasenaProximoPremio');
+
+  if (concurso) {
+    concurso.textContent = duplasena.concurso
+      ? Number(duplasena.concurso) + 1
+      : 'Consulte';
+  }
+
+  if (data) {
+    data.textContent = duplasena.data_proximo_concurso || 'Consulte';
+  }
+
+  if (premio) {
+    const valor = Number(duplasena.valor_estimado_proximo_concurso || 0);
+
+    if (valor >= 1000000) {
+      const milhoes = valor / 1000000;
+      const texto = milhoes.toLocaleString('pt-BR', {
+        maximumFractionDigits: 1
+      });
+
+      premio.textContent =
+        `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+    } else {
+      premio.textContent = valor
+        ? valor.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            maximumFractionDigits: 0
+          })
+        : 'Consulte';
+    }
+  }
+}
+async function preencherCardExtra(config) {
+  if (window.resultadosPromise) {
+    await window.resultadosPromise;
+  }
+
+  const normalizar = valor =>
+    String(valor || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, '');
+
+  const resultados = window.resultadosLoterias || [];
+
+  const item = resultados.find(resultado => {
+    const endpoint = normalizar(resultado.endpoint);
+    const modalidade = normalizar(resultado.modalidade);
+
+    return config.endpoints.includes(endpoint) ||
+      config.termos.some(termo => modalidade.includes(termo));
+  });
+
+  if (!item) return;
+
+  const concurso = document.getElementById(config.concursoId);
+  const data = document.getElementById(config.dataId);
+  const premio = document.getElementById(config.premioId);
+
+  if (concurso) {
+    concurso.textContent = item.concurso
+      ? Number(item.concurso) + 1
+      : 'Consulte';
+  }
+
+  if (data) {
+    data.textContent = item.data_proximo_concurso || 'Consulte';
+  }
+
+  if (premio) {
+    const valor = Number(item.valor_estimado_proximo_concurso || 0);
+
+    if (valor >= 1000000) {
+      const milhoes = valor / 1000000;
+      const texto = milhoes.toLocaleString('pt-BR', {
+        maximumFractionDigits: 1
+      });
+
+      premio.textContent =
+        `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+    } else {
+      premio.textContent = valor
+        ? valor.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            maximumFractionDigits: 0
+          })
+        : 'Consulte';
+    }
+  }
+}
+
+
+async function preencherCardsNovos() {
+
+  await preencherCardExtra({
+    endpoints: ['duplasena'],
+    termos: ['duplasena'],
+    concursoId: 'duplasenaProximoConcurso',
+    dataId: 'duplasenaProximaData',
+    premioId: 'duplasenaProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['maismilionaria', 'milionaria'],
+    termos: ['maismilionaria', 'milionaria'],
+    concursoId: 'milionariaProximoConcurso',
+    dataId: 'milionariaProximaData',
+    premioId: 'milionariaProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['timemania'],
+    termos: ['timemania'],
+    concursoId: 'timemaniaProximoConcurso',
+    dataId: 'timemaniaProximaData',
+    premioId: 'timemaniaProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['diadesorte'],
+    termos: ['diadesorte'],
+    concursoId: 'diadesorteProximoConcurso',
+    dataId: 'diadesorteProximaData',
+    premioId: 'diadesorteProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['supersete'],
+    termos: ['supersete'],
+    concursoId: 'superseteProximoConcurso',
+    dataId: 'superseteProximaData',
+    premioId: 'superseteProximoPremio'
+  });
+}
+  
 preencherCardMega();
 preencherCardLotofacil();
 preencherCardQuina();
+preencherCardDuplasena();
+preencherCardsNovos();
   
 </script>
 </body></html>
