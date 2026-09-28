@@ -1307,30 +1307,125 @@ rel="noopener noreferrer">VER OPÇÕES</a>
     max-width:none;
     margin:0;
   }
+  /* ===== JANELA DE RESULTADO ===== */
+
+.resultado-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 99999;
+  box-sizing: border-box;
+}
+
+.resultado-modal-box {
+  --cor-modal: #2f9e63;
+  position: relative;
+  width: min(720px, 92vw);
+  max-height: 88vh;
+  overflow-y: auto;
+  background: var(--cor-modal);
+  border-radius: 22px;
+  padding: 38px 32px 32px;
+  box-shadow: 0 20px 55px rgba(0,0,0,.35);
+  box-sizing: border-box;
+}
+
+.resultado-modal-box.megasena {
+  --cor-modal: #2f9e63;
+}
+
+.resultado-modal-fechar {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.resultado-modal-conteudo.resultado-expansivel {
+  display: block;
+  margin: 0;
+}
+
+.resultado-modal-box .result-card {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+.resultado-modal-box .result-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.resultado-modal-box .result-head strong {
+  font-size: 28px;
+  color: #fff;
+}
+
+.resultado-modal-box .result-head span,
+.resultado-modal-box .result-date,
+.resultado-modal-box .result-jackpot {
+  color: #fff;
+}
+
+.resultado-modal-box .result-balls {
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.resultado-modal-box .result-ball {
+  width: 46px;
+  height: 46px;
+  background: #fff !important;
+  color: var(--cor-modal) !important;
+  border: 0 !important;
+}
+
+@media (max-width: 700px) {
+  .resultado-modal-overlay {
+    padding: 16px;
+  }
+
+  .resultado-modal-box {
+    width: calc(100vw - 32px);
+    max-height: 84vh;
+    border-radius: 24px;
+    padding: 52px 18px 32px;
+  }
+
+  .resultado-modal-box .result-head strong {
+    font-size: 27px;
+  }
+
+  .resultado-modal-box .result-ball {
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+  }
+}
 </style>
 
 <script>
 async function toggleResultadoModalidade(botao, classeResultado) {
-  const card = botao.closest('.modalidade-card, .bet-card, .today-card') || botao.parentElement;
-
-  let caixa = card.querySelector('.resultado-expansivel');
-
-  if (!caixa) {
-    caixa = document.createElement('div');
-    caixa.className = 'resultado-expansivel';
-    card.appendChild(caixa);
-  }
-
-  if (caixa.classList.contains('aberto')) {
-    caixa.classList.remove('aberto');
-    caixa.innerHTML = '';
-    botao.textContent = 'VER RESULTADO';
-    botao.setAttribute('aria-expanded', 'false');
-    return;
-  }
-
   botao.disabled = true;
-  botao.textContent = 'CARREGANDO...';
 
   try {
     if (window.resultadosPromise) {
@@ -1341,27 +1436,73 @@ async function toggleResultadoModalidade(botao, classeResultado) {
       '#resultadosGrid .result-card.' + classeResultado
     );
 
-    caixa.innerHTML = '';
-
-    if (!resultadoOriginal) {
-      caixa.innerHTML = '<div class="loading-card">Resultado ainda não disponível.</div>';
-    } else {
-      const copia = resultadoOriginal.cloneNode(true);
-      caixa.appendChild(copia);
+    const modalAntigo = document.querySelector('.resultado-modal-overlay');
+    if (modalAntigo) {
+      modalAntigo.remove();
     }
 
-    caixa.classList.add('aberto');
-    botao.textContent = 'FECHAR RESULTADO';
+    const overlay = document.createElement('div');
+    overlay.className = 'resultado-modal-overlay';
+    overlay.setAttribute('role', 'dialog');
+    overlay.setAttribute('aria-modal', 'true');
+
+    const modal = document.createElement('div');
+    modal.className = 'resultado-modal-box ' + classeResultado;
+
+    const fechar = document.createElement('button');
+    fechar.type = 'button';
+    fechar.className = 'resultado-modal-fechar';
+    fechar.setAttribute('aria-label', 'Fechar resultado');
+    fechar.textContent = '×';
+
+    const conteudo = document.createElement('div');
+    conteudo.className = 'resultado-modal-conteudo resultado-expansivel';
+
+    if (!resultadoOriginal) {
+      conteudo.innerHTML =
+        '<div class="loading-card">Resultado ainda não disponível.</div>';
+    } else {
+      const copia = resultadoOriginal.cloneNode(true);
+      conteudo.appendChild(copia);
+    }
+
+    modal.appendChild(fechar);
+    modal.appendChild(conteudo);
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+
     botao.setAttribute('aria-expanded', 'true');
 
+    function fecharModal() {
+      overlay.remove();
+      botao.setAttribute('aria-expanded', 'false');
+      document.removeEventListener('keydown', fecharComEsc);
+    }
+
+    function fecharComEsc(evento) {
+      if (evento.key === 'Escape') {
+        fecharModal();
+      }
+    }
+
+    fechar.addEventListener('click', fecharModal);
+
+    overlay.addEventListener('click', function(evento) {
+      if (evento.target === overlay) {
+        fecharModal();
+      }
+    });
+
+    document.addEventListener('keydown', fecharComEsc);
+
   } catch (erro) {
-    caixa.innerHTML = '<div class="loading-card">Não foi possível carregar o resultado agora.</div>';
-    caixa.classList.add('aberto');
-    botao.textContent = 'FECHAR RESULTADO';
+    console.error(erro);
+    alert('Não foi possível carregar o resultado agora.');
   } finally {
     botao.disabled = false;
   }
-}async function preencherCardMega() {
+}
+  async function preencherCardMega() {
   if (window.resultadosPromise) {
     await window.resultadosPromise;
   }
