@@ -1200,7 +1200,7 @@ window.resultadosPromise = carregarResultados();
         position:relative;
         width:min(780px,96vw);
         background:#26b96f;
-        padding:70px 28px;
+        padding:48px 24px;
         border-radius:20px;
         box-sizing:border-box;
       }
@@ -1216,10 +1216,25 @@ window.resultadosPromise = carregarResultados();
       }
 
       .compra-bolao-alerta{
-        font-size:34px;
-        color:#ff9f1c;
-        margin-bottom:18px;
-      }
+        width:38px;
+        height:38px;
+        margin:0 auto 20px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:#ff9f1c;
+        color:#fff;
+        font-size:25px;
+        font-weight:900;
+        line-height:1;
+        clip-path:polygon(
+          50% 0%, 61% 16%, 79% 9%, 82% 29%,
+          100% 35%, 87% 50%, 100% 65%, 82% 71%,
+          79% 91%, 61% 84%, 50% 100%, 39% 84%,
+          21% 91%, 18% 71%, 0% 65%, 13% 50%,
+          0% 35%, 18% 29%, 21% 9%, 39% 16%
+  );
+}
 
       .compra-bolao-texto{
         font-size:25px;
@@ -1283,7 +1298,7 @@ window.resultadosPromise = carregarResultados();
 
   const alerta = document.createElement('div');
   alerta.className = 'compra-bolao-alerta';
-  alerta.textContent = '⚠';
+  alerta.textContent = '!';
 
   const texto = document.createElement('p');
   texto.className = 'compra-bolao-texto';
@@ -1295,7 +1310,7 @@ window.resultadosPromise = carregarResultados();
   botao.href = linkWhatsapp;
   botao.target = '_blank';
   botao.rel = 'noopener noreferrer';
-  botao.textContent = `BOLÃO ${modalidade.toUpperCase()}`;
+  botao.innerHTML = `BOLÃO ${modalidade.toUpperCase()} <span style="margin-left:7px;font-size:17px;">◉</span>`;
 
   card.appendChild(alerta);
   card.appendChild(texto);
