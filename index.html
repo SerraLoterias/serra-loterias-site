@@ -829,7 +829,11 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     </div>
 
     <div class="modalidade-acoes">
-      <a class="btn btn-orange" href="#boloesGrid">VER BOLÕES</a>
+      <a class="btn btn-orange"
+   href="#boloesGrid"
+   onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('mega') ? '' : 'none'; });">
+   VER BOLÕES
+</a>
 
       <button type="button"
               class="btn btn-blue"
