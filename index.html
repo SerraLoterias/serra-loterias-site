@@ -1145,6 +1145,126 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     </button>
   </div>
 </div>
+  <!-- LOTECA -->
+<div class="modalidade-card mega loteca-card">
+  <div class="modalidade-topo" style="background:#f28c28;">
+    LOTECA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="lotecaProximoConcurso" style="color:#f28c28;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="lotecaProximaData" style="color:#f28c28;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="lotecaProximoPremio" style="color:#f28c28;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('loteca') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'loteca')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+
+
+<!-- LOTOMANIA -->
+<div class="modalidade-card mega lotomania-card">
+  <div class="modalidade-topo" style="background:#f58220;">
+    LOTOMANIA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="lotomaniaProximoConcurso" style="color:#f58220;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="lotomaniaProximaData" style="color:#f58220;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="lotomaniaProximoPremio" style="color:#f58220;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange saiba-mais-direto"
+       href="https://wa.me/5554996448570?text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Lotomania."
+       target="_blank"
+       rel="noopener noreferrer">
+      SAIBA MAIS
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'lotomania')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
+
+
+<!-- FEDERAL -->
+<div class="modalidade-card mega federal-card">
+  <div class="modalidade-topo" style="background:#1f5dbb;">
+    FEDERAL
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="federalProximoConcurso" style="color:#1f5dbb;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="federalProximaData" style="color:#1f5dbb;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="federalProximoPremio" style="color:#1f5dbb;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange saiba-mais-direto"
+       href="https://wa.me/5554996448570?text=Ol%C3%A1%21%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Loteria%20Federal."
+       target="_blank"
+       rel="noopener noreferrer">
+      SAIBA MAIS
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'federal')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
   <div style="margin:12px 0 18px;">
   <a class="btn btn-blue"
      href="#boloes"
@@ -1605,7 +1725,8 @@ window.resultadosPromise = carregarResultados();
 
 document.addEventListener('click', function(evento) {
   const link = evento.target.closest('.bet-actions a');
-  if (!link) return;
+if (!link) return;
+if (link.classList.contains('saiba-mais-direto')) return;
 
   evento.preventDefault();
 
@@ -1847,6 +1968,18 @@ return resultado?.data_proximo_concurso || b.data_sorteio || 'Consultar';
   --cor-modal: #8bc53f;
 }
 
+.resultado-modal-box.loteca {
+  --cor-modal: #f28c28;
+}
+
+.resultado-modal-box.lotomania {
+  --cor-modal: #f58220;
+}
+
+.resultado-modal-box.federal {
+  --cor-modal: #1f5dbb;
+}
+  
 .resultado-modal-fechar {
   position: absolute;
   top: 10px;
@@ -2370,6 +2503,30 @@ async function preencherCardsNovos() {
     concursoId: 'superseteProximoConcurso',
     dataId: 'superseteProximaData',
     premioId: 'superseteProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['loteca'],
+    termos: ['loteca'],
+    concursoId: 'lotecaProximoConcurso',
+    dataId: 'lotecaProximaData',
+    premioId: 'lotecaProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['lotomania'],
+    termos: ['lotomania'],
+    concursoId: 'lotomaniaProximoConcurso',
+    dataId: 'lotomaniaProximaData',
+    premioId: 'lotomaniaProximoPremio'
+  });
+
+  await preencherCardExtra({
+    endpoints: ['federal'],
+    termos: ['federal'],
+    concursoId: 'federalProximoConcurso',
+    dataId: 'federalProximaData',
+    premioId: 'federalProximoPremio'
   });
 }
   
