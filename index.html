@@ -1386,8 +1386,16 @@ async function toggleResultadoModalidade(botao, classeResultado) {
   }
 
   if (premio) {
-    const valor = Number(mega.valor_estimado_proximo_concurso || 0);
+  const valor = Number(mega.valor_estimado_proximo_concurso || 0);
 
+  if (valor >= 1000000) {
+    const milhoes = valor / 1000000;
+    const texto = milhoes.toLocaleString('pt-BR', {
+      maximumFractionDigits: 1
+    });
+
+    premio.textContent = `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+  } else {
     premio.textContent = valor
       ? valor.toLocaleString('pt-BR', {
           style: 'currency',
@@ -1396,6 +1404,7 @@ async function toggleResultadoModalidade(botao, classeResultado) {
         })
       : 'Consulte';
   }
+}
 }
 
 preencherCardMega();
