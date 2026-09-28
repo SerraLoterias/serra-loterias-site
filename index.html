@@ -876,6 +876,43 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   </div>
 
 </div>
+  <div class="modalidade-card mega lotofacil-card">
+  <div class="modalidade-topo" style="background:#8a2ca6;">
+    LOTOFÁCIL
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="lotofacilProximoConcurso" style="color:#8a2ca6;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="lotofacilProximaData" style="color:#8a2ca6;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="lotofacilProximoPremio" style="color:#8a2ca6;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('lotofacil') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'lotofacil')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
   <div style="margin:12px 0 18px;">
   <a class="btn btn-blue"
      href="#boloes"
@@ -1828,7 +1865,53 @@ async function toggleResultadoModalidade(botao, classeResultado) {
   }
 }
 }
+async function preencherCardLotofacil() {
+  if (window.resultadosPromise) {
+    await window.resultadosPromise;
+  }
 
+  const resultados = window.resultadosLoterias || [];
+  const lotofacil = resultados.find(item => item.endpoint === 'lotofacil');
+
+  if (!lotofacil) return;
+
+  const concurso = document.getElementById('lotofacilProximoConcurso');
+  const data = document.getElementById('lotofacilProximaData');
+  const premio = document.getElementById('lotofacilProximoPremio');
+
+  if (concurso) {
+    concurso.textContent = lotofacil.concurso
+      ? Number(lotofacil.concurso) + 1
+      : 'Consulte';
+  }
+
+  if (data) {
+    data.textContent = lotofacil.data_proximo_concurso || 'Consulte';
+  }
+
+  if (premio) {
+    const valor = Number(lotofacil.valor_estimado_proximo_concurso || 0);
+
+    if (valor >= 1000000) {
+      const milhoes = valor / 1000000;
+      const texto = milhoes.toLocaleString('pt-BR', {
+        maximumFractionDigits: 1
+      });
+
+      premio.textContent =
+        `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+    } else {
+      premio.textContent = valor
+        ? valor.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            maximumFractionDigits: 0
+          })
+        : 'Consulte';
+    }
+  }
+}
 preencherCardMega();
+preencherCardLotofacil();
 </script>
 </body></html>
