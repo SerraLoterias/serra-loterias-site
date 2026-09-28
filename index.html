@@ -913,6 +913,43 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
     </button>
   </div>
 </div>
+  <div class="modalidade-card mega quina-card">
+  <div class="modalidade-topo" style="background:#1a4fa3;">
+    QUINA
+  </div>
+
+  <div class="modalidade-info">
+    <div>
+      <small>PRÓXIMO CONCURSO</small>
+      <strong id="quinaProximoConcurso" style="color:#1a4fa3;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>DATA DO SORTEIO</small>
+      <strong id="quinaProximaData" style="color:#1a4fa3;">Carregando...</strong>
+    </div>
+
+    <div>
+      <small>VALOR DO PRÊMIO</small>
+      <strong id="quinaProximoPremio" style="color:#1a4fa3;">Carregando...</strong>
+    </div>
+  </div>
+
+  <div class="modalidade-acoes">
+    <a class="btn btn-orange"
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('quina') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
+
+    <button type="button"
+            class="btn btn-blue"
+            onclick="toggleResultadoModalidade(this,'quina')"
+            aria-expanded="false">
+      VER RESULTADO
+    </button>
+  </div>
+</div>
   <div style="margin:12px 0 18px;">
   <a class="btn btn-blue"
      href="#boloes"
@@ -1911,7 +1948,54 @@ async function preencherCardLotofacil() {
     }
   }
 }
+  async function preencherCardQuina() {
+  if (window.resultadosPromise) {
+    await window.resultadosPromise;
+  }
+
+  const resultados = window.resultadosLoterias || [];
+  const quina = resultados.find(item => item.endpoint === 'quina');
+
+  if (!quina) return;
+
+  const concurso = document.getElementById('quinaProximoConcurso');
+  const data = document.getElementById('quinaProximaData');
+  const premio = document.getElementById('quinaProximoPremio');
+
+  if (concurso) {
+    concurso.textContent = quina.concurso
+      ? Number(quina.concurso) + 1
+      : 'Consulte';
+  }
+
+  if (data) {
+    data.textContent = quina.data_proximo_concurso || 'Consulte';
+  }
+
+  if (premio) {
+    const valor = Number(quina.valor_estimado_proximo_concurso || 0);
+
+    if (valor >= 1000000) {
+      const milhoes = valor / 1000000;
+      const texto = milhoes.toLocaleString('pt-BR', {
+        maximumFractionDigits: 1
+      });
+
+      premio.textContent =
+        `R$ ${texto} ${milhoes === 1 ? 'milhão' : 'milhões'}`;
+    } else {
+      premio.textContent = valor
+        ? valor.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+            maximumFractionDigits: 0
+          })
+        : 'Consulte';
+    }
+  }
+}
 preencherCardMega();
 preencherCardLotofacil();
+preencherCardquina();  
 </script>
 </body></html>
