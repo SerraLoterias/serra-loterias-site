@@ -1728,14 +1728,28 @@ function verBoloesOuWhatsapp(evento, classeModalidade, nomeModalidade) {
     document.querySelectorAll('#boloesGrid .bet-card')
   );
 
-  const encontrados = todos.filter(card =>
-    card.classList.contains(classeModalidade)
-  );
+  const normalizar = texto =>
+  String(texto || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+
+const nomeProcurado = normalizar(nomeModalidade);
+
+const eDaModalidade = card => {
+  const nomeCard =
+    card.querySelector('.game')?.textContent || '';
+
+  return normalizar(nomeCard).includes(nomeProcurado);
+};
+
+const encontrados = todos.filter(eDaModalidade);
 
   if (encontrados.length > 0) {
     todos.forEach(card => {
       card.style.display =
-        card.classList.contains(classeModalidade) ? '' : 'none';
+        eDaModalidade(card) ? '' : 'none';
     });
 
     document.getElementById('boloesGrid')?.scrollIntoView({
