@@ -1092,8 +1092,7 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   <div class="modalidade-acoes">
     <a class="btn btn-orange"
        href="#boloesGrid"
-       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('diadesorte') ? '' : 'none'; });">
-      VER BOLÕES
+      onclick="return verBoloesOuWhatsapp(event,'diadesorte','Dia de Sorte');"
     </a>
 
     <button type="button"
@@ -1721,7 +1720,52 @@ window.resultadosPromise = carregarResultados();
     }
   };
 }
+function verBoloesOuWhatsapp(evento, classeModalidade, nomeModalidade) {
+  evento.preventDefault();
 
+  const todos = Array.from(
+    document.querySelectorAll('#boloesGrid .bet-card')
+  );
+
+  const encontrados = todos.filter(card =>
+    card.classList.contains(classeModalidade)
+  );
+
+  if (encontrados.length > 0) {
+    todos.forEach(card => {
+      card.style.display =
+        card.classList.contains(classeModalidade) ? '' : 'none';
+    });
+
+    document.getElementById('boloesGrid')?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+
+    return false;
+  }
+
+  const mensagem =
+    `Olá! Gostaria de verificar a disponibilidade de bolões de ${nomeModalidade}.`;
+
+  const linkWhatsapp =
+    `https://wa.me/5554996448570?text=${encodeURIComponent(mensagem)}`;
+
+  abrirJanelaBolao(linkWhatsapp, nomeModalidade);
+
+  const texto = document.querySelector('.compra-bolao-texto');
+  if (texto) {
+    texto.textContent =
+      `Para verificar a disponibilidade de bolões de ${nomeModalidade}, deixe-nos uma mensagem no WhatsApp.`;
+  }
+
+  const botao = document.querySelector('.compra-bolao-whatsapp');
+  if (botao) {
+    botao.textContent = 'VERIFICAR NO WHATSAPP';
+  }
+
+  return false;
+}
 document.addEventListener('click', function(evento) {
   const link = evento.target.closest('.bet-actions a');
 if (!link) return;
