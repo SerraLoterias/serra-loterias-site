@@ -1274,6 +1274,13 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 <div class="bets-grid" id="boloesGrid" aria-live="polite">
   <div class="loading-card">Carregando bolões disponíveis...</div>
 </div>
+  <div style="margin:18px 0;">
+  <a class="btn btn-blue"
+     href="#boloes"
+     onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => card.style.display = '');">
+    ← VOLTAR ÀS MODALIDADES
+  </a>
+</div>
 </div></section>
 
   <section class="section" id="resultados">
@@ -1291,23 +1298,6 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   </div>
 </section>
   
-<section class="section"><div class="container">
-<a class="link" href="#boloes">Ver bolões disponíveis</a>
-<div class="today-grid" id="sorteiosHojeGrid">
-  <div class="today-card lotomania"><strong>Lotomania</strong><span>R$ 17,5 milhões</span><b>›</b></div>
-<div class="today-card lotofacil"><strong>Lotofácil</strong><span>R$ 12 milhões</span><b>›</b></div>
-<div class="today-card supersete"><strong>Super Sete</strong><span>R$ 6,2 milhões</span><b>›</b></div>
-<div class="today-card duplasena"><strong>Dupla Sena</strong><span>R$ 2 milhões</span><b>›</b></div>
-<div class="today-card quina"><strong>Quina</strong><span>R$ 1,5 milhão</span><b>›</b></div>
-<div class="today-card diadesorte"><strong>Dia de Sorte</strong><span>R$ 800 mil</span><b>›</b></div>
-<div class="today-card mega"><strong>Mega-Sena</strong></div>
-<div class="today-card timemania"><strong>Timemania</strong></div>
-<div class="today-card milionaria"><strong>+Milionária</strong></div>
-<div class="today-card federal"><strong>Federal</strong></div>
-
-</div></section>
-
-
 <section class="section prizes"><div class="container">
 <div class="section-head"><div><h2>Prêmios que já saíram aqui</h2><p>Premiações da Serra Loterias contabilizadas desde 2023.</p></div></div>
 <div class="prize-feature">
@@ -1728,21 +1718,8 @@ function verBoloesOuWhatsapp(evento, classeModalidade, nomeModalidade) {
     document.querySelectorAll('#boloesGrid .bet-card')
   );
 
-  const normalizar = texto =>
-  String(texto || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, '');
-
-const nomeProcurado = normalizar(nomeModalidade);
-
-const eDaModalidade = card => {
-  const nomeCard =
-    card.querySelector('.game')?.textContent || '';
-
-  return normalizar(nomeCard).includes(nomeProcurado);
-};
+  const eDaModalidade = card =>
+  card.classList.contains(classeModalidade);
 
 const encontrados = todos.filter(eDaModalidade);
 
