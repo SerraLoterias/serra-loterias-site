@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "30/09/2026 20:01",
-  "quantidade": 6,
+  "atualizado_em": "30/09/2026 23:02",
+  "quantidade": 4,
   "boloes": [
     {
       "id": "01a0f1e7-f25d-722a-a1ae-2ea9d5382e31",
@@ -127,47 +127,6 @@
       }
     },
     {
-      "id": "01a0f1eb-6840-7189-b4ba-4628fb85447b",
-      "modalidade": "Lotofácil",
-      "concurso": 3793,
-      "premio_estimado": null,
-      "descricao": "16 números • 2 jogos",
-      "quantidade_jogos": 2,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "1 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 1,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 4,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 112,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 2,
-        "numeros": 16
-      }
-    },
-    {
       "id": "01a0f1ec-3385-7003-b7dd-a60d757c9d74",
       "modalidade": "TimeMania",
       "concurso": 2449,
@@ -206,47 +165,6 @@
       "apostas": {
         "quantidade": 10,
         "numeros": 10
-      }
-    },
-    {
-      "id": "01a0e79e-54bc-735d-adb2-b0aa5b1991b0",
-      "modalidade": "+Milionária",
-      "concurso": 394,
-      "premio_estimado": null,
-      "descricao": "7 números • 6 jogos",
-      "quantidade_jogos": 6,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 34,01",
-      "disponibilidade": "0 de 10 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 10,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 7,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 25.2,
-        "cota_com_tarifa": 34.01,
-        "tarifa_servico": 8.81,
-        "valor_bolao": 252,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 6,
-        "numeros": 7
       }
     }
   ]
