@@ -1,49 +1,8 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "01/10/2026 17:32",
-  "quantidade": 4,
+  "atualizado_em": "01/10/2026 21:08",
+  "quantidade": 3,
   "boloes": [
-    {
-      "id": "01a0f1e7-f25d-722a-a1ae-2ea9d5382e31",
-      "modalidade": "Mega-Sena",
-      "concurso": 3065,
-      "premio_estimado": null,
-      "descricao": "8 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 8,
-      "valor_cota": "R$ 32,40",
-      "disponibilidade": "1 de 7 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 7,
-        "disponiveis": 1,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 5,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 24,
-        "cota_com_tarifa": 32.4,
-        "tarifa_servico": 8.4,
-        "valor_bolao": 168,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 8
-      }
-    },
     {
       "id": "01a0f716-6824-719f-abcb-8ecf592570e1",
       "modalidade": "Super Sete",
