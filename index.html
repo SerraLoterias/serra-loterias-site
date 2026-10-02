@@ -1052,7 +1052,7 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   <div class="modalidade-acoes">
     <a class="btn btn-orange"
        href="#boloesGrid"
-       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('timemania') ? '' : 'none'; });"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('timemania') ? '' : 'none'; });">
       VER BOLÕES
     </a>
 
@@ -1091,10 +1091,10 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 
   <div class="modalidade-acoes">
     <a class="btn btn-orange"
-   href="#boloesGrid"
-   onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('diadesorte') ? '' : 'none'; });"
-  VER BOLÕES
-</a>
+       href="#boloesGrid"
+       onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => { card.style.display = card.classList.contains('diadesorte') ? '' : 'none'; });">
+      VER BOLÕES
+    </a>
 
     <button type="button"
             class="btn btn-blue"
@@ -1274,13 +1274,6 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
 <div class="bets-grid" id="boloesGrid" aria-live="polite">
   <div class="loading-card">Carregando bolões disponíveis...</div>
 </div>
-  <div style="margin:18px 0;">
-  <a class="btn btn-blue"
-     href="#boloes"
-     onclick="document.querySelectorAll('#boloesGrid .bet-card').forEach(card => card.style.display = '');">
-    ← VOLTAR ÀS MODALIDADES
-  </a>
-</div>
 </div></section>
 
   <section class="section" id="resultados">
@@ -1298,6 +1291,23 @@ footer{background:#051a3b;color:#dbe5f3;padding:24px 0} .footer-row{display:flex
   </div>
 </section>
   
+<section class="section"><div class="container">
+<a class="link" href="#boloes">Ver bolões disponíveis</a>
+<div class="today-grid" id="sorteiosHojeGrid">
+  <div class="today-card lotomania"><strong>Lotomania</strong><span>R$ 17,5 milhões</span><b>›</b></div>
+<div class="today-card lotofacil"><strong>Lotofácil</strong><span>R$ 12 milhões</span><b>›</b></div>
+<div class="today-card supersete"><strong>Super Sete</strong><span>R$ 6,2 milhões</span><b>›</b></div>
+<div class="today-card duplasena"><strong>Dupla Sena</strong><span>R$ 2 milhões</span><b>›</b></div>
+<div class="today-card quina"><strong>Quina</strong><span>R$ 1,5 milhão</span><b>›</b></div>
+<div class="today-card diadesorte"><strong>Dia de Sorte</strong><span>R$ 800 mil</span><b>›</b></div>
+<div class="today-card mega"><strong>Mega-Sena</strong></div>
+<div class="today-card timemania"><strong>Timemania</strong></div>
+<div class="today-card milionaria"><strong>+Milionária</strong></div>
+<div class="today-card federal"><strong>Federal</strong></div>
+
+</div></section>
+
+
 <section class="section prizes"><div class="container">
 <div class="section-head"><div><h2>Prêmios que já saíram aqui</h2><p>Premiações da Serra Loterias contabilizadas desde 2023.</p></div></div>
 <div class="prize-feature">
@@ -1711,53 +1721,7 @@ window.resultadosPromise = carregarResultados();
     }
   };
 }
-function verBoloesOuWhatsapp(evento, classeModalidade, nomeModalidade) {
-  evento.preventDefault();
 
-  const todos = Array.from(
-    document.querySelectorAll('#boloesGrid .bet-card')
-  );
-
-  const eDaModalidade = card =>
-  card.classList.contains(classeModalidade);
-
-const encontrados = todos.filter(eDaModalidade);
-
-  if (encontrados.length > 0) {
-    todos.forEach(card => {
-      card.style.display =
-        eDaModalidade(card) ? '' : 'none';
-    });
-
-    document.getElementById('boloesGrid')?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-
-    return false;
-  }
-
-  const mensagem =
-    `Olá! Gostaria de verificar a disponibilidade de bolões de ${nomeModalidade}.`;
-
-  const linkWhatsapp =
-    `https://wa.me/5554996448570?text=${encodeURIComponent(mensagem)}`;
-
-  abrirJanelaBolao(linkWhatsapp, nomeModalidade);
-
-  const texto = document.querySelector('.compra-bolao-texto');
-  if (texto) {
-    texto.textContent =
-      `Para verificar a disponibilidade de bolões de ${nomeModalidade}, deixe-nos uma mensagem no WhatsApp.`;
-  }
-
-  const botao = document.querySelector('.compra-bolao-whatsapp');
-  if (botao) {
-    botao.textContent = 'VERIFICAR NO WHATSAPP';
-  }
-
-  return false;
-}
 document.addEventListener('click', function(evento) {
   const link = evento.target.closest('.bet-actions a');
 if (!link) return;
