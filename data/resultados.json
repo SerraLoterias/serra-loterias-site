@@ -1,30 +1,30 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "05/10/2026 13:10",
+  "atualizado_em": "05/10/2026 19:44",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3066,
-      "data": "03/10/2026",
+      "concurso": 999392,
+      "data": "05/10/2026",
       "dezenas": [
-        "48",
-        "13",
+        "01",
+        "02",
+        "03",
         "04",
-        "09",
-        "06",
-        "28"
+        "05",
+        "06"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 74694060,
+      "acumulado": 0,
+      "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "06/10/2026",
-      "valor_estimado_proximo_concurso": 92000000
+      "data_proximo_concurso": "08/10/2026",
+      "valor_estimado_proximo_concurso": 0
     },
     {
       "modalidade": "Quina",
@@ -211,106 +211,106 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1272,
-      "data": "28/09/2026",
+      "concurso": 1273,
+      "data": "05/10/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "INGLATERRA",
+          "equipe1": "PORTUGAL",
           "gols1": 2,
-          "equipe2": "ESPANHA",
-          "gols2": 3
-        },
-        {
-          "jogo": 2,
-          "equipe1": "OPERARIO",
-          "gols1": 2,
-          "equipe2": "CEARA",
-          "gols2": 2
-        },
-        {
-          "jogo": 3,
-          "equipe1": "NAUTICO",
-          "gols1": 3,
-          "equipe2": "SPORT",
+          "equipe2": "NORUEGA",
           "gols2": 1
         },
         {
-          "jogo": 4,
-          "equipe1": "BOTAFOGO",
-          "gols1": 0,
-          "equipe2": "MARINGA",
+          "jogo": 2,
+          "equipe1": "ATLETICO",
+          "gols1": 2,
+          "equipe2": "AMERICA",
           "gols2": 0
         },
         {
+          "jogo": 3,
+          "equipe1": "CUIABA",
+          "gols1": 2,
+          "equipe2": "PONTE PRETA",
+          "gols2": 0
+        },
+        {
+          "jogo": 4,
+          "equipe1": "FLORESTA",
+          "gols1": 1,
+          "equipe2": "BOTAFOGO",
+          "gols2": 1
+        },
+        {
           "jogo": 5,
-          "equipe1": "GOIAS",
-          "gols1": 0,
-          "equipe2": "ATLETICO",
+          "equipe1": "SANTA CRUZ",
+          "gols1": 1,
+          "equipe2": "MARINGA",
           "gols2": 1
         },
         {
           "jogo": 6,
-          "equipe1": "CRICIUMA",
-          "gols1": 3,
-          "equipe2": "AVAI",
-          "gols2": 0
+          "equipe1": "BOTAFOGO",
+          "gols1": 0,
+          "equipe2": "VILA NOVA",
+          "gols2": 1
         },
         {
           "jogo": 7,
-          "equipe1": "CRB",
-          "gols1": 3,
-          "equipe2": "CUIABA",
+          "equipe1": "ATLETICO",
+          "gols1": 1,
+          "equipe2": "BRAGANTINO",
           "gols2": 0
         },
         {
           "jogo": 8,
-          "equipe1": "DINAMARCA",
+          "equipe1": "INTER LIMEIRA",
           "gols1": 2,
-          "equipe2": "PAIS DE GALES",
-          "gols2": 0
+          "equipe2": "BRUSQUE",
+          "gols2": 2
         },
         {
           "jogo": 9,
-          "equipe1": "SERVIA/SER",
+          "equipe1": "PAYSANDU",
           "gols1": 1,
-          "equipe2": "HOLANDA",
-          "gols2": 2
-        },
-        {
-          "jogo": 10,
-          "equipe1": "GIBRALTAR",
-          "gols1": 0,
-          "equipe2": "ANDORRA",
+          "equipe2": "FERROVIARIA",
           "gols2": 0
         },
         {
+          "jogo": 10,
+          "equipe1": "ESPANHA",
+          "gols1": 3,
+          "equipe2": "REPUBLICA TCHECA",
+          "gols2": 1
+        },
+        {
           "jogo": 11,
-          "equipe1": "FORTALEZA",
+          "equipe1": "SUICA",
           "gols1": 2,
-          "equipe2": "ATHLETIC CLUB",
-          "gols2": 2
+          "equipe2": "ESLOVENIA",
+          "gols2": 1
         },
         {
           "jogo": 12,
-          "equipe1": "NORUEGA",
-          "gols1": 1,
-          "equipe2": "PORTUGAL",
-          "gols2": 2
+          "equipe1": "GRECIA",
+          "gols1": 0,
+          "equipe2": "ALEMANHA",
+          "gols2": 0
         },
         {
           "jogo": 13,
-          "equipe1": "ISRAEL",
+          "equipe1": "PAIS DE GALES",
           "gols1": 0,
-          "equipe2": "IRLANDA",
-          "gols2": 3
+          "equipe2": "DINAMARCA",
+          "gols2": 1
         },
         {
           "jogo": 14,
-          "equipe1": "ALEMANHA",
-          "gols1": 0,
-          "equipe2": "GRECIA",
+          "equipe1": "HOLANDA",
+          "gols1": 2,
+          "equipe2": "SERVIA/SER",
           "gols2": 1
         }
       ],
@@ -318,9 +318,9 @@
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 2570788,
+      "valor_arrecadado": 2667626,
       "proximo_concurso": null,
-      "data_proximo_concurso": "05/10/2026",
+      "data_proximo_concurso": "13/10/2026",
       "valor_estimado_proximo_concurso": 600000
     },
     {
