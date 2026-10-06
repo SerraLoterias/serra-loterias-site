@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "05/10/2026 18:18",
-  "quantidade": 7,
+  "atualizado_em": "05/10/2026 22:46",
+  "quantidade": 6,
   "boloes": [
     {
       "id": "01a10baa-e757-7097-9eac-142a4d7a7306",
@@ -124,47 +124,6 @@
       "apostas": {
         "quantidade": 10,
         "numeros": 6
-      }
-    },
-    {
-      "id": "01a10bad-9cbd-7057-8409-d7199f2db54e",
-      "modalidade": "Quina",
-      "concurso": 7135,
-      "premio_estimado": null,
-      "descricao": "7 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 36,44",
-      "disponibilidade": "5 de 7 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 7,
-        "disponiveis": 5,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 5,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 27,
-        "cota_com_tarifa": 36.44,
-        "tarifa_servico": 9.44,
-        "valor_bolao": 189,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 7
       }
     },
     {
