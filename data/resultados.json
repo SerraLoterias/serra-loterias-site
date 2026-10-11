@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "11/10/2026 12:48",
+  "atualizado_em": "11/10/2026 17:22",
   "quantidade": 11,
   "resultados": [
     {
@@ -146,26 +146,26 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2452,
-      "data": "08/10/2026",
+      "concurso": 2453,
+      "data": "11/10/2026",
       "dezenas": [
-        "40",
-        "60",
-        "62",
-        "64",
-        "39",
-        "68",
-        "72"
+        "17",
+        "12",
+        "13",
+        "20",
+        "30",
+        "24",
+        "02"
       ],
       "jogos_loteca": [],
-      "time_coracao": "CONFIANCA SAF /SE",
+      "time_coracao": "CUIABA /MT",
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2620481.5,
+      "valor_arrecadado": 2843274,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
-      "valor_estimado_proximo_concurso": 19300000
+      "data_proximo_concurso": "13/10/2026",
+      "valor_estimado_proximo_concurso": 19700000
     },
     {
       "modalidade": "Dupla Sena",
@@ -326,25 +326,25 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1319,
-      "data": "09/10/2026",
+      "concurso": 1320,
+      "data": "11/10/2026",
       "dezenas": [
-        "26",
-        "09",
+        "16",
+        "29",
+        "19",
         "02",
-        "04",
-        "10",
-        "23",
-        "28"
+        "30",
+        "25",
+        "24"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Janeiro",
+      "mes_sorte": "Novembro",
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 3443987.5,
+      "valor_arrecadado": 1096732.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
+      "data_proximo_concurso": "13/10/2026",
       "valor_estimado_proximo_concurso": 100000
     },
     {
