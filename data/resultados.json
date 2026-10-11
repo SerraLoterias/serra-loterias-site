@@ -1,109 +1,109 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "11/10/2026 06:02",
+  "atualizado_em": "11/10/2026 12:48",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3068,
-      "data": "08/10/2026",
+      "concurso": 3069,
+      "data": "11/10/2026",
       "dezenas": [
-        "07",
-        "43",
-        "10",
-        "39",
+        "47",
+        "05",
+        "22",
+        "44",
         "57",
-        "40"
+        "19"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 80608362,
+      "valor_arrecadado": 98228184,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
-      "valor_estimado_proximo_concurso": 112000000
+      "data_proximo_concurso": "14/10/2026",
+      "valor_estimado_proximo_concurso": 150000000
     },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7139,
-      "data": "09/10/2026",
+      "concurso": 7140,
+      "data": "11/10/2026",
       "dezenas": [
-        "17",
-        "40",
-        "68",
-        "62",
-        "11"
+        "57",
+        "45",
+        "05",
+        "59",
+        "28"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 15406050,
+      "valor_arrecadado": 16196910,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
-      "valor_estimado_proximo_concurso": 32000000
+      "data_proximo_concurso": "13/10/2026",
+      "valor_estimado_proximo_concurso": 34000000
     },
     {
       "modalidade": "Mais Milionária",
       "endpoint": "maismilionaria",
-      "concurso": 396,
-      "data": "07/10/2026",
+      "concurso": 397,
+      "data": "11/10/2026",
       "dezenas": [
-        "06",
-        "15",
+        "16",
+        "23",
         "28",
-        "30",
         "42",
-        "50"
+        "46",
+        "49"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [
         "3",
-        "6"
+        "4"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 10325556,
+      "valor_arrecadado": 10971744,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
-      "valor_estimado_proximo_concurso": 103000000
+      "data_proximo_concurso": "14/10/2026",
+      "valor_estimado_proximo_concurso": 105000000
     },
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3801,
-      "data": "09/10/2026",
+      "concurso": 3802,
+      "data": "11/10/2026",
       "dezenas": [
-        "15",
-        "13",
-        "19",
-        "11",
-        "04",
         "20",
+        "10",
+        "02",
+        "21",
+        "03",
+        "11",
+        "15",
+        "24",
+        "14",
+        "12",
+        "19",
+        "05",
         "23",
         "09",
-        "08",
-        "07",
-        "03",
-        "24",
-        "17",
-        "12",
-        "21"
+        "06"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 20357470,
+      "valor_arrecadado": 21269461.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
+      "data_proximo_concurso": "13/10/2026",
       "valor_estimado_proximo_concurso": 2000000
     },
     {
@@ -189,14 +189,14 @@
     {
       "modalidade": "Federal",
       "endpoint": "federal",
-      "concurso": 6107,
-      "data": "07/10/2026",
+      "concurso": 6108,
+      "data": "11/10/2026",
       "dezenas": [
-        "042050",
-        "072560",
-        "053643",
-        "024384",
-        "053648"
+        "069795",
+        "085844",
+        "078905",
+        "052440",
+        "011501"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
@@ -205,7 +205,7 @@
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "11/10/2026",
+      "data_proximo_concurso": "14/10/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
