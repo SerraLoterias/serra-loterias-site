@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "15/10/2026 20:07",
+  "atualizado_em": "15/10/2026 22:29",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,24 +29,24 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7142,
-      "data": "14/10/2026",
+      "concurso": 7143,
+      "data": "15/10/2026",
       "dezenas": [
-        "34",
-        "33",
-        "58",
-        "48",
-        "05"
+        "27",
+        "10",
+        "80",
+        "66",
+        "31"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 15841431,
+      "valor_arrecadado": 16194468,
       "proximo_concurso": null,
-      "data_proximo_concurso": "15/10/2026",
-      "valor_estimado_proximo_concurso": 37000000
+      "data_proximo_concurso": "16/10/2026",
+      "valor_estimado_proximo_concurso": 40000000
     },
     {
       "modalidade": "Mais Milionária",
@@ -77,34 +77,34 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3804,
-      "data": "14/10/2026",
+      "concurso": 3805,
+      "data": "15/10/2026",
       "dezenas": [
-        "18",
-        "17",
+        "23",
+        "15",
+        "25",
+        "13",
+        "24",
+        "03",
         "19",
+        "10",
+        "06",
+        "22",
         "14",
         "07",
-        "01",
-        "12",
-        "02",
-        "06",
-        "25",
         "08",
-        "15",
-        "16",
-        "21",
-        "24"
+        "05",
+        "11"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 19614927.5,
+      "acumulado": 0,
+      "valor_arrecadado": 31923290,
       "proximo_concurso": null,
-      "data_proximo_concurso": "15/10/2026",
-      "valor_estimado_proximo_concurso": 5000000
+      "data_proximo_concurso": "16/10/2026",
+      "valor_estimado_proximo_concurso": 2000000
     },
     {
       "modalidade": "Lotomania",
@@ -146,26 +146,26 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2454,
-      "data": "13/10/2026",
+      "concurso": 2455,
+      "data": "15/10/2026",
       "dezenas": [
-        "67",
-        "42",
-        "79",
-        "46",
-        "11",
-        "03",
-        "47"
+        "31",
+        "60",
+        "28",
+        "32",
+        "07",
+        "61",
+        "76"
       ],
       "jogos_loteca": [],
-      "time_coracao": "FERROVIARIO /CE",
+      "time_coracao": "LONDRINA /PR",
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2472424.5,
+      "valor_arrecadado": 2819698,
       "proximo_concurso": null,
-      "data_proximo_concurso": "15/10/2026",
-      "valor_estimado_proximo_concurso": 20500000
+      "data_proximo_concurso": "18/10/2026",
+      "valor_estimado_proximo_concurso": 21000000
     },
     {
       "modalidade": "Dupla Sena",
@@ -326,26 +326,26 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1322,
-      "data": "14/10/2026",
+      "concurso": 1323,
+      "data": "15/10/2026",
       "dezenas": [
+        "11",
+        "02",
+        "29",
         "31",
-        "26",
-        "04",
-        "13",
-        "03",
-        "17",
-        "02"
+        "10",
+        "12",
+        "03"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Outubro",
+      "mes_sorte": "Março",
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 1054227.5,
+      "acumulado": 0,
+      "valor_arrecadado": 1305952.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "15/10/2026",
-      "valor_estimado_proximo_concurso": 450000
+      "data_proximo_concurso": "16/10/2026",
+      "valor_estimado_proximo_concurso": 100000
     },
     {
       "modalidade": "Super Sete",
