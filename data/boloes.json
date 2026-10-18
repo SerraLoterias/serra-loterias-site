@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "18/10/2026 06:12",
-  "quantidade": 7,
+  "atualizado_em": "18/10/2026 10:19",
+  "quantidade": 5,
   "boloes": [
     {
       "id": "01a13f2f-cfd7-7054-ab83-3fca911285c5",
@@ -12,7 +12,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 85,05",
-      "disponibilidade": "9 de 20 cotas disponíveis",
+      "disponibilidade": "1 de 20 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -22,7 +22,7 @@
       },
       "cotas": {
         "total": 20,
-        "disponiveis": 9,
+        "disponiveis": 1,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -45,47 +45,6 @@
       }
     },
     {
-      "id": "01a13f30-d881-72d0-9719-fcbc49cc48e9",
-      "modalidade": "Mega-Sena",
-      "concurso": 3071,
-      "premio_estimado": null,
-      "descricao": "9 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 9,
-      "valor_cota": "R$ 56,69",
-      "disponibilidade": "1 de 12 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 12,
-        "disponiveis": 1,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 9,
-        "fisicas": 3,
-        "perdidas": 0,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 42,
-        "cota_com_tarifa": 56.69,
-        "tarifa_servico": 14.69,
-        "valor_bolao": 504,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 9
-      }
-    },
-    {
       "id": "01a14977-5271-71e1-a15a-1dc6eec41076",
       "modalidade": "Quina",
       "concurso": 7145,
@@ -94,7 +53,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 9,
       "valor_cota": "R$ 34,01",
-      "disponibilidade": "4 de 15 cotas disponíveis",
+      "disponibilidade": "1 de 15 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -104,7 +63,7 @@
       },
       "cotas": {
         "total": 15,
-        "disponiveis": 4,
+        "disponiveis": 1,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -217,7 +176,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 9,
       "valor_cota": "R$ 56,69",
-      "disponibilidade": "1 de 12 cotas disponíveis",
+      "disponibilidade": "0 de 12 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -227,7 +186,7 @@
       },
       "cotas": {
         "total": 12,
-        "disponiveis": 1,
+        "disponiveis": 0,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -247,47 +206,6 @@
       "apostas": {
         "quantidade": 1,
         "numeros": 9
-      }
-    },
-    {
-      "id": "01a13f49-49ea-7023-b8e4-5b0d27471e6a",
-      "modalidade": "+Milionária",
-      "concurso": 399,
-      "premio_estimado": null,
-      "descricao": "7 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "3 de 9 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 9,
-        "disponiveis": 3,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 7,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 126,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 7
       }
     }
   ]
