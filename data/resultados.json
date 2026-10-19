@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "19/10/2026 03:20",
+  "atualizado_em": "19/10/2026 10:36",
   "quantidade": 11,
   "resultados": [
     {
@@ -211,106 +211,106 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1274,
-      "data": "13/10/2026",
+      "concurso": 1275,
+      "data": "19/10/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "FLAMENGO",
-          "gols1": 1,
-          "equipe2": "FLUMINENSE",
-          "gols2": 0
+          "equipe1": "BAHIA",
+          "gols1": 0,
+          "equipe2": "FLAMENGO",
+          "gols2": 3
         },
         {
           "jogo": 2,
-          "equipe1": "VASCO DA GAMA",
-          "gols1": 0,
-          "equipe2": "REMO",
+          "equipe1": "BOTAFOGO",
+          "gols1": 1,
+          "equipe2": "CHAPECOENSE",
           "gols2": 0
         },
         {
           "jogo": 3,
-          "equipe1": "REAL MADRID",
+          "equipe1": "ATLETICO",
           "gols1": 1,
-          "equipe2": "VILLARREAL",
+          "equipe2": "CORITIBA",
           "gols2": 0
         },
         {
           "jogo": 4,
-          "equipe1": "SAO PAULO",
-          "gols1": 2,
-          "equipe2": "VITORIA",
-          "gols2": 1
+          "equipe1": "ATHLETICO",
+          "gols1": 0,
+          "equipe2": "PALMEIRAS",
+          "gols2": 2
         },
         {
           "jogo": 5,
-          "equipe1": "CRYSTAL PALACE",
-          "gols1": 3,
-          "equipe2": "NOTTINGHAM FOREST",
-          "gols2": 1
+          "equipe1": "SAO PAULO",
+          "gols1": 1,
+          "equipe2": "VASCO DA GAMA",
+          "gols2": 0
         },
         {
           "jogo": 6,
-          "equipe1": "LAZIO",
-          "gols1": 3,
-          "equipe2": "MONZA",
+          "equipe1": "LEEDS UNITED",
+          "gols1": 1,
+          "equipe2": "MANCHESTER UNITED",
           "gols2": 1
         },
         {
           "jogo": 7,
-          "equipe1": "ATLETICO",
-          "gols1": 2,
-          "equipe2": "SANTOS",
+          "equipe1": "NOTTINGHAM FOREST",
+          "gols1": 0,
+          "equipe2": "ARSENAL",
           "gols2": 1
         },
         {
           "jogo": 8,
-          "equipe1": "LIVERPOOL",
-          "gols1": 0,
-          "equipe2": "MANCHESTER CITY",
-          "gols2": 3
+          "equipe1": "MILAN",
+          "gols1": 3,
+          "equipe2": "ATALANTA BERGAMAS",
+          "gols2": 2
         },
         {
           "jogo": 9,
           "equipe1": "GREMIO",
-          "gols1": 1,
-          "equipe2": "INTERNACIONAL",
-          "gols2": 1
+          "gols1": 2,
+          "equipe2": "CRUZEIRO",
+          "gols2": 4
         },
         {
           "jogo": 10,
-          "equipe1": "PALMEIRAS",
-          "gols1": 4,
-          "equipe2": "CORINTHIANS",
-          "gols2": 1
+          "equipe1": "FLUMINENSE",
+          "gols1": 1,
+          "equipe2": "SANTOS",
+          "gols2": 2
         },
         {
           "jogo": 11,
-          "equipe1": "NAUTICO",
-          "gols1": 0,
-          "equipe2": "VILA NOVA",
+          "equipe1": "VILA NOVA",
+          "gols1": 2,
+          "equipe2": "NOVORIZONTINO",
           "gols2": 2
         },
         {
           "jogo": 12,
-          "equipe1": "REAL BETIS",
-          "gols1": 5,
-          "equipe2": "OSASUNA",
-          "gols2": 2
+          "equipe1": "JUVENTUS",
+          "gols1": 0,
+          "equipe2": "LAZIO",
+          "gols2": 3
         },
         {
           "jogo": 13,
-          "equipe1": "BAHIA",
+          "equipe1": "REMO",
           "gols1": 1,
-          "equipe2": "MIRASSOL",
-          "gols2": 0
+          "equipe2": "BRAGANTINO",
+          "gols2": 1
         },
         {
           "jogo": 14,
-          "equipe1": "CAGLIARI CALCIO",
-          "gols1": 1,
-          "equipe2": "JUVENTUS",
+          "equipe1": "REAL MADRID",
+          "gols1": 4,
+          "equipe2": "SEVILLA",
           "gols2": 1
         }
       ],
@@ -318,10 +318,10 @@
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 2684538,
+      "valor_arrecadado": 3388184,
       "proximo_concurso": null,
-      "data_proximo_concurso": "19/10/2026",
-      "valor_estimado_proximo_concurso": 1500000
+      "data_proximo_concurso": "26/10/2026",
+      "valor_estimado_proximo_concurso": 300000
     },
     {
       "modalidade": "Dia de Sorte",
