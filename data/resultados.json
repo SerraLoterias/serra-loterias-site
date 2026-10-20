@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "20/10/2026 12:10",
+  "atualizado_em": "20/10/2026 16:22",
   "quantidade": 11,
   "resultados": [
     {
@@ -350,26 +350,26 @@
     {
       "modalidade": "Super Sete",
       "endpoint": "supersete",
-      "concurso": 911,
-      "data": "16/10/2026",
+      "concurso": 912,
+      "data": "19/10/2026",
       "dezenas": [
+        "5",
+        "8",
         "2",
+        "9",
         "3",
-        "2",
-        "2",
         "7",
-        "4",
-        "6"
+        "2"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1574265,
+      "valor_arrecadado": 1614810,
       "proximo_concurso": null,
-      "data_proximo_concurso": "19/10/2026",
-      "valor_estimado_proximo_concurso": 11600000
+      "data_proximo_concurso": "21/10/2026",
+      "valor_estimado_proximo_concurso": 11800000
     }
   ]
 }
