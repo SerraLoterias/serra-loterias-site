@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "21/10/2026 21:02",
+  "atualizado_em": "22/10/2026 02:02",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,119 +29,119 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7147,
-      "data": "20/10/2026",
+      "concurso": 7148,
+      "data": "21/10/2026",
       "dezenas": [
-        "44",
-        "21",
-        "57",
-        "05",
-        "50"
+        "74",
+        "16",
+        "13",
+        "55",
+        "72"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 19513251,
+      "valor_arrecadado": 18516543,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 55000000
+      "data_proximo_concurso": "22/10/2026",
+      "valor_estimado_proximo_concurso": 57000000
     },
     {
       "modalidade": "Mais Milionária",
       "endpoint": "maismilionaria",
-      "concurso": 399,
-      "data": "18/10/2026",
+      "concurso": 400,
+      "data": "21/10/2026",
       "dezenas": [
-        "36",
-        "40",
-        "42",
-        "43",
-        "46",
-        "49"
+        "03",
+        "06",
+        "22",
+        "28",
+        "29",
+        "48"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [
-        "1",
-        "2"
+        "2",
+        "3"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 9832326,
+      "valor_arrecadado": 8925186,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 107000000
+      "data_proximo_concurso": "25/10/2026",
+      "valor_estimado_proximo_concurso": 108000000
     },
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3809,
-      "data": "20/10/2026",
+      "concurso": 3810,
+      "data": "21/10/2026",
       "dezenas": [
-        "04",
+        "19",
+        "14",
+        "20",
         "18",
+        "15",
+        "10",
+        "07",
+        "06",
+        "24",
+        "16",
+        "23",
         "11",
-        "08",
         "17",
         "05",
-        "19",
-        "20",
-        "09",
-        "01",
-        "21",
-        "23",
-        "25",
-        "03",
-        "06"
+        "01"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 19228268.5,
+      "valor_arrecadado": 38848782,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 8000000
+      "data_proximo_concurso": "22/10/2026",
+      "valor_estimado_proximo_concurso": 14000000
     },
     {
       "modalidade": "Lotomania",
       "endpoint": "lotomania",
-      "concurso": 2989,
-      "data": "19/10/2026",
+      "concurso": 2990,
+      "data": "21/10/2026",
       "dezenas": [
-        "90",
-        "91",
-        "26",
-        "49",
-        "45",
-        "92",
-        "77",
-        "58",
-        "99",
-        "46",
-        "85",
-        "53",
-        "62",
-        "96",
-        "74",
-        "32",
-        "50",
-        "06",
         "25",
-        "51"
+        "35",
+        "19",
+        "67",
+        "32",
+        "99",
+        "11",
+        "80",
+        "27",
+        "42",
+        "04",
+        "76",
+        "06",
+        "66",
+        "37",
+        "52",
+        "29",
+        "63",
+        "81",
+        "70"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 6766578,
+      "acumulado": 1,
+      "valor_arrecadado": 3143661,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 500000
+      "data_proximo_concurso": "23/10/2026",
+      "valor_estimado_proximo_concurso": 1000000
     },
     {
       "modalidade": "Timemania",
@@ -170,21 +170,21 @@
     {
       "modalidade": "Dupla Sena",
       "endpoint": "duplasena",
-      "concurso": 3022,
-      "data": "19/10/2026",
+      "concurso": 3023,
+      "data": "21/10/2026",
       "dezenas": [
-        "1º: 14 - 29 - 32 - 38 - 39 - 42",
-        "2º: 23 - 25 - 26 - 37 - 41 - 42"
+        "1º: 08 - 12 - 20 - 43 - 47 - 50",
+        "2º: 21 - 34 - 41 - 45 - 46 - 50"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2770644,
+      "valor_arrecadado": 2662341,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 9000000
+      "data_proximo_concurso": "23/10/2026",
+      "valor_estimado_proximo_concurso": 9200000
     },
     {
       "modalidade": "Federal",
@@ -211,154 +211,154 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1275,
-      "data": "19/10/2026",
+      "concurso": 1276,
+      "data": "21/10/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "BAHIA",
-          "gols1": 0,
-          "equipe2": "FLAMENGO",
-          "gols2": 3
+          "equipe1": "PSG",
+          "gols1": 4,
+          "equipe2": "BARCELONA",
+          "gols2": 2
         },
         {
           "jogo": 2,
-          "equipe1": "BOTAFOGO",
+          "equipe1": "LONDRINA",
           "gols1": 1,
-          "equipe2": "CHAPECOENSE",
+          "equipe2": "CUIABA",
           "gols2": 0
         },
         {
           "jogo": 3,
-          "equipe1": "ATLETICO",
-          "gols1": 1,
-          "equipe2": "CORITIBA",
-          "gols2": 0
+          "equipe1": "LIVERPOOL",
+          "gols1": 4,
+          "equipe2": "VILLARREAL",
+          "gols2": 3
         },
         {
           "jogo": 4,
-          "equipe1": "ATHLETICO",
-          "gols1": 0,
-          "equipe2": "PALMEIRAS",
-          "gols2": 2
+          "equipe1": "STUTTGART",
+          "gols1": 1,
+          "equipe2": "ATLETICO MADRID",
+          "gols2": 1
         },
         {
           "jogo": 5,
-          "equipe1": "SAO PAULO",
-          "gols1": 1,
-          "equipe2": "VASCO DA GAMA",
-          "gols2": 0
+          "equipe1": "FC PORTO",
+          "gols1": 0,
+          "equipe2": "PSV EINDHOVEN",
+          "gols2": 1
         },
         {
           "jogo": 6,
-          "equipe1": "LEEDS UNITED",
+          "equipe1": "VASCO DA GAMA",
           "gols1": 1,
+          "equipe2": "BOCA JUNIORS",
+          "gols2": 3
+        },
+        {
+          "jogo": 7,
+          "equipe1": "LILLE",
+          "gols1": 2,
+          "equipe2": "GALATASARAY",
+          "gols2": 4
+        },
+        {
+          "jogo": 8,
+          "equipe1": "CITY TORQUE",
+          "gols1": 2,
+          "equipe2": "ATLETICO",
+          "gols2": 0
+        },
+        {
+          "jogo": 9,
+          "equipe1": "COMO",
+          "gols1": 4,
           "equipe2": "MANCHESTER UNITED",
           "gols2": 1
         },
         {
-          "jogo": 7,
-          "equipe1": "NOTTINGHAM FOREST",
-          "gols1": 0,
-          "equipe2": "ARSENAL",
-          "gols2": 1
-        },
-        {
-          "jogo": 8,
-          "equipe1": "MILAN",
-          "gols1": 3,
-          "equipe2": "ATALANTA BERGAMAS",
-          "gols2": 2
-        },
-        {
-          "jogo": 9,
-          "equipe1": "GREMIO",
-          "gols1": 2,
-          "equipe2": "CRUZEIRO",
-          "gols2": 4
-        },
-        {
           "jogo": 10,
-          "equipe1": "FLUMINENSE",
-          "gols1": 1,
-          "equipe2": "SANTOS",
+          "equipe1": "BAYERN DE MUNIQUE",
+          "gols1": 2,
+          "equipe2": "ARSENAL",
           "gols2": 2
         },
         {
           "jogo": 11,
-          "equipe1": "VILA NOVA",
-          "gols1": 2,
-          "equipe2": "NOVORIZONTINO",
-          "gols2": 2
+          "equipe1": "INTER DE MILAO",
+          "gols1": 1,
+          "equipe2": "FC SHAKHTAR DONET",
+          "gols2": 0
         },
         {
           "jogo": 12,
-          "equipe1": "JUVENTUS",
-          "gols1": 0,
-          "equipe2": "LAZIO",
-          "gols2": 3
+          "equipe1": "REAL MADRID",
+          "gols1": 4,
+          "equipe2": "RB LEIPZIG",
+          "gols2": 1
         },
         {
           "jogo": 13,
-          "equipe1": "REMO",
+          "equipe1": "REAL BETIS",
           "gols1": 1,
-          "equipe2": "BRAGANTINO",
-          "gols2": 1
+          "equipe2": "FEYENOORD",
+          "gols2": 0
         },
         {
           "jogo": 14,
-          "equipe1": "REAL MADRID",
-          "gols1": 4,
-          "equipe2": "SEVILLA",
-          "gols2": 1
+          "equipe1": "SPORTING PORTUGAL",
+          "gols1": 2,
+          "equipe2": "LASK",
+          "gols2": 3
         }
       ],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 3388184,
+      "acumulado": 1,
+      "valor_arrecadado": 1035940,
       "proximo_concurso": null,
-      "data_proximo_concurso": "26/10/2026",
-      "valor_estimado_proximo_concurso": 300000
+      "data_proximo_concurso": "25/10/2026",
+      "valor_estimado_proximo_concurso": 850000
     },
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1327,
-      "data": "20/10/2026",
+      "concurso": 1328,
+      "data": "21/10/2026",
       "dezenas": [
-        "26",
-        "11",
-        "24",
+        "28",
+        "04",
         "23",
-        "10",
-        "22",
-        "20"
+        "05",
+        "31",
+        "15",
+        "03"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Março",
+      "mes_sorte": "Novembro",
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 1337975,
+      "acumulado": 1,
+      "valor_arrecadado": 800737.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 150000
+      "data_proximo_concurso": "22/10/2026",
+      "valor_estimado_proximo_concurso": 250000
     },
     {
       "modalidade": "Super Sete",
       "endpoint": "supersete",
-      "concurso": 912,
-      "data": "19/10/2026",
+      "concurso": 913,
+      "data": "21/10/2026",
       "dezenas": [
         "5",
-        "8",
-        "2",
         "9",
-        "3",
         "7",
+        "9",
+        "5",
+        "8",
         "2"
       ],
       "jogos_loteca": [],
@@ -366,10 +366,10 @@
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1614810,
+      "valor_arrecadado": 1416642,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
-      "valor_estimado_proximo_concurso": 11800000
+      "data_proximo_concurso": "23/10/2026",
+      "valor_estimado_proximo_concurso": 12000000
     }
   ]
 }
