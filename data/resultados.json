@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "21/10/2026 17:42",
+  "atualizado_em": "21/10/2026 21:02",
   "quantidade": 11,
   "resultados": [
     {
@@ -189,14 +189,14 @@
     {
       "modalidade": "Federal",
       "endpoint": "federal",
-      "concurso": 6110,
-      "data": "18/10/2026",
+      "concurso": 6111,
+      "data": "21/10/2026",
       "dezenas": [
-        "046831",
-        "031652",
-        "060252",
-        "078093",
-        "009231"
+        "068003",
+        "033062",
+        "034756",
+        "044114",
+        "005674"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
@@ -205,7 +205,7 @@
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "21/10/2026",
+      "data_proximo_concurso": "25/10/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
