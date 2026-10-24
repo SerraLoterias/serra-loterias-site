@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "23/10/2026 19:25",
-  "quantidade": 6,
+  "atualizado_em": "23/10/2026 21:51",
+  "quantidade": 5,
   "boloes": [
     {
       "id": "01a1685e-d5ea-707c-a74f-786044590d21",
@@ -53,7 +53,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 8,
       "valor_cota": "R$ 20,41",
-      "disponibilidade": "75 de 100 cotas disponíveis",
+      "disponibilidade": "72 de 100 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,7 +63,7 @@
       },
       "cotas": {
         "total": 100,
-        "disponiveis": 75,
+        "disponiveis": 72,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -94,7 +94,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 28,35",
-      "disponibilidade": "7 de 20 cotas disponíveis",
+      "disponibilidade": "4 de 20 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -104,7 +104,7 @@
       },
       "cotas": {
         "total": 20,
-        "disponiveis": 7,
+        "disponiveis": 4,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -165,47 +165,6 @@
       "apostas": {
         "quantidade": 10,
         "numeros": 6
-      }
-    },
-    {
-      "id": "01a16867-068a-739f-9b6d-e9546b8dcc65",
-      "modalidade": "Quina",
-      "concurso": 7150,
-      "premio_estimado": null,
-      "descricao": "10 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 10,
-      "valor_cota": "R$ 34,01",
-      "disponibilidade": "10 de 30 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 30,
-        "disponiveis": 10,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 27,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 25.2,
-        "cota_com_tarifa": 34.01,
-        "tarifa_servico": 8.81,
-        "valor_bolao": 756,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 10
       }
     },
     {
