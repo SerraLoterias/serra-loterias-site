@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "24/10/2026 10:33",
-  "quantidade": 7,
+  "atualizado_em": "24/10/2026 13:53",
+  "quantidade": 5,
   "boloes": [
     {
       "id": "01a1685e-d5ea-707c-a74f-786044590d21",
@@ -12,7 +12,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 85,05",
-      "disponibilidade": "13 de 20 cotas disponíveis",
+      "disponibilidade": "12 de 20 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -22,7 +22,7 @@
       },
       "cotas": {
         "total": 20,
-        "disponiveis": 13,
+        "disponiveis": 12,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -53,7 +53,7 @@
       "quantidade_jogos": 9,
       "quantidade_numeros": 8,
       "valor_cota": "R$ 20,41",
-      "disponibilidade": "56 de 100 cotas disponíveis",
+      "disponibilidade": "39 de 100 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -63,7 +63,7 @@
       },
       "cotas": {
         "total": 100,
-        "disponiveis": 56,
+        "disponiveis": 39,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -83,88 +83,6 @@
       "apostas": {
         "quantidade": 9,
         "numeros": 8
-      }
-    },
-    {
-      "id": "01a16859-da68-725f-9351-1424518a2fb0",
-      "modalidade": "Mega-Sena",
-      "concurso": 3074,
-      "premio_estimado": null,
-      "descricao": "7 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 28,35",
-      "disponibilidade": "0 de 20 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 20,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 17,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 21,
-        "cota_com_tarifa": 28.35,
-        "tarifa_servico": 7.35,
-        "valor_bolao": 420,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 7
-      }
-    },
-    {
-      "id": "01a16e16-c151-73ae-9331-c9b6ab8ee39a",
-      "modalidade": "Mega-Sena",
-      "concurso": 3074,
-      "premio_estimado": null,
-      "descricao": "6 números • 5 jogos",
-      "quantidade_jogos": 5,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "1 de 4 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 4,
-        "disponiveis": 1,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 3,
-        "fisicas": 1,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 30,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 5,
-        "numeros": 6
       }
     },
     {
