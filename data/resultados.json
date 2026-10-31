@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "30/10/2026 21:52",
+  "atualizado_em": "31/10/2026 04:05",
   "quantidade": 11,
   "resultados": [
     {
@@ -51,28 +51,28 @@
     {
       "modalidade": "Mais Milionária",
       "endpoint": "maismilionaria",
-      "concurso": 402,
-      "data": "29/10/2026",
+      "concurso": 403,
+      "data": "30/10/2026",
       "dezenas": [
-        "06",
-        "07",
-        "13",
-        "35",
-        "36",
-        "43"
+        "16",
+        "20",
+        "21",
+        "29",
+        "41",
+        "50"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [
-        "3",
-        "5"
+        "1",
+        "6"
       ],
       "acumulado": 1,
-      "valor_arrecadado": 8329932,
+      "valor_arrecadado": 6653226,
       "proximo_concurso": null,
-      "data_proximo_concurso": "30/10/2026",
-      "valor_estimado_proximo_concurso": 110000000
+      "data_proximo_concurso": "04/11/2026",
+      "valor_estimado_proximo_concurso": 111000000
     },
     {
       "modalidade": "Lotofácil",
