@@ -1,52 +1,52 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "01/11/2026 06:23",
+  "atualizado_em": "01/11/2026 13:09",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3079,
-      "data": "30/10/2026",
+      "concurso": 3080,
+      "data": "01/11/2026",
       "dezenas": [
-        "05",
-        "40",
-        "09",
-        "59",
-        "41",
-        "16"
+        "29",
+        "28",
+        "13",
+        "17",
+        "58",
+        "39"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 19850436,
+      "valor_arrecadado": 36782076,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
-      "valor_estimado_proximo_concurso": 42000000
+      "data_proximo_concurso": "04/11/2026",
+      "valor_estimado_proximo_concurso": 46000000
     },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7156,
-      "data": "30/10/2026",
+      "concurso": 7157,
+      "data": "01/11/2026",
       "dezenas": [
-        "16",
-        "60",
-        "12",
-        "71",
-        "59"
+        "78",
+        "58",
+        "27",
+        "61",
+        "09"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 9512808,
+      "valor_arrecadado": 10543971,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
-      "valor_estimado_proximo_concurso": 9500000
+      "data_proximo_concurso": "03/11/2026",
+      "valor_estimado_proximo_concurso": 10600000
     },
     {
       "modalidade": "Mais Milionária",
@@ -77,34 +77,34 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3818,
-      "data": "30/10/2026",
+      "concurso": 3819,
+      "data": "01/11/2026",
       "dezenas": [
-        "23",
-        "15",
-        "03",
-        "22",
-        "12",
         "14",
-        "05",
-        "17",
-        "24",
-        "16",
-        "02",
+        "08",
+        "13",
         "06",
-        "20",
-        "19",
-        "04"
+        "16",
+        "25",
+        "15",
+        "12",
+        "09",
+        "22",
+        "01",
+        "07",
+        "24",
+        "05",
+        "11"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 19567562,
+      "acumulado": 1,
+      "valor_arrecadado": 19766432,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "03/11/2026",
+      "valor_estimado_proximo_concurso": 9500000
     },
     {
       "modalidade": "Lotomania",
@@ -146,26 +146,26 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2461,
-      "data": "29/10/2026",
+      "concurso": 2462,
+      "data": "01/11/2026",
       "dezenas": [
-        "06",
-        "64",
-        "17",
-        "71",
-        "02",
-        "57",
-        "39"
+        "73",
+        "31",
+        "59",
+        "22",
+        "44",
+        "45",
+        "02"
       ],
       "jogos_loteca": [],
-      "time_coracao": "INTER LIMEIRA /SP",
+      "time_coracao": "SPORT /PE",
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2968882,
+      "valor_arrecadado": 3355212,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
-      "valor_estimado_proximo_concurso": 24000000
+      "data_proximo_concurso": "03/11/2026",
+      "valor_estimado_proximo_concurso": 24500000
     },
     {
       "modalidade": "Dupla Sena",
@@ -189,14 +189,14 @@
     {
       "modalidade": "Federal",
       "endpoint": "federal",
-      "concurso": 6113,
-      "data": "28/10/2026",
+      "concurso": 6114,
+      "data": "01/11/2026",
       "dezenas": [
-        "003296",
-        "071832",
-        "034774",
-        "050827",
-        "036316"
+        "056338",
+        "001871",
+        "024389",
+        "062267",
+        "030022"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
@@ -205,7 +205,7 @@
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
+      "data_proximo_concurso": "04/11/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
@@ -326,26 +326,26 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1336,
-      "data": "30/10/2026",
+      "concurso": 1337,
+      "data": "01/11/2026",
       "dezenas": [
-        "25",
-        "17",
+        "04",
+        "24",
+        "06",
+        "19",
+        "11",
         "23",
-        "27",
-        "09",
-        "03",
         "21"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Janeiro",
+      "mes_sorte": "Novembro",
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1739042.5,
+      "valor_arrecadado": 2052002.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "01/11/2026",
-      "valor_estimado_proximo_concurso": 1500000
+      "data_proximo_concurso": "03/11/2026",
+      "valor_estimado_proximo_concurso": 1700000
     },
     {
       "modalidade": "Super Sete",
