@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "05/11/2026 21:24",
+  "atualizado_em": "06/11/2026 04:04",
   "quantidade": 11,
   "resultados": [
     {
@@ -29,24 +29,24 @@
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7159,
-      "data": "04/11/2026",
+      "concurso": 7160,
+      "data": "05/11/2026",
       "dezenas": [
-        "20",
-        "69",
-        "43",
-        "51",
-        "62"
+        "29",
+        "63",
+        "05",
+        "18",
+        "33"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 10536711,
+      "acumulado": 1,
+      "valor_arrecadado": 5494929,
       "proximo_concurso": null,
-      "data_proximo_concurso": "05/11/2026",
-      "valor_estimado_proximo_concurso": 600000
+      "data_proximo_concurso": "06/11/2026",
+      "valor_estimado_proximo_concurso": 1300000
     },
     {
       "modalidade": "Mais Milionária",
@@ -77,34 +77,34 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3821,
-      "data": "04/11/2026",
+      "concurso": 3822,
+      "data": "05/11/2026",
       "dezenas": [
-        "06",
-        "21",
-        "12",
-        "17",
-        "20",
-        "22",
-        "18",
-        "19",
-        "10",
-        "09",
-        "14",
         "01",
-        "23",
-        "05",
-        "25"
+        "21",
+        "10",
+        "25",
+        "20",
+        "18",
+        "02",
+        "24",
+        "07",
+        "13",
+        "17",
+        "06",
+        "12",
+        "15",
+        "09"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 19215962.5,
+      "acumulado": 0,
+      "valor_arrecadado": 33529608,
       "proximo_concurso": null,
-      "data_proximo_concurso": "05/11/2026",
-      "valor_estimado_proximo_concurso": 5000000
+      "data_proximo_concurso": "06/11/2026",
+      "valor_estimado_proximo_concurso": 2000000
     },
     {
       "modalidade": "Lotomania",
@@ -146,26 +146,26 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2463,
-      "data": "03/11/2026",
+      "concurso": 2464,
+      "data": "05/11/2026",
       "dezenas": [
-        "45",
-        "71",
-        "37",
-        "29",
-        "41",
+        "80",
+        "18",
+        "38",
         "05",
-        "51"
+        "57",
+        "06",
+        "77"
       ],
       "jogos_loteca": [],
-      "time_coracao": "AMERICA /RN",
+      "time_coracao": "CONFIANCA SAF /SE",
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2563904,
+      "valor_arrecadado": 3317811,
       "proximo_concurso": null,
-      "data_proximo_concurso": "05/11/2026",
-      "valor_estimado_proximo_concurso": 24700000
+      "data_proximo_concurso": "08/11/2026",
+      "valor_estimado_proximo_concurso": 25800000
     },
     {
       "modalidade": "Dupla Sena",
@@ -326,26 +326,26 @@
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1339,
-      "data": "04/11/2026",
+      "concurso": 1340,
+      "data": "05/11/2026",
       "dezenas": [
-        "15",
+        "04",
+        "31",
+        "21",
+        "06",
+        "12",
         "08",
-        "26",
-        "25",
-        "13",
-        "24",
-        "31"
+        "07"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": "Dezembro",
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 2126297.5,
+      "valor_arrecadado": 2657427.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "05/11/2026",
-      "valor_estimado_proximo_concurso": 2300000
+      "data_proximo_concurso": "06/11/2026",
+      "valor_estimado_proximo_concurso": 2800000
     },
     {
       "modalidade": "Super Sete",
