@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "09/11/2026 05:06",
+  "atualizado_em": "09/11/2026 15:55",
   "quantidade": 11,
   "resultados": [
     {
@@ -211,116 +211,116 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1280,
-      "data": "05/11/2026",
+      "concurso": 1281,
+      "data": "09/11/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "SAO PAULO",
-          "gols1": 0,
-          "equipe2": "CORINTHIANS",
-          "gols2": 0
+          "equipe1": "ATLETICO MADRID",
+          "gols1": 1,
+          "equipe2": "BARCELONA",
+          "gols2": 2
         },
         {
           "jogo": 2,
-          "equipe1": "ATHLETICO",
-          "gols1": 1,
-          "equipe2": "VASCO DA GAMA",
-          "gols2": 3
+          "equipe1": "BRIGHTON",
+          "gols1": 2,
+          "equipe2": "BRENTFORD",
+          "gols2": 0
         },
         {
           "jogo": 3,
-          "equipe1": "FLAMENGO",
-          "gols1": 3,
-          "equipe2": "GREMIO",
-          "gols2": 1
+          "equipe1": "CRYSTAL PALACE",
+          "gols1": 1,
+          "equipe2": "LIVERPOOL",
+          "gols2": 3
         },
         {
           "jogo": 4,
-          "equipe1": "DORTMUND",
-          "gols1": 2,
-          "equipe2": "REAL BETIS",
-          "gols2": 1
+          "equipe1": "SUNDERLAND",
+          "gols1": 1,
+          "equipe2": "CHELSEA",
+          "gols2": 0
         },
         {
           "jogo": 5,
-          "equipe1": "LENS",
+          "equipe1": "GENOA",
           "gols1": 1,
-          "equipe2": "COMO",
-          "gols2": 9
+          "equipe2": "MILAN",
+          "gols2": 2
         },
         {
           "jogo": 6,
-          "equipe1": "FC PORTO",
-          "gols1": 4,
-          "equipe2": "NAPOLI",
+          "equipe1": "MONZA",
+          "gols1": 0,
+          "equipe2": "ATALANTA BERGAMAS",
           "gols2": 1
         },
         {
           "jogo": 7,
-          "equipe1": "RB LEIPZIG",
-          "gols1": 2,
-          "equipe2": "MANCHESTER CITY",
-          "gols2": 3
-        },
-        {
-          "jogo": 8,
-          "equipe1": "SLAVIA PRAGA/CZE",
+          "equipe1": "REAL SOCIEDAD",
           "gols1": 1,
-          "equipe2": "ARSENAL",
-          "gols2": 2
-        },
-        {
-          "jogo": 9,
-          "equipe1": "BOTAFOGO",
-          "gols1": 1,
-          "equipe2": "ATLETICO",
+          "equipe2": "RAYO VALLECANO",
           "gols2": 0
         },
         {
+          "jogo": 8,
+          "equipe1": "MANCHESTER UNITED",
+          "gols1": 4,
+          "equipe2": "ASTON VILLA",
+          "gols2": 4
+        },
+        {
+          "jogo": 9,
+          "equipe1": "VASCO DA GAMA",
+          "gols1": 2,
+          "equipe2": "PALMEIRAS",
+          "gols2": 1
+        },
+        {
           "jogo": 10,
-          "equipe1": "MILAN",
-          "gols1": 0,
-          "equipe2": "FERENCVÁROS/HUN",
-          "gols2": 2
+          "equipe1": "INTER DE MILAO",
+          "gols1": 2,
+          "equipe2": "COMO",
+          "gols2": 0
         },
         {
           "jogo": 11,
-          "equipe1": "ANDERLECHT/BEL",
+          "equipe1": "BRESTOIS",
           "gols1": 2,
-          "equipe2": "RED BULL SALZBURG",
+          "equipe2": "LYON",
           "gols2": 0
         },
         {
           "jogo": 12,
-          "equipe1": "CRYSTAL PALACE",
-          "gols1": 1,
-          "equipe2": "HOFFENHEIM",
+          "equipe1": "CEARA",
+          "gols1": 0,
+          "equipe2": "AMERICA",
           "gols2": 1
         },
         {
           "jogo": 13,
-          "equipe1": "REAL SOCIEDAD",
+          "equipe1": "GOIAS",
           "gols1": 1,
-          "equipe2": "LYON",
-          "gols2": 1
+          "equipe2": "PONTE PRETA",
+          "gols2": 0
         },
         {
           "jogo": 14,
-          "equipe1": "SPARTA PRAGA/CZE",
-          "gols1": 1,
-          "equipe2": "BOURNEMOUTH",
-          "gols2": 3
+          "equipe1": "FIORENTINA",
+          "gols1": 2,
+          "equipe2": "JUVENTUS",
+          "gols2": 2
         }
       ],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 1631656,
+      "valor_arrecadado": 2006552,
       "proximo_concurso": null,
-      "data_proximo_concurso": "09/11/2026",
+      "data_proximo_concurso": "13/11/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
