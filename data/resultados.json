@@ -1,52 +1,52 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "17/11/2026 19:28",
+  "atualizado_em": "18/11/2026 01:32",
   "quantidade": 11,
   "resultados": [
     {
       "modalidade": "Mega-Sena",
       "endpoint": "megasena",
-      "concurso": 3086,
-      "data": "15/11/2026",
+      "concurso": 3087,
+      "data": "17/11/2026",
       "dezenas": [
-        "43",
-        "03",
-        "20",
-        "35",
-        "46",
-        "38"
+        "25",
+        "50",
+        "10",
+        "06",
+        "48",
+        "23"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 47061366,
+      "valor_arrecadado": 42979824,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 34000000
+      "data_proximo_concurso": "19/11/2026",
+      "valor_estimado_proximo_concurso": 40000000
     },
     {
       "modalidade": "Quina",
       "endpoint": "quina",
-      "concurso": 7169,
-      "data": "16/11/2026",
+      "concurso": 7170,
+      "data": "17/11/2026",
       "dezenas": [
-        "35",
-        "44",
-        "80",
-        "41",
-        "59"
+        "53",
+        "19",
+        "11",
+        "07",
+        "03"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 1,
-      "valor_arrecadado": 10975413,
+      "acumulado": 0,
+      "valor_arrecadado": 11010861,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 14500000
+      "data_proximo_concurso": "18/11/2026",
+      "valor_estimado_proximo_concurso": 600000
     },
     {
       "modalidade": "Mais Milionária",
@@ -77,34 +77,34 @@
     {
       "modalidade": "Lotofácil",
       "endpoint": "lotofacil",
-      "concurso": 3831,
-      "data": "16/11/2026",
+      "concurso": 3832,
+      "data": "17/11/2026",
       "dezenas": [
-        "13",
-        "11",
-        "15",
-        "23",
         "17",
         "10",
-        "25",
-        "02",
-        "04",
-        "09",
-        "24",
+        "20",
+        "07",
+        "16",
+        "01",
         "05",
-        "06",
-        "21",
-        "16"
+        "11",
+        "13",
+        "14",
+        "19",
+        "03",
+        "23",
+        "18",
+        "12"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
-      "acumulado": 0,
-      "valor_arrecadado": 19631139.5,
+      "acumulado": 1,
+      "valor_arrecadado": 19182541,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 2000000
+      "data_proximo_concurso": "18/11/2026",
+      "valor_estimado_proximo_concurso": 5000000
     },
     {
       "modalidade": "Lotomania",
@@ -146,26 +146,26 @@
     {
       "modalidade": "Timemania",
       "endpoint": "timemania",
-      "concurso": 2468,
-      "data": "15/11/2026",
+      "concurso": 2469,
+      "data": "17/11/2026",
       "dezenas": [
-        "15",
         "38",
-        "47",
-        "03",
-        "22",
-        "31",
-        "61"
+        "15",
+        "16",
+        "04",
+        "33",
+        "57",
+        "14"
       ],
       "jogos_loteca": [],
-      "time_coracao": "REMO /PA",
+      "time_coracao": "PAYSANDU /PA",
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 3548198.5,
+      "valor_arrecadado": 3353724.5,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 28000000
+      "data_proximo_concurso": "19/11/2026",
+      "valor_estimado_proximo_concurso": 29000000
     },
     {
       "modalidade": "Dupla Sena",
@@ -211,141 +211,141 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1282,
-      "data": "13/11/2026",
+      "concurso": 1283,
+      "data": "17/11/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "ITALIA",
-          "gols1": 3,
-          "equipe2": "FRANCA",
-          "gols2": 1
+          "equipe1": "SINGAPURA",
+          "gols1": 0,
+          "equipe2": "BRASIL",
+          "gols2": 7
         },
         {
           "jogo": 2,
-          "equipe1": "TURQUIA",
+          "equipe1": "GIBRALTAR",
           "gols1": 1,
-          "equipe2": "BELGICA",
-          "gols2": 2
+          "equipe2": "MALTA",
+          "gols2": 1
         },
         {
           "jogo": 3,
-          "equipe1": "ALBANIA",
-          "gols1": 2,
-          "equipe2": "FINLANDIA",
+          "equipe1": "ALEMANHA",
+          "gols1": 5,
+          "equipe2": "HOLANDA",
           "gols2": 0
         },
         {
           "jogo": 4,
-          "equipe1": "INGLATERRA",
-          "gols1": 2,
-          "equipe2": "CROACIA",
-          "gols2": 1
+          "equipe1": "GRECIA",
+          "gols1": 1,
+          "equipe2": "SERVIA/SER",
+          "gols2": 0
         },
         {
           "jogo": 5,
-          "equipe1": "REPUBLICA TCHECA",
+          "equipe1": "MACEDONIA DO NORT",
           "gols1": 0,
-          "equipe2": "ESPANHA",
-          "gols2": 2
+          "equipe2": "ESLOVENIA",
+          "gols2": 3
         },
         {
           "jogo": 6,
-          "equipe1": "MONTENEGRO",
-          "gols1": 2,
-          "equipe2": "LETONIA",
-          "gols2": 1
+          "equipe1": "SUICA",
+          "gols1": 4,
+          "equipe2": "ESCOCIA/SCT",
+          "gols2": 0
         },
         {
           "jogo": 7,
-          "equipe1": "ARMENIA",
-          "gols1": 1,
-          "equipe2": "CHIPRE",
-          "gols2": 1
+          "equipe1": "DINAMARCA",
+          "gols1": 2,
+          "equipe2": "NORUEGA",
+          "gols2": 3
         },
         {
           "jogo": 8,
-          "equipe1": "MOLDAVIA",
+          "equipe1": "PAIS DE GALES",
           "gols1": 2,
-          "equipe2": "CAZAQUISTAO",
-          "gols2": 1
+          "equipe2": "PORTUGAL",
+          "gols2": 3
         },
         {
           "jogo": 9,
-          "equipe1": "BULGARIA",
-          "gols1": 0,
-          "equipe2": "ISLANDIA",
-          "gols2": 5
+          "equipe1": "BOSNIA HERZEGOVIN",
+          "gols1": 2,
+          "equipe2": "ROMENIA",
+          "gols2": 1
         },
         {
           "jogo": 10,
-          "equipe1": "LUXEMBURGO",
-          "gols1": 0,
-          "equipe2": "ESTONIA",
+          "equipe1": "HUNGRIA",
+          "gols1": 1,
+          "equipe2": "IRLANDA DO NORTE",
           "gols2": 1
         },
         {
           "jogo": 11,
-          "equipe1": "HOLANDA",
-          "gols1": 7,
-          "equipe2": "GRECIA",
-          "gols2": 0
-        },
-        {
-          "jogo": 12,
-          "equipe1": "SERVIA/SER",
+          "equipe1": "ISRAEL",
           "gols1": 1,
-          "equipe2": "ALEMANHA",
-          "gols2": 3
-        },
-        {
-          "jogo": 13,
-          "equipe1": "ESCOCIA/SCT",
-          "gols1": 2,
-          "equipe2": "MACEDONIA DO NORT",
+          "equipe2": "AUSTRIA",
           "gols2": 1
         },
         {
-          "jogo": 14,
-          "equipe1": "ESLOVENIA",
-          "gols1": 0,
-          "equipe2": "SUICA",
+          "jogo": 12,
+          "equipe1": "POLONIA",
+          "gols1": 1,
+          "equipe2": "SUECIA",
+          "gols2": 1
+        },
+        {
+          "jogo": 13,
+          "equipe1": "UCRANIA",
+          "gols1": 1,
+          "equipe2": "GEORGIA",
           "gols2": 0
+        },
+        {
+          "jogo": 14,
+          "equipe1": "QUENIA",
+          "gols1": 1,
+          "equipe2": "AFRICA DO SUL",
+          "gols2": 2
         }
       ],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 1734498,
+      "valor_arrecadado": 1529270,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 500000
+      "data_proximo_concurso": "22/11/2026",
+      "valor_estimado_proximo_concurso": 3500000
     },
     {
       "modalidade": "Dia de Sorte",
       "endpoint": "diadesorte",
-      "concurso": 1349,
-      "data": "16/11/2026",
+      "concurso": 1350,
+      "data": "17/11/2026",
       "dezenas": [
-        "24",
-        "08",
-        "17",
-        "07",
-        "13",
+        "05",
+        "31",
+        "06",
+        "15",
         "22",
-        "05"
+        "07",
+        "26"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
-      "mes_sorte": "Outubro",
+      "mes_sorte": "Abril",
       "trevos_sorteados": [],
       "acumulado": 1,
-      "valor_arrecadado": 1709982.5,
+      "valor_arrecadado": 2025150,
       "proximo_concurso": null,
-      "data_proximo_concurso": "17/11/2026",
-      "valor_estimado_proximo_concurso": 1200000
+      "data_proximo_concurso": "18/11/2026",
+      "valor_estimado_proximo_concurso": 1500000
     },
     {
       "modalidade": "Super Sete",
