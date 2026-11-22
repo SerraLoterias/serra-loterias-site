@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "21/11/2026 22:40",
-  "quantidade": 11,
+  "atualizado_em": "22/11/2026 05:48",
+  "quantidade": 10,
   "boloes": [
     {
       "id": "01a1a102-635c-702c-abee-55d1bd92d0fb",
@@ -579,113 +579,6 @@
               44,
               52,
               59
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
-      "id": "01a1f9e0-8d17-70d3-a69c-a61952b35443",
-      "modalidade": "Lotofácil",
-      "concurso": 3835,
-      "premio_estimado": null,
-      "descricao": "16 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 15,12",
-      "disponibilidade": "0 de 15 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 15,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 14,
-        "fisicas": 1,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 11.2,
-        "cota_com_tarifa": 15.12,
-        "tarifa_servico": 3.92,
-        "valor_bolao": 168,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 16,
-        "trevos": null,
-        "jogos": [
-          {
-            "dezenas": [
-              4,
-              5,
-              10,
-              11,
-              12,
-              14,
-              15,
-              16,
-              17,
-              18,
-              19,
-              20,
-              21,
-              22,
-              24,
-              25
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              1,
-              2,
-              3,
-              6,
-              8,
-              9,
-              11,
-              13,
-              14,
-              15,
-              16,
-              17,
-              20,
-              21,
-              22,
-              24
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              1,
-              2,
-              3,
-              6,
-              8,
-              9,
-              10,
-              12,
-              13,
-              14,
-              15,
-              17,
-              18,
-              20,
-              22,
-              25
             ],
             "indicadorSurpresinha": true
           }
