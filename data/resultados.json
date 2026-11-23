@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "22/11/2026 23:54",
+  "atualizado_em": "23/11/2026 10:12",
   "quantidade": 11,
   "resultados": [
     {
@@ -211,117 +211,117 @@
     {
       "modalidade": "Loteca",
       "endpoint": "loteca",
-      "concurso": 1283,
-      "data": "17/11/2026",
+      "concurso": 1284,
+      "data": "23/11/2026",
       "dezenas": [],
       "jogos_loteca": [
         {
           "jogo": 1,
-          "equipe1": "SINGAPURA",
-          "gols1": 0,
-          "equipe2": "BRASIL",
-          "gols2": 7
+          "equipe1": "PALMEIRAS",
+          "gols1": 1,
+          "equipe2": "FLAMENGO",
+          "gols2": 1
         },
         {
           "jogo": 2,
-          "equipe1": "GIBRALTAR",
-          "gols1": 1,
-          "equipe2": "MALTA",
-          "gols2": 1
+          "equipe1": "ATHLETICO",
+          "gols1": 4,
+          "equipe2": "REMO",
+          "gols2": 2
         },
         {
           "jogo": 3,
-          "equipe1": "ALEMANHA",
-          "gols1": 5,
-          "equipe2": "HOLANDA",
-          "gols2": 0
+          "equipe1": "BAHIA",
+          "gols1": 0,
+          "equipe2": "CORITIBA",
+          "gols2": 1
         },
         {
           "jogo": 4,
-          "equipe1": "GRECIA",
-          "gols1": 1,
-          "equipe2": "SERVIA/SER",
-          "gols2": 0
+          "equipe1": "ATLETICO",
+          "gols1": 0,
+          "equipe2": "BOCA JUNIORS",
+          "gols2": 2
         },
         {
           "jogo": 5,
-          "equipe1": "MACEDONIA DO NORT",
-          "gols1": 0,
-          "equipe2": "ESLOVENIA",
-          "gols2": 3
+          "equipe1": "CHAPECOENSE",
+          "gols1": 1,
+          "equipe2": "CRUZEIRO",
+          "gols2": 2
         },
         {
           "jogo": 6,
-          "equipe1": "SUICA",
-          "gols1": 4,
-          "equipe2": "ESCOCIA/SCT",
-          "gols2": 0
+          "equipe1": "REAL MADRID",
+          "gols1": 2,
+          "equipe2": "CELTA DE VIGO",
+          "gols2": 1
         },
         {
           "jogo": 7,
-          "equipe1": "DINAMARCA",
-          "gols1": 2,
-          "equipe2": "NORUEGA",
-          "gols2": 3
-        },
-        {
-          "jogo": 8,
-          "equipe1": "PAIS DE GALES",
-          "gols1": 2,
-          "equipe2": "PORTUGAL",
-          "gols2": 3
-        },
-        {
-          "jogo": 9,
-          "equipe1": "BOSNIA HERZEGOVIN",
-          "gols1": 2,
-          "equipe2": "ROMENIA",
-          "gols2": 1
-        },
-        {
-          "jogo": 10,
-          "equipe1": "HUNGRIA",
-          "gols1": 1,
-          "equipe2": "IRLANDA DO NORTE",
-          "gols2": 1
-        },
-        {
-          "jogo": 11,
-          "equipe1": "ISRAEL",
-          "gols1": 1,
-          "equipe2": "AUSTRIA",
-          "gols2": 1
-        },
-        {
-          "jogo": 12,
-          "equipe1": "POLONIA",
-          "gols1": 1,
-          "equipe2": "SUECIA",
-          "gols2": 1
-        },
-        {
-          "jogo": 13,
-          "equipe1": "UCRANIA",
-          "gols1": 1,
-          "equipe2": "GEORGIA",
+          "equipe1": "JUVENTUS",
+          "gols1": 4,
+          "equipe2": "VENEZIA",
           "gols2": 0
         },
         {
-          "jogo": 14,
-          "equipe1": "QUENIA",
-          "gols1": 1,
-          "equipe2": "AFRICA DO SUL",
+          "jogo": 8,
+          "equipe1": "BARCELONA",
+          "gols1": 3,
+          "equipe2": "VILLARREAL",
           "gols2": 2
+        },
+        {
+          "jogo": 9,
+          "equipe1": "LIVERPOOL",
+          "gols1": 4,
+          "equipe2": "MANCHESTER UNITED",
+          "gols2": 0
+        },
+        {
+          "jogo": 10,
+          "equipe1": "FLUMINENSE",
+          "gols1": 1,
+          "equipe2": "MIRASSOL",
+          "gols2": 0
+        },
+        {
+          "jogo": 11,
+          "equipe1": "BRAGANTINO",
+          "gols1": 1,
+          "equipe2": "VASCO DA GAMA",
+          "gols2": 0
+        },
+        {
+          "jogo": 12,
+          "equipe1": "OSASUNA",
+          "gols1": 1,
+          "equipe2": "MALAGA",
+          "gols2": 0
+        },
+        {
+          "jogo": 13,
+          "equipe1": "ATALANTA BERGAMAS",
+          "gols1": 4,
+          "equipe2": "INTER DE MILAO",
+          "gols2": 4
+        },
+        {
+          "jogo": 14,
+          "equipe1": "GETAFE",
+          "gols1": 0,
+          "equipe2": "ATLETICO MADRID",
+          "gols2": 3
         }
       ],
       "time_coracao": null,
       "mes_sorte": null,
       "trevos_sorteados": [],
       "acumulado": 0,
-      "valor_arrecadado": 1529270,
+      "valor_arrecadado": 6403104,
       "proximo_concurso": null,
-      "data_proximo_concurso": "22/11/2026",
-      "valor_estimado_proximo_concurso": 3500000
+      "data_proximo_concurso": "30/11/2026",
+      "valor_estimado_proximo_concurso": 1000000
     },
     {
       "modalidade": "Dia de Sorte",
