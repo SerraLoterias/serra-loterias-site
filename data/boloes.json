@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "23/11/2026 08:10",
-  "quantidade": 17,
+  "atualizado_em": "23/11/2026 19:35",
+  "quantidade": 13,
   "boloes": [
     {
       "id": "01a20809-0dc0-738d-9f79-21bea04fbf58",
@@ -43,7 +43,22 @@
         "quantidade": 1,
         "numeros": 9,
         "trevos": null,
-        "jogos": null
+        "jogos": [
+          {
+            "dezenas": [
+              5,
+              10,
+              25,
+              29,
+              31,
+              37,
+              46,
+              49,
+              55
+            ],
+            "indicadorSurpresinha": true
+          }
+        ]
       }
     },
     {
@@ -86,7 +101,44 @@
         "quantidade": 3,
         "numeros": 7,
         "trevos": null,
-        "jogos": null
+        "jogos": [
+          {
+            "dezenas": [
+              6,
+              37,
+              43,
+              44,
+              45,
+              50,
+              58
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              7,
+              20,
+              25,
+              28,
+              55,
+              59
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              14,
+              24,
+              34,
+              46,
+              52,
+              53,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ]
       }
     },
     {
@@ -98,7 +150,7 @@
       "quantidade_jogos": 8,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 15,12",
-      "disponibilidade": "20 de 30 cotas disponíveis",
+      "disponibilidade": "8 de 30 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -108,7 +160,7 @@
       },
       "cotas": {
         "total": 30,
-        "disponiveis": 20,
+        "disponiveis": 8,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -129,7 +181,104 @@
         "quantidade": 8,
         "numeros": 7,
         "trevos": null,
-        "jogos": null
+        "jogos": [
+          {
+            "dezenas": [
+              3,
+              5,
+              15,
+              28,
+              37,
+              44,
+              56
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              10,
+              20,
+              38,
+              41,
+              51,
+              57,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              16,
+              24,
+              37,
+              45,
+              48,
+              49,
+              53
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              4,
+              14,
+              41,
+              49,
+              53,
+              55
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              9,
+              12,
+              25,
+              39,
+              44,
+              48,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              18,
+              20,
+              31,
+              44,
+              45,
+              52,
+              54
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              3,
+              5,
+              24,
+              30,
+              43,
+              44,
+              60
+            ],
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              36,
+              38,
+              45,
+              50,
+              53,
+              57,
+              59
+            ],
+            "indicadorSurpresinha": true
+          }
+        ]
       }
     },
     {
@@ -715,15 +864,15 @@
       }
     },
     {
-      "id": "01a2080e-16c2-71c8-ae4b-a20a4d07692c",
-      "modalidade": "Lotofácil",
-      "concurso": 3836,
+      "id": "01a20a53-d0aa-7056-93a6-411c3f68a1d2",
+      "modalidade": "Quina",
+      "concurso": 7173,
       "premio_estimado": null,
-      "descricao": "16 números • 5 jogos",
-      "quantidade_jogos": 5,
-      "quantidade_numeros": 16,
-      "valor_cota": "R$ 15,12",
-      "disponibilidade": "15 de 25 cotas disponíveis",
+      "descricao": "10 números • 1 jogo",
+      "quantidade_jogos": 1,
+      "quantidade_numeros": 10,
+      "valor_cota": "R$ 34,02",
+      "disponibilidade": "25 de 25 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -733,28 +882,44 @@
       },
       "cotas": {
         "total": 25,
-        "disponiveis": 15,
+        "disponiveis": 25,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
         "impressas": null,
-        "digitais": 15,
-        "fisicas": 10,
+        "digitais": 25,
+        "fisicas": 0,
         "perdidas": null,
         "restantes": null
       },
       "valores": {
-        "cota_sem_tarifa": 11.2,
-        "cota_com_tarifa": 15.12,
-        "tarifa_servico": 3.92,
-        "valor_bolao": 280,
+        "cota_sem_tarifa": 25.2,
+        "cota_com_tarifa": 34.02,
+        "tarifa_servico": 8.82,
+        "valor_bolao": 630,
         "valor_premio": null
       },
       "apostas": {
-        "quantidade": 5,
-        "numeros": 16,
+        "quantidade": 1,
+        "numeros": 10,
         "trevos": null,
-        "jogos": null
+        "jogos": [
+          {
+            "dezenas": [
+              3,
+              10,
+              20,
+              23,
+              24,
+              50,
+              52,
+              57,
+              58,
+              77
+            ],
+            "indicadorSurpresinha": true
+          }
+        ]
       }
     },
     {
@@ -766,7 +931,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 34,02",
-      "disponibilidade": "9 de 25 cotas disponíveis",
+      "disponibilidade": "8 de 25 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -776,7 +941,7 @@
       },
       "cotas": {
         "total": 25,
-        "disponiveis": 9,
+        "disponiveis": 8,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -825,7 +990,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 15,07",
-      "disponibilidade": "21 de 47 cotas disponíveis",
+      "disponibilidade": "10 de 47 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -835,7 +1000,7 @@
       },
       "cotas": {
         "total": 47,
-        "disponiveis": 21,
+        "disponiveis": 10,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1020,364 +1185,368 @@
         "quantidade": 15,
         "numeros": 10,
         "trevos": null,
-        "jogos": null
-      }
-    },
-    {
-      "id": "01a1fdab-e898-719d-a1fc-c4a09677c28c",
-      "modalidade": "Super Sete",
-      "concurso": 925,
-      "premio_estimado": null,
-      "descricao": "8 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 8,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "2 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 2,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 5,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 8,
-        "trevos": null,
         "jogos": [
           {
             "dezenas": [
-              [
-                5
-              ],
-              [
-                0,
-                5
-              ],
-              [
-                5
-              ],
-              [
-                8
-              ],
-              [
-                7
-              ],
-              [
-                9
-              ],
-              [
-                3
-              ]
+              1,
+              9,
+              15,
+              26,
+              37,
+              38,
+              51,
+              61,
+              70,
+              71
             ],
+            "timeDoCoracao": {
+              "uf": "PR",
+              "nome": "CASCAVEL",
+              "numero": 951,
+              "nomeClass": "CASCAVELPR",
+              "numeroPais": 0,
+              "descricaoCurta": "FC CASC",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                5
-              ],
-              [
-                2
-              ],
-              [
-                3
-              ],
-              [
-                0,
-                5
-              ],
-              [
-                4
-              ],
-              [
-                3
-              ],
-              [
-                3
-              ]
+              12,
+              14,
+              16,
+              21,
+              22,
+              29,
+              34,
+              48,
+              50,
+              63
             ],
+            "timeDoCoracao": {
+              "uf": "PE",
+              "nome": "SANTA CRUZ",
+              "numero": 50,
+              "nomeClass": "SANTACRUZPE",
+              "numeroPais": 0,
+              "descricaoCurta": "S CRUZ",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                6
-              ],
-              [
-                0
-              ],
-              [
-                8
-              ],
-              [
-                6
-              ],
-              [
-                0
-              ],
-              [
-                6,
-                8
-              ],
-              [
-                4
-              ]
+              14,
+              18,
+              19,
+              33,
+              40,
+              46,
+              59,
+              64,
+              69,
+              77
             ],
+            "timeDoCoracao": {
+              "uf": "GO",
+              "nome": "APARECIDENSE",
+              "numero": 389,
+              "nomeClass": "APARECIDENSEGO",
+              "numeroPais": 0,
+              "descricaoCurta": "APARECI",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                2
-              ],
-              [
-                9
-              ],
-              [
-                2
-              ],
-              [
-                5,
-                8
-              ],
-              [
-                2
-              ],
-              [
-                0
-              ],
-              [
-                8
-              ]
+              1,
+              5,
+              17,
+              23,
+              28,
+              37,
+              53,
+              57,
+              60,
+              73
             ],
+            "timeDoCoracao": {
+              "uf": "SC",
+              "nome": "CHAPECOENSE",
+              "numero": 250,
+              "nomeClass": "CHAPECOENSESC",
+              "numeroPais": 0,
+              "descricaoCurta": "CHAPECO",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                8
-              ],
-              [
-                7
-              ],
-              [
-                3
-              ],
-              [
-                5
-              ],
-              [
-                5,
-                6
-              ],
-              [
-                2
-              ],
-              [
-                8
-              ]
+              12,
+              29,
+              31,
+              36,
+              38,
+              60,
+              63,
+              68,
+              70,
+              75
             ],
+            "timeDoCoracao": {
+              "uf": "SP",
+              "nome": "SAO BERNARDO",
+              "numero": 76,
+              "nomeClass": "SAOBERNARDOSP",
+              "numeroPais": 0,
+              "descricaoCurta": "S BERN",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                2
-              ],
-              [
-                0,
-                8
-              ],
-              [
-                7
-              ],
-              [
-                3
-              ],
-              [
-                9
-              ],
-              [
-                4
-              ],
-              [
-                7
-              ]
+              2,
+              11,
+              21,
+              22,
+              28,
+              31,
+              47,
+              51,
+              68,
+              73
             ],
+            "timeDoCoracao": {
+              "uf": "AM",
+              "nome": "AMAZONAS",
+              "numero": 333,
+              "nomeClass": "AMAZONASAM",
+              "numeroPais": 0,
+              "descricaoCurta": "AMAZONA",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                2,
-                6
-              ],
-              [
-                5
-              ],
-              [
-                1
-              ],
-              [
-                1
-              ],
-              [
-                1
-              ],
-              [
-                9
-              ],
-              [
-                0
-              ]
+              7,
+              16,
+              20,
+              24,
+              28,
+              53,
+              57,
+              62,
+              64,
+              71
             ],
+            "timeDoCoracao": {
+              "uf": "RS",
+              "nome": "SAO JOSE",
+              "numero": 551,
+              "nomeClass": "SAOJOSERS",
+              "numeroPais": 0,
+              "descricaoCurta": "SJOSE",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                9
-              ],
-              [
-                4
-              ],
-              [
-                2
-              ],
-              [
-                7
-              ],
-              [
-                4,
-                7
-              ],
-              [
-                4
-              ],
-              [
-                1
-              ]
+              3,
+              9,
+              12,
+              18,
+              19,
+              25,
+              39,
+              56,
+              61,
+              67
             ],
+            "timeDoCoracao": {
+              "uf": "MT",
+              "nome": "CUIABA",
+              "numero": 609,
+              "nomeClass": "CUIABAMT",
+              "numeroPais": 0,
+              "descricaoCurta": "CUIABA",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                5
-              ],
-              [
-                2,
-                8
-              ],
-              [
-                4
-              ],
-              [
-                1
-              ],
-              [
-                6
-              ],
-              [
-                2
-              ],
-              [
-                3
-              ]
+              1,
+              6,
+              7,
+              17,
+              26,
+              40,
+              46,
+              58,
+              60,
+              77
             ],
+            "timeDoCoracao": {
+              "uf": "AL",
+              "nome": "CRB",
+              "numero": 44,
+              "nomeClass": "CRBAL",
+              "numeroPais": 0,
+              "descricaoCurta": "CRB",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           },
           {
             "dezenas": [
-              [
-                5
-              ],
-              [
-                3,
-                4
-              ],
-              [
-                5
-              ],
-              [
-                4
-              ],
-              [
-                2
-              ],
-              [
-                8
-              ],
-              [
-                0
-              ]
+              10,
+              21,
+              24,
+              28,
+              29,
+              37,
+              38,
+              45,
+              53,
+              61
             ],
+            "timeDoCoracao": {
+              "uf": "GO",
+              "nome": "VILA NOVA",
+              "numero": 53,
+              "nomeClass": "VILANOVAGO",
+              "numeroPais": 0,
+              "descricaoCurta": "V NOVA",
+              "indicadorSelecao": false
+            },
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              32,
+              37,
+              50,
+              55,
+              62,
+              63,
+              65,
+              72,
+              74,
+              80
+            ],
+            "timeDoCoracao": {
+              "uf": "BA",
+              "nome": "VITORIA",
+              "numero": 15,
+              "nomeClass": "VITORIABA",
+              "numeroPais": 0,
+              "descricaoCurta": "VITORIA",
+              "indicadorSelecao": false
+            },
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              1,
+              7,
+              13,
+              14,
+              26,
+              38,
+              42,
+              50,
+              70,
+              73
+            ],
+            "timeDoCoracao": {
+              "uf": "MG",
+              "nome": "TOMBENSE",
+              "numero": 653,
+              "nomeClass": "TOMBENSEMG",
+              "numeroPais": 0,
+              "descricaoCurta": "TOMBENS",
+              "indicadorSelecao": false
+            },
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              4,
+              23,
+              34,
+              42,
+              46,
+              58,
+              66,
+              74,
+              76,
+              78
+            ],
+            "timeDoCoracao": {
+              "uf": "MG",
+              "nome": "CRUZEIRO",
+              "numero": 24,
+              "nomeClass": "CRUZEIROMG",
+              "numeroPais": 0,
+              "descricaoCurta": "CRUZEIR",
+              "indicadorSelecao": false
+            },
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              17,
+              19,
+              26,
+              34,
+              50,
+              59,
+              62,
+              65,
+              72
+            ],
+            "timeDoCoracao": {
+              "uf": "RN",
+              "nome": "AMERICA",
+              "numero": 40,
+              "nomeClass": "AMERICARN",
+              "numeroPais": 0,
+              "descricaoCurta": "AMERIC",
+              "indicadorSelecao": false
+            },
+            "indicadorSurpresinha": true
+          },
+          {
+            "dezenas": [
+              6,
+              12,
+              14,
+              16,
+              22,
+              23,
+              32,
+              36,
+              63,
+              68
+            ],
+            "timeDoCoracao": {
+              "uf": "SE",
+              "nome": "CONFIANCA SAF",
+              "numero": 138,
+              "nomeClass": "CONFIANCASAFSE",
+              "numeroPais": 0,
+              "descricaoCurta": "CONFIAN",
+              "indicadorSelecao": false
+            },
             "indicadorSurpresinha": true
           }
         ]
-      }
-    },
-    {
-      "id": "01a2080e-7fc1-7380-8532-41f5507a0559",
-      "modalidade": "Super Sete",
-      "concurso": 925,
-      "premio_estimado": null,
-      "descricao": "8 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 8,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "4 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 4,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 4,
-        "fisicas": 4,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 8,
-        "trevos": null,
-        "jogos": null
       }
     },
     {
@@ -1389,7 +1558,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 8,
       "valor_cota": "R$ 32,40",
-      "disponibilidade": "3 de 7 cotas disponíveis",
+      "disponibilidade": "1 de 7 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -1399,7 +1568,7 @@
       },
       "cotas": {
         "total": 7,
-        "disponiveis": 3,
+        "disponiveis": 1,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1439,141 +1608,6 @@
             "indicadorSurpresinha": true
           }
         ]
-      }
-    },
-    {
-      "id": "01a1f376-3318-7187-96e6-6e8b6626e5c9",
-      "modalidade": "+Milionária",
-      "concurso": 409,
-      "premio_estimado": null,
-      "descricao": "7 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "4 de 9 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 9,
-        "disponiveis": 4,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 7,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 126,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 7,
-        "trevos": 2,
-        "jogos": [
-          {
-            "trevos": [
-              2,
-              4
-            ],
-            "dezenas": [
-              2,
-              7,
-              9,
-              20,
-              34,
-              36,
-              39
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              3
-            ],
-            "dezenas": [
-              8,
-              21,
-              25,
-              39,
-              43,
-              45,
-              50
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              5
-            ],
-            "dezenas": [
-              5,
-              6,
-              10,
-              22,
-              30,
-              35,
-              39
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
-      "id": "01a20813-dcda-70bd-a526-24611ca2f425",
-      "modalidade": "+Milionária",
-      "concurso": 409,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "1 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 1,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 1,
-        "fisicas": 7,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6,
-        "trevos": null,
-        "jogos": null
       }
     }
   ]
