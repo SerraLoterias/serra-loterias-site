@@ -1,6 +1,6 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "25/11/2026 11:37",
+  "atualizado_em": "25/11/2026 20:41",
   "quantidade": 11,
   "resultados": [
     {
@@ -46,7 +46,7 @@
       "valor_arrecadado": 5735685,
       "proximo_concurso": null,
       "data_proximo_concurso": "29/11/2026",
-      "valor_estimado_proximo_concurso": 50000000
+      "valor_estimado_proximo_concurso": 80000000
     },
     {
       "modalidade": "Mais Milionária",
@@ -189,14 +189,14 @@
     {
       "modalidade": "Federal",
       "endpoint": "federal",
-      "concurso": 6119,
-      "data": "22/11/2026",
+      "concurso": 6120,
+      "data": "25/11/2026",
       "dezenas": [
-        "012071",
-        "030739",
-        "028497",
-        "027443",
-        "055503"
+        "081944",
+        "041393",
+        "022506",
+        "062946",
+        "036546"
       ],
       "jogos_loteca": [],
       "time_coracao": null,
@@ -205,7 +205,7 @@
       "acumulado": 0,
       "valor_arrecadado": 0,
       "proximo_concurso": null,
-      "data_proximo_concurso": "25/11/2026",
+      "data_proximo_concurso": "29/11/2026",
       "valor_estimado_proximo_concurso": 500000
     },
     {
