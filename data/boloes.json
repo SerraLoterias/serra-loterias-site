@@ -1,7 +1,7 @@
 {
   "fonte": "ConectaLot API",
-  "atualizado_em": "27/11/2026 09:00",
-  "quantidade": 18,
+  "atualizado_em": "27/11/2026 18:05",
+  "quantidade": 13,
   "boloes": [
     {
       "id": "01a21c93-ea34-7194-99eb-250ee9268249",
@@ -70,7 +70,7 @@
       "quantidade_jogos": 8,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 15,12",
-      "disponibilidade": "20 de 30 cotas disponíveis",
+      "disponibilidade": "7 de 30 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -80,7 +80,7 @@
       },
       "cotas": {
         "total": 30,
-        "disponiveis": 20,
+        "disponiveis": 7,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -784,160 +784,6 @@
       }
     },
     {
-      "id": "01a217dc-5d94-73ae-89bd-10f91dee9404",
-      "modalidade": "Mega-Sena",
-      "concurso": 3100,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "0 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 0,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 5,
-        "fisicas": 3,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6,
-        "trevos": null,
-        "jogos": [
-          {
-            "dezenas": [
-              16,
-              24,
-              31,
-              40,
-              50,
-              58
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              16,
-              21,
-              31,
-              35,
-              39,
-              43
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              5,
-              9,
-              28,
-              41,
-              44,
-              60
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              5,
-              10,
-              28,
-              34,
-              44,
-              56
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              17,
-              32,
-              34,
-              36,
-              44,
-              54
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              2,
-              5,
-              9,
-              24,
-              31,
-              49
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              10,
-              30,
-              34,
-              38,
-              52,
-              53
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              3,
-              6,
-              24,
-              28,
-              47,
-              52
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              14,
-              26,
-              29,
-              32,
-              39,
-              46
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              6,
-              16,
-              22,
-              31,
-              40,
-              44
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
       "id": "01a21c94-8776-728d-beaa-2f1390b92a04",
       "modalidade": "Lotofácil",
       "concurso": 3840,
@@ -946,7 +792,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 17,
       "valor_cota": "R$ 64,26",
-      "disponibilidade": "8 de 10 cotas disponíveis",
+      "disponibilidade": "2 de 10 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -956,7 +802,7 @@
       },
       "cotas": {
         "total": 10,
-        "disponiveis": 8,
+        "disponiveis": 2,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1012,7 +858,7 @@
       "quantidade_jogos": 5,
       "quantidade_numeros": 16,
       "valor_cota": "R$ 15,12",
-      "disponibilidade": "14 de 25 cotas disponíveis",
+      "disponibilidade": "0 de 25 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -1022,7 +868,7 @@
       },
       "cotas": {
         "total": 25,
-        "disponiveis": 14,
+        "disponiveis": 0,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1153,65 +999,6 @@
       }
     },
     {
-      "id": "01a1f9e2-995f-70c5-a2c9-a05f5ff449d2",
-      "modalidade": "Quina",
-      "concurso": 7173,
-      "premio_estimado": null,
-      "descricao": "10 números • 1 jogo",
-      "quantidade_jogos": 1,
-      "quantidade_numeros": 10,
-      "valor_cota": "R$ 34,02",
-      "disponibilidade": "2 de 25 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 25,
-        "disponiveis": 2,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 24,
-        "fisicas": 1,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 25.2,
-        "cota_com_tarifa": 34.02,
-        "tarifa_servico": 8.82,
-        "valor_bolao": 630,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 1,
-        "numeros": 10,
-        "trevos": null,
-        "jogos": [
-          {
-            "dezenas": [
-              1,
-              4,
-              32,
-              38,
-              41,
-              45,
-              48,
-              56,
-              68,
-              71
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
       "id": "01a20a53-d0aa-7056-93a6-411c3f68a1d2",
       "modalidade": "Quina",
       "concurso": 7173,
@@ -1220,7 +1007,7 @@
       "quantidade_jogos": 1,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 34,02",
-      "disponibilidade": "16 de 25 cotas disponíveis",
+      "disponibilidade": "15 de 25 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -1230,7 +1017,7 @@
       },
       "cotas": {
         "total": 25,
-        "disponiveis": 16,
+        "disponiveis": 15,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1279,7 +1066,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 7,
       "valor_cota": "R$ 15,07",
-      "disponibilidade": "18 de 47 cotas disponíveis",
+      "disponibilidade": "8 de 47 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -1289,7 +1076,7 @@
       },
       "cotas": {
         "total": 47,
-        "disponiveis": 18,
+        "disponiveis": 8,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1443,7 +1230,7 @@
       "quantidade_jogos": 15,
       "quantidade_numeros": 10,
       "valor_cota": "R$ 14,17",
-      "disponibilidade": "3 de 5 cotas disponíveis",
+      "disponibilidade": "2 de 5 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -1453,7 +1240,7 @@
       },
       "cotas": {
         "total": 5,
-        "disponiveis": 3,
+        "disponiveis": 2,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -1839,160 +1626,6 @@
       }
     },
     {
-      "id": "01a21ca1-b676-7283-91de-4064b8ff2ec0",
-      "modalidade": "Dupla Sena",
-      "concurso": 3037,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "2 de 4 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 4,
-        "disponiveis": 2,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 2,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 30,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6,
-        "trevos": null,
-        "jogos": [
-          {
-            "dezenas": [
-              21,
-              28,
-              33,
-              34,
-              44,
-              48
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              6,
-              36,
-              37,
-              43,
-              45,
-              49
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              5,
-              10,
-              12,
-              13,
-              22,
-              42
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              13,
-              21,
-              26,
-              34,
-              43,
-              45
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              8,
-              12,
-              24,
-              32,
-              45,
-              46
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              3,
-              9,
-              28,
-              29,
-              31,
-              47
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              3,
-              5,
-              17,
-              34,
-              36,
-              39
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              5,
-              11,
-              21,
-              24,
-              25,
-              40
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              1,
-              11,
-              12,
-              15,
-              27,
-              32
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "dezenas": [
-              2,
-              4,
-              5,
-              11,
-              13,
-              35
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
       "id": "01a21c9d-f13a-720d-942a-a06a337e675d",
       "modalidade": "Super Sete",
       "concurso": 927,
@@ -2001,7 +1634,7 @@
       "quantidade_jogos": 10,
       "quantidade_numeros": 8,
       "valor_cota": "R$ 10,12",
-      "disponibilidade": "4 de 8 cotas disponíveis",
+      "disponibilidade": "2 de 8 cotas disponíveis",
       "finalizado": false,
       "loterica": {
         "nome": "Coringa loterias",
@@ -2011,7 +1644,7 @@
       },
       "cotas": {
         "total": 8,
-        "disponiveis": 4,
+        "disponiveis": 2,
         "reservadas": null,
         "vendidas": null,
         "baixadas": null,
@@ -2300,292 +1933,6 @@
               [
                 3
               ]
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
-      "id": "01a21788-39c5-70e6-b61b-12e7b01a8487",
-      "modalidade": "+Milionária",
-      "concurso": 411,
-      "premio_estimado": null,
-      "descricao": "7 números • 3 jogos",
-      "quantidade_jogos": 3,
-      "quantidade_numeros": 7,
-      "valor_cota": "R$ 18,89",
-      "disponibilidade": "5 de 9 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 9,
-        "disponiveis": 5,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 7,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 14,
-        "cota_com_tarifa": 18.89,
-        "tarifa_servico": 4.89,
-        "valor_bolao": 126,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 3,
-        "numeros": 7,
-        "trevos": 2,
-        "jogos": [
-          {
-            "trevos": [
-              3,
-              5
-            ],
-            "dezenas": [
-              9,
-              13,
-              15,
-              26,
-              31,
-              41,
-              49
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              2,
-              4
-            ],
-            "dezenas": [
-              1,
-              7,
-              11,
-              22,
-              28,
-              37,
-              43
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              4,
-              6
-            ],
-            "dezenas": [
-              5,
-              7,
-              24,
-              26,
-              29,
-              38,
-              47
-            ],
-            "indicadorSurpresinha": true
-          }
-        ]
-      }
-    },
-    {
-      "id": "01a21787-ec0e-73e7-b577-cabc4eaed235",
-      "modalidade": "+Milionária",
-      "concurso": 411,
-      "premio_estimado": null,
-      "descricao": "6 números • 10 jogos",
-      "quantidade_jogos": 10,
-      "quantidade_numeros": 6,
-      "valor_cota": "R$ 10,12",
-      "disponibilidade": "3 de 8 cotas disponíveis",
-      "finalizado": false,
-      "loterica": {
-        "nome": "Coringa loterias",
-        "codigo_ul": "18-020002-0",
-        "cidade": "Caxias Do Sul",
-        "uf": "RS"
-      },
-      "cotas": {
-        "total": 8,
-        "disponiveis": 3,
-        "reservadas": null,
-        "vendidas": null,
-        "baixadas": null,
-        "impressas": null,
-        "digitais": 6,
-        "fisicas": 2,
-        "perdidas": null,
-        "restantes": null
-      },
-      "valores": {
-        "cota_sem_tarifa": 7.5,
-        "cota_com_tarifa": 10.12,
-        "tarifa_servico": 2.62,
-        "valor_bolao": 60,
-        "valor_premio": null
-      },
-      "apostas": {
-        "quantidade": 10,
-        "numeros": 6,
-        "trevos": 2,
-        "jogos": [
-          {
-            "trevos": [
-              5,
-              6
-            ],
-            "dezenas": [
-              2,
-              14,
-              24,
-              40,
-              42,
-              44
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              6
-            ],
-            "dezenas": [
-              9,
-              24,
-              27,
-              32,
-              34,
-              42
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              3,
-              4
-            ],
-            "dezenas": [
-              14,
-              17,
-              20,
-              25,
-              29,
-              31
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              2,
-              5
-            ],
-            "dezenas": [
-              14,
-              26,
-              28,
-              40,
-              49,
-              50
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              3,
-              6
-            ],
-            "dezenas": [
-              10,
-              14,
-              28,
-              31,
-              40,
-              43
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              3
-            ],
-            "dezenas": [
-              13,
-              18,
-              24,
-              27,
-              36,
-              49
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              2
-            ],
-            "dezenas": [
-              10,
-              11,
-              18,
-              26,
-              38,
-              44
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              2,
-              4
-            ],
-            "dezenas": [
-              11,
-              16,
-              19,
-              26,
-              40,
-              46
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              1,
-              5
-            ],
-            "dezenas": [
-              3,
-              5,
-              20,
-              22,
-              23,
-              46
-            ],
-            "indicadorSurpresinha": true
-          },
-          {
-            "trevos": [
-              4,
-              6
-            ],
-            "dezenas": [
-              1,
-              4,
-              20,
-              25,
-              28,
-              42
             ],
             "indicadorSurpresinha": true
           }
